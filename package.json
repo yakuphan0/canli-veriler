@@ -1,0 +1,30 @@
+{
+  "name": "canli-veriler-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "client": "vite",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "lucide-react": "^0.471.0",
+    "puppeteer": "^24.40.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "yahoo-finance2": "^2.11.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.15.0",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "vite": "^6.0.5"
+  }
+}

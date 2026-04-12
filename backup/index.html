@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO PRIMARY ── -->
+  <title>Canlı Veriler | Anlık Kripto, Borsa, Döviz & Piyasa Takibi - Türkiye & Global</title>
+  <meta name="description" content="Türkiye ve global piyasaları anlık izleyin. Bitcoin, Ethereum kripto fiyatları; BIST 100, S&P 500 borsa endeksleri; USD/TRY, EUR/TRY döviz kurları; altın, petrol emtia fiyatları; hava durumu ve finans haberleri tek platformda." />
+  <meta name="keywords" content="canlı veriler, anlık borsa, kripto para fiyatları, bitcoin fiyatı, BIST 100, USD TRY kuru, dolar kuru, altın fiyatı, petrol fiyatı, anlık döviz, Türkiye piyasaları, live markets Turkey, real-time crypto" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Canlı Veriler" />
+  <link rel="canonical" href="https://canliveriler.com/" />
+
+  <!-- ── OPEN GRAPH ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Canlı Veriler | Anlık Kripto, Borsa, Döviz & Piyasa Takibi" />
+  <meta property="og:description" content="Türkiye ve global piyasaları anlık izleyin. Kripto, borsa, döviz, hava durumu, haberler ve makroekonomi tek platformda." />
+  <meta property="og:url" content="https://canliveriler.com/" />
+  <meta property="og:site_name" content="Canlı Veriler" />
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:locale:alternate" content="en_US" />
+
+  <!-- ── TWITTER CARD ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Canlı Veriler | Anlık Piyasa Takibi" />
+  <meta name="twitter:description" content="Türkiye ve global piyasaları anlık izleyin. Kripto, borsa, döviz ve daha fazlası." />
+
+  <!-- ── SCHEMA.ORG ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Canlı Veriler",
+    "alternateName": "Live Data Turkey",
+    "url": "https://canliveriler.com",
+    "description": "Türkiye ve global piyasaları anlık takip edin. Kripto para, borsa, döviz, emtia, haber ve makroekonomi verileri.",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "Web Browser",
+    "inLanguage": ["tr", "en"],
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
+    "featureList": [
+      "Anlık kripto para fiyatları",
+      "Borsa endeksleri (BIST 100, S&P 500, NASDAQ)",
+      "Döviz kurları (USD/TRY, EUR/TRY)",
+      "Altın ve emtia fiyatları",
+      "Hava durumu verileri",
+      "Finans haberleri",
+      "Makroekonomik göstergeler"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════
+       TICKER BAR
+  ══════════════════════════════════ -->
+  <div class="ticker-bar" role="marquee" aria-label="Anlık piyasa fiyatları">
+    <div class="ticker-label">
+      <span class="ticker-live-dot"></span>
+      CANLI
+    </div>
+    <div class="ticker-scroll-wrapper">
+      <div class="ticker-track" id="tickerTrack">
+        <!-- filled by JS -->
+        <span class="ticker-item"><span class="ticker-symbol">BTC/USD</span><span class="ticker-price">Yükleniyor...</span></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="app-layout">
+
+    <!-- ══════════════════════════════════
+         SIDEBAR
+    ══════════════════════════════════ -->
+    <aside class="sidebar" id="sidebar" role="navigation" aria-label="Ana menü">
+      <div class="sidebar-logo">
+        <div class="logo-icon">📊</div>
+        <div>
+          <div class="logo-title" data-i18n="appName">Canlı Veriler</div>
+          <div class="logo-sub" data-i18n="appSub">Anlık Piyasa Takibi</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="nav-section-label" data-i18n="navGlobal">GLOBAL PİYASALAR</div>
+
+        <div class="nav-item active" data-page="home" id="nav-home" role="button" tabindex="0" aria-label="Ana Sayfa">
+          <span class="nav-icon">🏠</span>
+          <span data-i18n="navHome">Ana Sayfa</span>
+        </div>
+        <div class="nav-item" data-page="crypto" id="nav-crypto" role="button" tabindex="0" aria-label="Kripto Para">
+          <span class="nav-icon">💹</span>
+          <span data-i18n="navCrypto">Kripto Para</span>
+          <span class="nav-badge live">CANLI</span>
+        </div>
+        <div class="nav-item" data-page="forex" id="nav-forex" role="button" tabindex="0" aria-label="Döviz & Emtia">
+          <span class="nav-icon">💱</span>
+          <span data-i18n="navForex">Döviz & Emtia</span>
+        </div>
+        <div class="nav-item" data-page="weather" id="nav-weather" role="button" tabindex="0" aria-label="Hava Durumu">
+          <span class="nav-icon">🌡️</span>
+          <span data-i18n="navWeather">Hava Durumu</span>
+        </div>
+
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="lang-toggle" role="group" aria-label="Dil seçimi">
+          <button class="lang-btn active" data-lang="tr" aria-label="Türkçe">🇹🇷 TR</button>
+          <button class="lang-btn" data-lang="en" aria-label="English">🇬🇧 EN</button>
+        </div>
+        <div class="sidebar-update" id="sidebarUpdate">
+          Son güncelleme: <span id="lastUpdate">—</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ══════════════════════════════════
+         MAIN CONTENT
+    ══════════════════════════════════ -->
+    <main class="main-content" id="mainContent">
+
+      <!-- Page Header -->
+      <header class="page-header">
+        <div>
+          <h1 class="page-title" id="pageTitle">
+            <span id="pageTitleText">Ana Sayfa</span>
+            <span class="live-badge"><span class="live-dot"></span><span data-i18n="liveLabel">CANLI</span></span>
+          </h1>
+          <p class="page-desc" id="pageDesc">Türkiye ve global piyasalardaki anlık verilerin genel görünümü.</p>
+        </div>
+        <div class="last-update">
+          🕐 <span data-i18n="lastUpdate">Son güncelleme</span>: <span id="lastUpdate">—</span>
+        </div>
+      </header>
+
+      <!-- Dynamic Content -->
+      <section class="content-area" id="pageContent" aria-live="polite">
+        <!-- Populated by JS -->
+        <div style="display:flex;align-items:center;justify-content:center;height:300px;flex-direction:column;gap:16px">
+          <div style="font-size:48px">📊</div>
+          <div style="color:var(--text-muted);font-size:14px" data-i18n="loading">Yükleniyor...</div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Mobile Menu Button -->
+  <button class="mobile-btn" id="mobileMenuBtn" aria-label="Menüyü aç/kapat">☰</button>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- ══════════════════════════════════
+       SCRIPTS (ES Modules)
+  ══════════════════════════════════ -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
