@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Outer glowing ring -->
+  <circle cx="50" cy="50" r="45" fill="#0f172a" stroke="url(#gold)" stroke-width="6" filter="url(#glow)"/>
+  
+  <!-- Inner dashed border for classical coin look -->
+  <circle cx="50" cy="50" r="35" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+  
+  <!-- The Dollar Sign -->
+  <text x="50" y="74" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-weight="900" font-size="68" text-anchor="middle" fill="url(#gold)">$</text>
+</svg>
