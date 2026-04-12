@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/api/bist"
+  to = "/.netlify/functions/bist"
+  status = 200
+
+[[redirects]]
+  from = "/api/football/standings"
+  to = "/.netlify/functions/football"
+  status = 200
+
+[[redirects]]
+  from = "/api/football/fixtures"
+  to = "/.netlify/functions/fixtures"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

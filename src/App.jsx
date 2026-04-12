@@ -215,9 +215,8 @@ const FootballPage = () => {
   useEffect(() => {
     const load = async () => {
       try {
-        const [s, f] = await Promise.all([ApiService.fetchFootballStandings(), ApiService.fetchFootballFixtures()]);
+        const s = await ApiService.fetchFootballStandings();
         setStandings(s);
-        setFixtures(f);
       } catch (e) { console.error(e); }
       finally { setLoading(false); }
     };
@@ -227,9 +226,9 @@ const FootballPage = () => {
   if (loading) return <div className="content-area">{t('loading')}</div>;
   if (!standings) return <div className="content-area error-state">
     <div className="error-icon">⚽</div>
-    <div className="error-text">Football-Data.org Anahtarı Bekleniyor</div>
-    <p style={{fontSize:11, color:'var(--text-muted)'}}>Dakikada 10 istek hakkı ile kesintisiz veri!</p>
-    <a href="https://www.football-data.org/client/register" target="_blank" rel="noreferrer" className="retry-btn mt-10">Ücretsiz Key Al</a>
+    <div className="error-text">Veriler Yüklenemedi</div>
+    <p style={{fontSize:11, color:'var(--text-muted)'}}>Şu an veriler çekilemiyor, lütfen sayfayı yenileyin.</p>
+    <button onClick={() => window.location.reload()} className="retry-btn mt-10">{t('retry')}</button>
   </div>;
 
   return (
@@ -295,7 +294,9 @@ const NewsPage = () => {
       <div className="news-grid">
         {news.map((item, i) => (
           <a key={i} href={item.link} target="_blank" rel="noreferrer" className="news-card">
-            {item.thumbnail ? <img src={item.thumbnail} className="news-img" alt="" /> : <div className="news-img-placeholder">📰</div>}
+            <div className="news-img-wrapper">
+              {item.thumbnail ? <img src={item.thumbnail} className="news-img" alt="" /> : <div className="news-img-placeholder">📰</div>}
+            </div>
             <div className="news-body">
               <div className="news-title">{item.title}</div>
               <div className="news-time">{new Date(item.pubDate).toLocaleTimeString()}</div>
