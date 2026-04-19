@@ -1,0 +1,44 @@
+# ============================================
+# Canlı Veriler - robots.txt
+# https://canliveriler.com
+# Son güncelleme: 2026-04-19
+# ============================================
+
+# Tüm arama motorlarına izin ver
+User-agent: *
+Allow: /
+
+# Blog sayfalarının tamamını indexle
+Allow: /blog
+Allow: /blog/
+
+# Ana sayfaları indexle
+Allow: /crypto
+Allow: /forex
+Allow: /football
+Allow: /news
+Allow: /weather
+
+# API ve dahili dosyaları engelle
+Disallow: /api/
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json$
+
+# Google Bot özel kurallar
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# Yandex Bot
+User-agent: Yandex
+Allow: /
+Crawl-delay: 3
+
+# Sitemap dosyası
+Sitemap: https://canliveriler.com/sitemap.xml
