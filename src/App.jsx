@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { ApiService, formatNum } from './services/apiService';
+import blogPosts from './data/blogPosts';
 
 // ── UTILS ──
 const changeClass = (val) => Number(val) > 0 ? 'up' : Number(val) < 0 ? 'down' : '';
@@ -60,6 +61,7 @@ const Sidebar = ({ currentPage, setPage }) => {
     { id: 'football', label: t('navFootball'), icon: '⚽' },
     { id: 'news', label: t('navNews'), icon: '📰' },
     { id: 'weather', label: t('navWeather'), icon: '🌡️' },
+    { id: 'blog', label: t('navBlog'), icon: '✍️' },
   ];
 
   return (
@@ -365,6 +367,161 @@ const WeatherPage = () => {
   );
 };
 
+// ── BLOG COMPONENTS ──
+
+const CATEGORY_COLORS = {
+  kripto: { bg: 'rgba(139,92,246,0.15)', color: '#a78bfa', border: 'rgba(139,92,246,0.3)' },
+  borsa: { bg: 'rgba(16,185,129,0.15)', color: '#34d399', border: 'rgba(16,185,129,0.3)' },
+  futbol: { bg: 'rgba(59,130,246,0.15)', color: '#60a5fa', border: 'rgba(59,130,246,0.3)' },
+  ekonomi: { bg: 'rgba(245,158,11,0.15)', color: '#fbbf24', border: 'rgba(245,158,11,0.3)' },
+  hava: { bg: 'rgba(0,212,255,0.15)', color: '#00d4ff', border: 'rgba(0,212,255,0.3)' },
+};
+
+const BlogPage = ({ setPage }) => {
+  const { t } = useLanguage();
+  const [selectedPost, setSelectedPost] = useState(null);
+  const [filter, setFilter] = useState('all');
+
+  const categories = [
+    { id: 'all', label: t('blogAll') },
+    { id: 'kripto', label: t('blogCrypto') },
+    { id: 'borsa', label: t('blogBorsa') },
+    { id: 'futbol', label: t('blogFutbol') },
+    { id: 'ekonomi', label: t('blogEkonomi') },
+    { id: 'hava', label: t('blogHava') },
+  ];
+
+  const filtered = filter === 'all' ? blogPosts : blogPosts.filter(p => p.category === filter);
+
+  if (selectedPost) {
+    const post = blogPosts.find(p => p.id === selectedPost);
+    if (!post) return null;
+    const catStyle = CATEGORY_COLORS[post.category] || {};
+    return (
+      <div className="content-area">
+        {/* Breadcrumb */}
+        <div className="blog-breadcrumb">
+          <span className="breadcrumb-link" onClick={() => setSelectedPost(null)}>← {t('blogBackToList')}</span>
+        </div>
+
+        {/* Article */}
+        <article className="blog-article" itemScope itemType="https://schema.org/BlogPosting">
+          <header className="blog-article-header">
+            <div className="blog-article-meta">
+              <span
+                className="blog-category-badge"
+                style={{ background: catStyle.bg, color: catStyle.color, border: `1px solid ${catStyle.border}` }}
+              >
+                {post.categoryIcon} {post.categoryLabel}
+              </span>
+              <span className="blog-date">{new Date(post.date).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              <span className="blog-readtime">📖 {post.readTime} dk okuma</span>
+            </div>
+            <h1 className="blog-article-title" itemProp="headline">{post.title}</h1>
+            <div className="blog-author" itemProp="author">
+              <div className="blog-author-avatar">📊</div>
+              <span>{post.author}</span>
+            </div>
+          </header>
+
+          {/* Keywords (hidden for SEO) */}
+          <meta itemProp="keywords" content={post.keywords.join(', ')} />
+          <meta itemProp="description" content={post.metaDescription} />
+          <meta itemProp="datePublished" content={post.date} />
+
+          <div
+            className="blog-article-content"
+            itemProp="articleBody"
+            dangerouslySetInnerHTML={{ __html: post.content }}
+          />
+
+          {/* Related Posts */}
+          <div className="blog-related">
+            <h3 className="blog-related-title">{t('blogRelated')}</h3>
+            <div className="blog-related-grid">
+              {blogPosts
+                .filter(p => p.category === post.category && p.id !== post.id)
+                .slice(0, 2)
+                .map(rp => {
+                  const rpStyle = CATEGORY_COLORS[rp.category] || {};
+                  return (
+                    <div key={rp.id} className="blog-card blog-card-sm" onClick={() => { setSelectedPost(rp.id); window.scrollTo(0, 0); }}>
+                      <div className="blog-card-thumb">{rp.thumbnail}</div>
+                      <div className="blog-card-body">
+                        <span className="blog-category-badge sm" style={{ background: rpStyle.bg, color: rpStyle.color, border: `1px solid ${rpStyle.border}` }}>
+                          {rp.categoryIcon} {rp.categoryLabel}
+                        </span>
+                        <h4 className="blog-card-title sm">{rp.title}</h4>
+                      </div>
+                    </div>
+                  );
+                })}
+            </div>
+          </div>
+        </article>
+      </div>
+    );
+  }
+
+  return (
+    <div className="content-area">
+      {/* Hero */}
+      <div className="blog-hero">
+        <h2 className="blog-hero-title">{t('blogHeroTitle')}</h2>
+        <p className="blog-hero-desc">{t('blogHeroDesc')}</p>
+      </div>
+
+      {/* Category Filter */}
+      <div className="blog-filters">
+        {categories.map(c => (
+          <button
+            key={c.id}
+            className={`blog-filter-btn ${filter === c.id ? 'active' : ''}`}
+            onClick={() => setFilter(c.id)}
+          >
+            {c.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Blog Cards Grid */}
+      <div className="blog-grid">
+        {filtered.map(post => {
+          const catStyle = CATEGORY_COLORS[post.category] || {};
+          return (
+            <div key={post.id} className="blog-card" onClick={() => { setSelectedPost(post.id); window.scrollTo(0, 0); }}>
+              <div className="blog-card-thumb">{post.thumbnail}</div>
+              <div className="blog-card-body">
+                <div className="blog-card-meta">
+                  <span
+                    className="blog-category-badge"
+                    style={{ background: catStyle.bg, color: catStyle.color, border: `1px solid ${catStyle.border}` }}
+                  >
+                    {post.categoryIcon} {post.categoryLabel}
+                  </span>
+                  <span className="blog-card-date">{new Date(post.date).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' })}</span>
+                </div>
+                <h3 className="blog-card-title">{post.title}</h3>
+                <p className="blog-card-excerpt">{post.excerpt}</p>
+                <div className="blog-card-footer">
+                  <span className="blog-card-readtime">📖 {post.readTime} dk</span>
+                  <span className="blog-card-read">{t('blogReadMore')} →</span>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* SEO Footer Text */}
+      <div className="blog-seo-footer">
+        <h2>{t('blogSeoTitle')}</h2>
+        <p>{t('blogSeoDesc')}</p>
+      </div>
+    </div>
+  );
+};
+
 const ForexPage = () => {
     const { t } = useLanguage();
     const [data, setData] = useState(null);
@@ -450,6 +607,7 @@ function AppContent() {
       case 'news': return <NewsPage />;
       case 'weather': return <WeatherPage />;
       case 'forex': return <ForexPage />;
+      case 'blog': return <BlogPage setPage={setPage} />;
       default: return <div className="content-area">Coming Soon...</div>;
     }
   };

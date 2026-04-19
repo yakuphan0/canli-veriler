@@ -27,7 +27,21 @@ const TRANSLATIONS = {
     played: 'O',
     points: 'P',
     fixtures: 'Fikstür & Sonuçlar',
-    standings: 'Puan Durumu'
+    standings: 'Puan Durumu',
+    navBlog: 'Blog',
+    blogAll: 'Tümü',
+    blogCrypto: '💹 Kripto',
+    blogBorsa: '📈 Borsa',
+    blogFutbol: '⚽ Futbol',
+    blogEkonomi: '💵 Ekonomi',
+    blogHava: '🌡️ Hava',
+    blogHeroTitle: 'Blog & Analizler',
+    blogHeroDesc: 'Kripto para, borsa, futbol, ekonomi ve hava durumu hakkında SEO uyumlu, uzman analizleri ve rehber yazılarımızı keşfedin.',
+    blogReadMore: 'Devamını Oku',
+    blogBackToList: 'Tüm Yazılar',
+    blogRelated: 'İlgili Yazılar',
+    blogSeoTitle: 'Canlı Veriler Blog: Kripto, Borsa, Futbol ve Hava Durumu Yazıları',
+    blogSeoDesc: 'Canlı Veriler blog sayfasında Bitcoin, Ethereum, Borsa İstanbul, Süper Lig puan durumu, döviz kurları, altın fiyatları, Türkiye hava durumu ve ekonomi gündemine dair uzman analizlerini ve kapsamlı rehber yazılarını ücretsiz okuyun. Güncel piyasa verileri ve spor haberleriyle her zaman bir adım önde olun.'
   },
   en: {
     appName: 'Live Data',
@@ -55,7 +69,21 @@ const TRANSLATIONS = {
     played: 'P',
     points: 'Pts',
     fixtures: 'Fixtures & Results',
-    standings: 'Standings'
+    standings: 'Standings',
+    navBlog: 'Blog',
+    blogAll: 'All',
+    blogCrypto: '💹 Crypto',
+    blogBorsa: '📈 Stocks',
+    blogFutbol: '⚽ Football',
+    blogEkonomi: '💵 Economy',
+    blogHava: '🌡️ Weather',
+    blogHeroTitle: 'Blog & Analysis',
+    blogHeroDesc: 'Expert analyses and guides on cryptocurrency, stock markets, football, economy, and weather forecasts.',
+    blogReadMore: 'Read More',
+    blogBackToList: 'All Posts',
+    blogRelated: 'Related Posts',
+    blogSeoTitle: 'Live Data Blog: Crypto, Stocks, Football & Weather Articles',
+    blogSeoDesc: 'Read expert analyses and comprehensive guides on Bitcoin, Ethereum, Borsa Istanbul, Super Lig standings, forex rates, gold prices, Turkey weather, and economic insights for free on the Live Data blog. Stay ahead with current market data and sports news.'
   }
 };
 
