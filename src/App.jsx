@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, useNavigate, useParams, useLocation, Link } from 'react-router-dom';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 import { ApiService, formatNum } from './services/apiService';
 import blogPosts from './data/blogPosts';
@@ -50,9 +51,32 @@ const Ticker = () => {
   );
 };
 
-const Sidebar = ({ currentPage, setPage }) => {
+const PAGE_ROUTES = {
+  home: '/',
+  crypto: '/crypto',
+  forex: '/forex',
+  football: '/football',
+  news: '/news',
+  weather: '/weather',
+  blog: '/blog',
+};
+
+const ROUTE_TO_PAGE = Object.fromEntries(Object.entries(PAGE_ROUTES).map(([k, v]) => [v, k]));
+
+const Sidebar = () => {
   const { t, lang, setLang } = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const getCurrentPage = () => {
+    const path = location.pathname;
+    if (path === '/') return 'home';
+    if (path.startsWith('/blog')) return 'blog';
+    return ROUTE_TO_PAGE[path] || 'home';
+  };
+
+  const currentPage = getCurrentPage();
 
   const menu = [
     { id: 'home', label: t('navHome'), icon: '🏠' },
@@ -67,7 +91,7 @@ const Sidebar = ({ currentPage, setPage }) => {
   return (
     <>
       <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
-        <div className="sidebar-logo">
+        <div className="sidebar-logo" onClick={() => navigate('/')} style={{cursor:'pointer'}}>
           <div className="logo-icon">📊</div>
           <div>
             <div className="logo-title">{t('appName')}</div>
@@ -80,7 +104,7 @@ const Sidebar = ({ currentPage, setPage }) => {
             <div
               key={item.id}
               className={`nav-item ${currentPage === item.id ? 'active' : ''}`}
-              onClick={() => { setPage(item.id); setIsOpen(false); }}
+              onClick={() => { navigate(PAGE_ROUTES[item.id]); setIsOpen(false); }}
             >
               <span className="nav-icon">{item.icon}</span>
               <span>{item.label}</span>
@@ -125,14 +149,14 @@ const Dashboard = () => {
   return (
     <div className="content-area">
       <div className="grid-3">
-        <div className="stat-card" onClick={() => window.navigateTo('crypto')}>
+        <div className="stat-card" onClick={() => window.__navigate('/crypto')} style={{cursor:'pointer'}}>
           <div className="stat-label">BITCOIN / USD</div>
           <div className="stat-value">${formatNum(data.crypto[0]?.lastPrice, 0)}</div>
           <div className={`stat-change ${changeClass(data.crypto[0]?.priceChangePercent)}`}>
             {changeStr(data.crypto[0]?.priceChangePercent)}
           </div>
         </div>
-        <div className="stat-card" onClick={() => window.navigateTo('forex')}>
+        <div className="stat-card" onClick={() => window.__navigate('/forex')} style={{cursor:'pointer'}}>
           <div className="stat-label">BIST 100 (Borsa İstanbul)</div>
           <div className="stat-value">
             {data.bist ? formatNum(data.bist.close, 2) : '—'}
@@ -377,10 +401,133 @@ const CATEGORY_COLORS = {
   hava: { bg: 'rgba(0,212,255,0.15)', color: '#00d4ff', border: 'rgba(0,212,255,0.3)' },
 };
 
-const BlogPage = ({ setPage }) => {
+// ── Blog Detail Page (URL: /blog/:slug) ──
+const BlogPostPage = () => {
   const { t } = useLanguage();
-  const [selectedPost, setSelectedPost] = useState(null);
+  const { slug } = useParams();
+  const navigate = useNavigate();
+  const post = blogPosts.find(p => p.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    // Update document title and meta for SEO
+    if (post) {
+      document.title = `${post.title} | Canlı Veriler Blog`;
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', post.metaDescription);
+      // Update canonical URL
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.setAttribute('rel', 'canonical');
+        document.head.appendChild(canonical);
+      }
+      canonical.setAttribute('href', `https://canliveriler.com/blog/${post.slug}`);
+    }
+    return () => {
+      document.title = 'Canlı Veriler | Anlık Kripto, Borsa, Döviz & Piyasa Takibi';
+    };
+  }, [post]);
+
+  if (!post) return (
+    <div className="content-area">
+      <div className="blog-hero">
+        <h2>Yazı Bulunamadı</h2>
+        <p>Aradığınız blog yazısı mevcut değil.</p>
+        <button className="blog-filter-btn active" onClick={() => navigate('/blog')} style={{marginTop:'20px'}}>← Blog'a Dön</button>
+      </div>
+    </div>
+  );
+
+  const catStyle = CATEGORY_COLORS[post.category] || {};
+  const relatedPosts = blogPosts.filter(p => p.category === post.category && p.id !== post.id).slice(0, 3);
+
+  return (
+    <div className="content-area">
+      {/* Breadcrumb */}
+      <div className="blog-breadcrumb">
+        <Link to="/blog" className="breadcrumb-link">← {t('blogBackToList')}</Link>
+      </div>
+
+      {/* Article */}
+      <article className="blog-article" itemScope itemType="https://schema.org/BlogPosting">
+        <header className="blog-article-header">
+          <div className="blog-article-meta">
+            <span
+              className="blog-category-badge"
+              style={{ background: catStyle.bg, color: catStyle.color, border: `1px solid ${catStyle.border}` }}
+            >
+              {post.categoryIcon} {post.categoryLabel}
+            </span>
+            <span className="blog-date">{new Date(post.date).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+            <span className="blog-readtime">📖 {post.readTime} dk okuma</span>
+          </div>
+          <h1 className="blog-article-title" itemProp="headline">{post.title}</h1>
+          <div className="blog-author" itemProp="author">
+            <div className="blog-author-avatar">📊</div>
+            <span>{post.author}</span>
+          </div>
+        </header>
+
+        {/* SEO Meta */}
+        <meta itemProp="keywords" content={post.keywords.join(', ')} />
+        <meta itemProp="description" content={post.metaDescription} />
+        <meta itemProp="datePublished" content={post.date} />
+        <meta itemProp="url" content={`https://canliveriler.com/blog/${post.slug}`} />
+
+        <div
+          className="blog-article-content"
+          itemProp="articleBody"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
+
+        {/* Related Posts */}
+        {relatedPosts.length > 0 && (
+          <div className="blog-related">
+            <h3 className="blog-related-title">{t('blogRelated')}</h3>
+            <div className="blog-related-grid">
+              {relatedPosts.map(rp => {
+                const rpStyle = CATEGORY_COLORS[rp.category] || {};
+                return (
+                  <Link key={rp.id} to={`/blog/${rp.slug}`} className="blog-card blog-card-sm" style={{textDecoration:'none',color:'inherit'}}>
+                    <div className="blog-card-thumb">{rp.thumbnail}</div>
+                    <div className="blog-card-body">
+                      <span className="blog-category-badge sm" style={{ background: rpStyle.bg, color: rpStyle.color, border: `1px solid ${rpStyle.border}` }}>
+                        {rp.categoryIcon} {rp.categoryLabel}
+                      </span>
+                      <h4 className="blog-card-title sm">{rp.title}</h4>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        )}
+      </article>
+    </div>
+  );
+};
+
+// ── Blog Listing Page (URL: /blog) ──
+const BlogPage = () => {
+  const { t } = useLanguage();
   const [filter, setFilter] = useState('all');
+
+  useEffect(() => {
+    document.title = 'Blog & Analizler | Canlı Veriler';
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) metaDesc.setAttribute('content', 'Kripto para, borsa, futbol, ekonomi ve hava durumu hakkında SEO uyumlu, uzman analizleri ve rehber yazıları.');
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.setAttribute('rel', 'canonical');
+      document.head.appendChild(canonical);
+    }
+    canonical.setAttribute('href', 'https://canliveriler.com/blog');
+    return () => {
+      document.title = 'Canlı Veriler | Anlık Kripto, Borsa, Döviz & Piyasa Takibi';
+    };
+  }, []);
 
   const categories = [
     { id: 'all', label: t('blogAll') },
@@ -392,76 +539,6 @@ const BlogPage = ({ setPage }) => {
   ];
 
   const filtered = filter === 'all' ? blogPosts : blogPosts.filter(p => p.category === filter);
-
-  if (selectedPost) {
-    const post = blogPosts.find(p => p.id === selectedPost);
-    if (!post) return null;
-    const catStyle = CATEGORY_COLORS[post.category] || {};
-    return (
-      <div className="content-area">
-        {/* Breadcrumb */}
-        <div className="blog-breadcrumb">
-          <span className="breadcrumb-link" onClick={() => setSelectedPost(null)}>← {t('blogBackToList')}</span>
-        </div>
-
-        {/* Article */}
-        <article className="blog-article" itemScope itemType="https://schema.org/BlogPosting">
-          <header className="blog-article-header">
-            <div className="blog-article-meta">
-              <span
-                className="blog-category-badge"
-                style={{ background: catStyle.bg, color: catStyle.color, border: `1px solid ${catStyle.border}` }}
-              >
-                {post.categoryIcon} {post.categoryLabel}
-              </span>
-              <span className="blog-date">{new Date(post.date).toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-              <span className="blog-readtime">📖 {post.readTime} dk okuma</span>
-            </div>
-            <h1 className="blog-article-title" itemProp="headline">{post.title}</h1>
-            <div className="blog-author" itemProp="author">
-              <div className="blog-author-avatar">📊</div>
-              <span>{post.author}</span>
-            </div>
-          </header>
-
-          {/* Keywords (hidden for SEO) */}
-          <meta itemProp="keywords" content={post.keywords.join(', ')} />
-          <meta itemProp="description" content={post.metaDescription} />
-          <meta itemProp="datePublished" content={post.date} />
-
-          <div
-            className="blog-article-content"
-            itemProp="articleBody"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
-
-          {/* Related Posts */}
-          <div className="blog-related">
-            <h3 className="blog-related-title">{t('blogRelated')}</h3>
-            <div className="blog-related-grid">
-              {blogPosts
-                .filter(p => p.category === post.category && p.id !== post.id)
-                .slice(0, 2)
-                .map(rp => {
-                  const rpStyle = CATEGORY_COLORS[rp.category] || {};
-                  return (
-                    <div key={rp.id} className="blog-card blog-card-sm" onClick={() => { setSelectedPost(rp.id); window.scrollTo(0, 0); }}>
-                      <div className="blog-card-thumb">{rp.thumbnail}</div>
-                      <div className="blog-card-body">
-                        <span className="blog-category-badge sm" style={{ background: rpStyle.bg, color: rpStyle.color, border: `1px solid ${rpStyle.border}` }}>
-                          {rp.categoryIcon} {rp.categoryLabel}
-                        </span>
-                        <h4 className="blog-card-title sm">{rp.title}</h4>
-                      </div>
-                    </div>
-                  );
-                })}
-            </div>
-          </div>
-        </article>
-      </div>
-    );
-  }
 
   return (
     <div className="content-area">
@@ -484,12 +561,12 @@ const BlogPage = ({ setPage }) => {
         ))}
       </div>
 
-      {/* Blog Cards Grid */}
+      {/* Blog Cards Grid — each card links to /blog/:slug */}
       <div className="blog-grid">
         {filtered.map(post => {
           const catStyle = CATEGORY_COLORS[post.category] || {};
           return (
-            <div key={post.id} className="blog-card" onClick={() => { setSelectedPost(post.id); window.scrollTo(0, 0); }}>
+            <Link key={post.id} to={`/blog/${post.slug}`} className="blog-card" style={{textDecoration:'none',color:'inherit'}}>
               <div className="blog-card-thumb">{post.thumbnail}</div>
               <div className="blog-card-body">
                 <div className="blog-card-meta">
@@ -508,7 +585,7 @@ const BlogPage = ({ setPage }) => {
                   <span className="blog-card-read">{t('blogReadMore')} →</span>
                 </div>
               </div>
-            </div>
+            </Link>
           );
         })}
       </div>
@@ -592,41 +669,53 @@ const ForexPage = () => {
 // ── MAIN APP CONTENT ──
 
 function AppContent() {
-  const [currentPage, setPage] = useState('home');
   const { t } = useLanguage();
+  const location = useLocation();
+  const navigate = useNavigate();
 
+  // Expose navigate for Dashboard stat cards
   useEffect(() => {
-    window.navigateTo = setPage;
-  }, []);
+    window.__navigate = navigate;
+  }, [navigate]);
 
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'home': return <Dashboard />;
-      case 'crypto': return <CryptoPage />;
-      case 'football': return <FootballPage />;
-      case 'news': return <NewsPage />;
-      case 'weather': return <WeatherPage />;
-      case 'forex': return <ForexPage />;
-      case 'blog': return <BlogPage setPage={setPage} />;
-      default: return <div className="content-area">Coming Soon...</div>;
-    }
+  // Determine current page label for header
+  const getPageKey = () => {
+    const path = location.pathname;
+    if (path === '/') return 'Home';
+    if (path.startsWith('/blog')) return 'Blog';
+    if (path === '/crypto') return 'Crypto';
+    if (path === '/forex') return 'Forex';
+    if (path === '/football') return 'Football';
+    if (path === '/news') return 'News';
+    if (path === '/weather') return 'Weather';
+    return 'Home';
   };
 
   return (
     <div className="app-root">
       <Ticker />
       <div className="app-layout">
-        <Sidebar currentPage={currentPage} setPage={setPage} />
+        <Sidebar />
         <main className="main-content">
           <header className="page-header">
             <div>
               <h1 className="page-title">
-                {t('nav' + currentPage.charAt(0).toUpperCase() + currentPage.slice(1))}
+                {t('nav' + getPageKey())}
                 <span className="live-badge"><span className="live-dot"></span>{t('liveLabel')}</span>
               </h1>
             </div>
           </header>
-          {renderPage()}
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/crypto" element={<CryptoPage />} />
+            <Route path="/forex" element={<ForexPage />} />
+            <Route path="/football" element={<FootballPage />} />
+            <Route path="/news" element={<NewsPage />} />
+            <Route path="/weather" element={<WeatherPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="*" element={<Dashboard />} />
+          </Routes>
         </main>
       </div>
     </div>
@@ -635,9 +724,11 @@ function AppContent() {
 
 function App() {
   return (
-    <LanguageProvider>
-      <AppContent />
-    </LanguageProvider>
+    <BrowserRouter>
+      <LanguageProvider>
+        <AppContent />
+      </LanguageProvider>
+    </BrowserRouter>
   );
 }
 

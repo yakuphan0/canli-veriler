@@ -17,6 +17,7 @@
     "puppeteer": "^24.40.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.14.1",
     "yahoo-finance2": "^2.11.3"
   },
   "devDependencies": {
