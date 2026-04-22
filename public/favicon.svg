@@ -1,22 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FDE68A" />
-      <stop offset="50%" stop-color="#F59E0B" />
-      <stop offset="100%" stop-color="#D97706" />
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#0066ff" />
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    <linearGradient id="blueLine" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
-  
-  <!-- Outer glowing ring -->
-  <circle cx="50" cy="50" r="45" fill="#0f172a" stroke="url(#gold)" stroke-width="6" filter="url(#glow)"/>
-  
-  <!-- Inner dashed border for classical coin look -->
-  <circle cx="50" cy="50" r="35" fill="none" stroke="url(#gold)" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
-  
-  <!-- The Dollar Sign -->
-  <text x="50" y="74" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-weight="900" font-size="68" text-anchor="middle" fill="url(#gold)">$</text>
+
+  <!-- Background rounded square -->
+  <rect width="100" height="100" rx="20" ry="20" fill="#0a0e1a" />
+
+  <!-- Subtle grid -->
+  <line x1="25" y1="10" x2="25" y2="90" stroke="#1e293b" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="10" x2="50" y2="90" stroke="#1e293b" stroke-width="1" opacity="0.5"/>
+  <line x1="75" y1="10" x2="75" y2="90" stroke="#1e293b" stroke-width="1" opacity="0.5"/>
+  <line x1="10" y1="33" x2="90" y2="33" stroke="#1e293b" stroke-width="1" opacity="0.5"/>
+  <line x1="10" y1="66" x2="90" y2="66" stroke="#1e293b" stroke-width="1" opacity="0.5"/>
+
+  <!-- Trending chart line with glow -->
+  <polyline
+    points="12,72 30,58 45,63 62,40 75,45 88,22"
+    fill="none"
+    stroke="url(#blueLine)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    filter="url(#glow)"
+  />
+
+  <!-- Dot at the end of chart -->
+  <circle cx="88" cy="22" r="5" fill="#00d4ff" filter="url(#glow)" />
+
+  <!-- CV text bottom right -->
+  <text x="50" y="97" font-family="'Inter', system-ui, sans-serif" font-weight="800" font-size="13" text-anchor="middle" fill="url(#blue)" opacity="0.75">CANLI VERİLER</text>
 </svg>
