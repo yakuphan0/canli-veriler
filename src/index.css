@@ -443,12 +443,12 @@ a {
   box-shadow: 0 4px 16px rgba(0,212,255,0.25);
 }
 
-/* Blog Grid */
+/* Blog Grid — fixed 3-column layout (3 × 7 = 21 per page) */
 .blog-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 22px;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 
 /* Blog Card */
@@ -713,6 +713,70 @@ a {
   gap: 16px;
 }
 
+/* Pagination Info Bar */
+.blog-pagination-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+/* Pagination Controls */
+.blog-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  padding: 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+}
+.blog-page-btn {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-secondary);
+  border: 1px solid var(--glass-border);
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-page-btn:hover:not(:disabled) {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: rgba(0,212,255,0.07);
+}
+.blog-page-btn.active {
+  background: linear-gradient(135deg, var(--cyan), var(--purple));
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 4px 16px rgba(0,212,255,0.3);
+}
+.blog-page-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+.blog-page-ellipsis {
+  color: var(--text-muted);
+  font-size: 16px;
+  line-height: 1;
+  user-select: none;
+  padding: 0 4px;
+}
+
 /* SEO Footer */
 .blog-seo-footer {
   background: var(--bg-card);
@@ -743,6 +807,8 @@ a {
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .news-grid { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
+  .blog-pagination { gap: 6px; padding: 14px; }
+  .blog-page-btn { min-width: 36px; height: 36px; font-size: 12px; }
   .blog-hero-title { font-size: 22px; }
   .blog-article-title { font-size: 20px; }
   .blog-article-header { padding: 24px 18px 18px; }

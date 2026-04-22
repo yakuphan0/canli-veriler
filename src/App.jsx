@@ -509,9 +509,12 @@ const BlogPostPage = () => {
 };
 
 // ── Blog Listing Page (URL: /blog) ──
+const POSTS_PER_PAGE = 21;
+
 const BlogPage = () => {
   const { t } = useLanguage();
   const [filter, setFilter] = useState('all');
+  const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
     document.title = 'Blog & Analizler | Canlı Veriler';
@@ -538,7 +541,33 @@ const BlogPage = () => {
     { id: 'hava', label: t('blogHava') },
   ];
 
+  const handleFilterChange = (catId) => {
+    setFilter(catId);
+    setCurrentPage(1);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   const filtered = filter === 'all' ? blogPosts : blogPosts.filter(p => p.category === filter);
+  const totalPages = Math.ceil(filtered.length / POSTS_PER_PAGE);
+  const pageStart = (currentPage - 1) * POSTS_PER_PAGE;
+  const paginated = filtered.slice(pageStart, pageStart + POSTS_PER_PAGE);
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Build visible page numbers (show max 5 around current)
+  const getPageNumbers = () => {
+    const pages = [];
+    const delta = 2;
+    const left = Math.max(1, currentPage - delta);
+    const right = Math.min(totalPages, currentPage + delta);
+    if (left > 1) { pages.push(1); if (left > 2) pages.push('...'); }
+    for (let i = left; i <= right; i++) pages.push(i);
+    if (right < totalPages) { if (right < totalPages - 1) pages.push('...'); pages.push(totalPages); }
+    return pages;
+  };
 
   return (
     <div className="content-area">
@@ -554,16 +583,21 @@ const BlogPage = () => {
           <button
             key={c.id}
             className={`blog-filter-btn ${filter === c.id ? 'active' : ''}`}
-            onClick={() => setFilter(c.id)}
+            onClick={() => handleFilterChange(c.id)}
           >
             {c.label}
           </button>
         ))}
       </div>
 
-      {/* Blog Cards Grid — each card links to /blog/:slug */}
+      {/* Post Count + Page Info */}
+      <div className="blog-pagination-info">
+        <span>{filtered.length} yazı · Sayfa {currentPage} / {totalPages}</span>
+      </div>
+
+      {/* Blog Cards Grid — 3 columns × 7 rows = 21 per page */}
       <div className="blog-grid">
-        {filtered.map(post => {
+        {paginated.map(post => {
           const catStyle = CATEGORY_COLORS[post.category] || {};
           return (
             <Link key={post.id} to={`/blog/${post.slug}`} className="blog-card" style={{textDecoration:'none',color:'inherit'}}>
@@ -589,6 +623,37 @@ const BlogPage = () => {
           );
         })}
       </div>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div className="blog-pagination">
+          <button
+            className="blog-page-btn"
+            onClick={() => handlePageChange(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
+            ← Önceki
+          </button>
+          {getPageNumbers().map((p, i) => (
+            p === '...'
+              ? <span key={`ellipsis-${i}`} className="blog-page-ellipsis">…</span>
+              : <button
+                  key={p}
+                  className={`blog-page-btn ${currentPage === p ? 'active' : ''}`}
+                  onClick={() => handlePageChange(p)}
+                >
+                  {p}
+                </button>
+          ))}
+          <button
+            className="blog-page-btn"
+            onClick={() => handlePageChange(currentPage + 1)}
+            disabled={currentPage === totalPages}
+          >
+            Sonraki →
+          </button>
+        </div>
+      )}
 
       {/* SEO Footer Text */}
       <div className="blog-seo-footer">

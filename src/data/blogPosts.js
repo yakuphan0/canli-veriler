@@ -2465,7 +2465,2216 @@ const blogPosts = [
       <h2>Sonuç</h2>
       <p><strong>Doğal afetlere hazırlık</strong>, can ve mal güvenliğiniz için hayati öneme sahiptir. Canlı Veriler'de <strong>anlık hava durumu verilerini</strong> takip ederek olumsuz hava koşullarına önceden hazırlanın.</p>
     `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 51. KRİPTO — Solana (SOL) Rehberi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 51,
+    slug: 'solana-nedir-sol-coin-yatirim-rehberi-2026',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Solana (SOL) Nedir? 2026\'da SOL Coin Yatırım Rehberi ve Fiyat Analizi',
+    metaDescription: 'Solana nedir, nasıl çalışır? SOL coin 2026 fiyat analizi, Solana ekosistemi, NFT ve DeFi projeleri ile yatırım stratejileri rehberi.',
+    keywords: ['solana nedir', 'sol coin', 'solana yatırımı', 'solana fiyat', 'sol 2026', 'solana ekosistemi', 'solana nft', 'solana defi', 'hızlı blokzincir'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-20',
+    readTime: 10,
+    thumbnail: '◎',
+    excerpt: 'Solana, saniyede binlerce işlem kapasitesiyle kripto dünyasının en hızlı blokzincirlerinden biridir. 2026\'da SOL nereye gidiyor?',
+    content: `
+      <h2>Solana (SOL) Nedir?</h2>
+      <p><strong>Solana</strong>, 2020 yılında Anatoly Yakovenko tarafından geliştirilen, yüksek hız ve düşük işlem maliyetiyle öne çıkan bir blokzincir platformudur. Ethereum'a güçlü bir rakip olarak konumlanan Solana, <strong>Proof of History (PoH)</strong> adlı özgün konsensüs mekanizmasıyla saniyede 65.000'e kadar işlem gerçekleştirebilmektedir.</p>
+
+      <h2>Solana'nın Teknik Üstünlükleri</h2>
+      <ul>
+        <li><strong>Hız:</strong> Saniyede 65.000 işlem kapasitesi (TPS)</li>
+        <li><strong>Düşük maliyet:</strong> Ortalama işlem ücreti 0.00025 dolar</li>
+        <li><strong>Proof of History:</strong> Zamansal kanıt mekanizmasıyla hızlı konsensüs</li>
+        <li><strong>Geniş ekosistem:</strong> DeFi, NFT ve GameFi uygulamaları</li>
+      </ul>
+
+      <h2>Solana Ekosistemi 2026</h2>
+      <p>2026 itibarıyla Solana ekosistemi, <strong>Phantom cüzdanı</strong>, Magic Eden NFT pazarı ve Jupiter DEX gibi köklü projelerle büyümeye devam etmektedir. Özellikle meme coin dalgasında Solana ağı büyük ilgi görmüştür.</p>
+
+      <h2>SOL Fiyat Analizi</h2>
+      <p>Teknik analiz açısından SOL, Bitcoin ile güçlü korelasyona sahiptir. Halving sonrası boğa dönemlerinde SOL, Bitcoin'den daha yüksek getiri sağlama potansiyeli taşımaktadır. <strong>Anlık SOL fiyatını</strong> Canlı Veriler platformunda takip edebilirsiniz.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Solana</strong>, hız, maliyet ve ekosistem büyüklüğü açısından kripto piyasasının önde gelen Layer-1 platformlarından biridir. Portföyünüzde SOL bulundurmayı değerlendiriyorsanız, risk yönetimine dikkat edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 52. KRİPTO — XRP (Ripple)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 52,
+    slug: 'xrp-ripple-nedir-2026-yatirim-analizi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'XRP (Ripple) Nedir? 2026 Yatırım Analizi ve SEC Davası Sonrası Durum',
+    metaDescription: 'XRP nedir, Ripple ile ilişkisi nedir? 2026\'da XRP fiyat analizi, SEC davası sonuçları, banka ortaklıkları ve XRP yatırım stratejileri.',
+    keywords: ['xrp nedir', 'ripple nedir', 'xrp yatırımı', 'xrp fiyat', 'ripple sec davası', 'xrp 2026', 'xrp coin', 'ripple coin', 'xrp analiz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-19',
+    readTime: 9,
+    thumbnail: '✕',
+    excerpt: 'XRP, bankalar arası para transferini hızlandırmak için tasarlanmış güçlü bir kripto paradır. SEC davası sonrası 2026\'da XRP nereye gidiyor?',
+    content: `
+      <h2>XRP ve Ripple Nedir?</h2>
+      <p><strong>XRP</strong>, Ripple Labs tarafından geliştirilen ve finansal kurumlar arası hızlı, düşük maliyetli para transferini hedefleyen bir dijital varlıktır. Ripple ağı, geleneksel SWIFT sistemine alternatif olarak <strong>3-5 saniyelik</strong> uluslararası para transferi sunmaktadır.</p>
+
+      <h2>XRP'nin Kullanım Alanları</h2>
+      <ul>
+        <li><strong>Uluslararası havale:</strong> Banka transferlerini hızlandırma</li>
+        <li><strong>Likidite köprüsü:</strong> On-Demand Liquidity (ODL) sistemi</li>
+        <li><strong>CBDC entegrasyonu:</strong> Merkez bankası dijital paralarıyla uyum</li>
+        <li><strong>DeFi:</strong> XRPL üzerinde merkeziyetsiz uygulamalar</li>
+      </ul>
+
+      <h2>SEC Davası Sonrası Durum</h2>
+      <p>Ripple ile ABD Menkul Kıymetler ve Borsa Komisyonu (SEC) arasındaki dava, 2024 yılında XRP lehine sonuçlanmıştır. Bu karar, <strong>XRP'nin menkul kıymet olmadığını</strong> tescilleyerek büyük borsalarda yeniden listelenme sürecini hızlandırmıştır.</p>
+
+      <h2>2026 XRP Fiyat Görünümü</h2>
+      <p>Düzenleyici belirsizliğin ortadan kalkması ve kurumsal ortaklıkların artmasıyla XRP, 2026'da yatırımcıların gündemine girmiştir. Canlı Veriler'de <strong>anlık XRP fiyatını</strong> takip edin.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>XRP</strong>, bankacılık sektörüyle güçlü ortaklıkları ve çözüme kavuşan hukuki süreçleriyle 2026'da dikkat çeken kripto varlıklar arasındadır.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 53. KRİPTO — BNB & Binance
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 53,
+    slug: 'bnb-binance-coin-nedir-2026-analizi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'BNB (Binance Coin) Nedir? 2026 Analizi ve BNB Chain Ekosistemi',
+    metaDescription: 'BNB nedir, Binance Coin nasıl kullanılır? BNB Chain ekosistemi, BNB burn mekanizması ve 2026 fiyat analizi rehberi.',
+    keywords: ['bnb nedir', 'binance coin', 'bnb chain', 'bnb yatırımı', 'binance nedir', 'bnb 2026', 'bnb analiz', 'bnb burn', 'binance akıllı zincir'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-18',
+    readTime: 9,
+    thumbnail: '🟡',
+    excerpt: 'BNB, dünyanın en büyük kripto borsası Binance\'ın native token\'ıdır. BNB Chain ekosistemi ve 2026\'daki durumu.',
+    content: `
+      <h2>BNB (Binance Coin) Nedir?</h2>
+      <p><strong>BNB (Build and Build)</strong>, başlangıçta Binance borsasının işlem ücretlerini ödemek için çıkarılan, ancak zamanla güçlü bir blokzincir ekosisteminin native token\'ı haline gelen kripto paradır. BNB Chain üzerinde işleyen <strong>BEP-20 tokenları</strong>, DeFi ve NFT projelerine ev sahipliği yapar.</p>
+
+      <h2>BNB'nin Kullanım Alanları</h2>
+      <ul>
+        <li><strong>İşlem ücreti indirimi:</strong> Binance'ta %25 komisyon indirimi</li>
+        <li><strong>BNB Chain:</strong> DeFi, GameFi ve NFT uygulamaları</li>
+        <li><strong>Launchpad:</strong> Yeni projelere erken erişim</li>
+        <li><strong>Ödeme:</strong> 60'tan fazla ülkede alışveriş</li>
+      </ul>
+
+      <h2>BNB Burn Mekanizması</h2>
+      <p>Binance, her çeyrekte kârının bir bölümünü kullanarak BNB yakar (burn). Bu deflasyonist mekanizma, <strong>toplam arzı azaltarak</strong> uzun vadede fiyat baskısını desteklemektedir. Hedef, toplam 200 milyon BNB'nin yakılmasıdır.</p>
+
+      <h2>2026 BNB Görünümü</h2>
+      <p>Binance ekosisteminin büyümesi ve BNB burn programının devamıyla BNB, 2026'da güçlü konumunu korumaktadır. Canlı Veriler'de <strong>anlık BNB fiyatını</strong> takip edin.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>BNB</strong>, güçlü ekosistemi ve deflasyonist burn mekanizmasıyla kripto portföylerinde sık yer bulan varlıklar arasındadır.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 54. BORSA — Hisse Senedi Temettü
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 54,
+    slug: 'temettü-nedir-en-yüksek-temettü-veren-hisseler-2026',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Temettü Nedir? 2026\'da En Yüksek Temettü Veren BIST Hisseleri',
+    metaDescription: 'Temettü nedir, nasıl hesaplanır? 2026\'da BIST\'te en yüksek temettü dağıtan hisseler, temettü verimi hesaplama ve temettü yatırım stratejisi rehberi.',
+    keywords: ['temettü nedir', 'temettü hisseleri', 'en yüksek temettü', 'bist temettü', 'temettü verimi', 'temettü yatırımı', 'hisse senedi temettü', 'kar payı', 'temettü 2026'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-17',
+    readTime: 11,
+    thumbnail: '💸',
+    excerpt: 'Temettü yatırımı, düzenli pasif gelir elde etmenin en köklü yöntemidir. 2026\'da BIST\'te hangi hisseler en yüksek temettü dağıtıyor?',
+    content: `
+      <h2>Temettü Nedir?</h2>
+      <p><strong>Temettü (kar payı)</strong>, şirketlerin elde ettiği kârın hisse senedi sahiplerine dağıtılan kısmıdır. Türkiye'de şirketler, Sermaye Piyasası Kurulu (SPK) düzenlemeleri çerçevesinde yılda bir veya iki kez temettü dağıtabilir. Temettü, pasif gelir elde etmenin en geleneksel yollarından biridir.</p>
+
+      <h2>Temettü Verimi Nasıl Hesaplanır?</h2>
+      <p><em>Temettü Verimi = (Hisse Başına Temettü / Hisse Fiyatı) × 100</em></p>
+      <p>Örneğin, hissesi 50 TL olan bir şirket 5 TL temettü dağıtıyorsa temettü verimi %10 demektir. Bu oran, yatırımcıların şirketleri karşılaştırmasında kritik bir metriktir.</p>
+
+      <h2>BIST'te Yüksek Temettü Veren Sektörler</h2>
+      <ul>
+        <li><strong>Bankacılık:</strong> Tarihi olarak yüksek temettü dağıtan sektör</li>
+        <li><strong>Enerji:</strong> Düzenli nakit akışı sayesinde istikrarlı temettü</li>
+        <li><strong>Perakende:</strong> Güçlü ciro yapısıyla temettü potansiyeli</li>
+        <li><strong>Holdingler:</strong> Çeşitlendirilmiş portföy sayesinde sürdürülebilir temettü</li>
+      </ul>
+
+      <h2>Temettü Yatırım Stratejisi</h2>
+      <ol>
+        <li>Temettü verimi yüksek ama sürdürülebilir şirketleri seçin</li>
+        <li>Şirketin borç yapısını ve nakit akışını inceleyin</li>
+        <li>Temettü büyüme geçmişine bakın</li>
+        <li>Farklı sektörlerden temettü hisselerini çeşitlendirin</li>
+        <li>Temettü takvimini takip edin (yatırım tarihinden önce alım yapın)</li>
+      </ol>
+
+      <h2>Sonuç</h2>
+      <p><strong>Temettü yatırımı</strong>, uzun vadeli servet birikimi için kanıtlanmış bir stratejidir. Canlı Veriler'de <strong>anlık BIST verilerini</strong> takip ederek temettü fırsatlarını kaçırmayın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 55. BORSA — Fon Yatırımı (Yatırım Fonu / ETF)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 55,
+    slug: 'yatirim-fonu-etf-nedir-nasil-yatirim-yapilir',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Yatırım Fonu ve ETF Nedir? Türkiye\'de Fon Yatırımı Rehberi 2026',
+    metaDescription: 'Yatırım fonu ve ETF nedir, farkları nelerdir? Türkiye\'de fon yatırımı nasıl yapılır, hangi fonlar 2026\'da öne çıkıyor? Kapsamlı rehber.',
+    keywords: ['yatırım fonu nedir', 'etf nedir', 'fon yatırımı', 'borsa yatırım fonu', 'yatırım fonu türleri', 'bist etf', 'portföy yönetimi', 'fon getiri', 'türkiye yatırım fonu'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-16',
+    readTime: 10,
+    thumbnail: '🗂️',
+    excerpt: 'Yatırım fonları ve ETF\'ler, küçük sermayeyle geniş çeşitlendirme imkânı sunar. Türkiye\'de 2026\'da hangi fonlar öne çıkıyor?',
+    content: `
+      <h2>Yatırım Fonu Nedir?</h2>
+      <p><strong>Yatırım fonu</strong>, birden fazla yatırımcının parasının bir havuzda toplanarak profesyonel portföy yöneticileri tarafından çeşitli finansal araçlara yatırılmasıyla oluşturulan kolektif yatırım aracıdır. Türkiye'de yatırım fonları SPK denetimine tabidir ve <strong>TEFAS</strong> (Türkiye Elektronik Fon Alım Satım Platformu) üzerinden işlem görür.</p>
+
+      <h2>ETF (Borsa Yatırım Fonu) Nedir?</h2>
+      <p><strong>ETF (Exchange Traded Fund)</strong>, borsada hisse senedi gibi alınıp satılabilen fon türüdür. Bir endeksi, emtiayı veya varlık sepetini taklit eder. ETF'lerin avantajları:</p>
+      <ul>
+        <li><strong>Düşük maliyet:</strong> Yönetim ücreti aktif fonlara göre daha düşük</li>
+        <li><strong>Likidite:</strong> Gün içinde anlık fiyatlarla alım-satım</li>
+        <li><strong>Şeffaflık:</strong> Portföy içeriği günlük yayınlanır</li>
+        <li><strong>Çeşitlendirme:</strong> Tek işlemle onlarca hisseye yatırım</li>
+      </ul>
+
+      <h2>Türkiye'de Popüler Fon Türleri</h2>
+      <ul>
+        <li><strong>Hisse fonu:</strong> Ağırlıklı olarak hisse senedine yatırım</li>
+        <li><strong>Tahvil-bono fonu:</strong> Devlet iç borçlanma senetlerine odaklanır</li>
+        <li><strong>Altın fonu:</strong> Altın fiyatını takip eder</li>
+        <li><strong>Teknoloji fonu:</strong> Global teknoloji şirketlerine yatırım</li>
+        <li><strong>Para piyasası fonu:</strong> Kısa vadeli, düşük riskli araçlar</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Yatırım fonları ve ETF'ler</strong>, bireysel hisse seçimine vakit ayırmak istemeyen yatırımcılar için ideal çözümdür. Canlı Veriler'de <strong>anlık piyasa verilerini</strong> takip ederek fon yatırım kararlarınızı destekleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 56. EKONOMİ — Faiz Nedir?
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 56,
+    slug: 'faiz-nedir-tcmb-faiz-karari-2026-etkisi',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Faiz Nedir? TCMB Faiz Kararları ve 2026\'da Piyasaya Etkisi',
+    metaDescription: 'Faiz nedir, merkez bankası faiz kararları nasıl etkilenir? TCMB 2026 politika faizi, faiz artışı ve indiriminin döviz, borsa ve altına etkisi.',
+    keywords: ['faiz nedir', 'tcmb faiz', 'politika faizi', 'faiz kararı', 'merkez bankası faiz', 'faiz indirimi', 'faiz artışı', 'tcmb 2026', 'faiz piyasa etkisi'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-15',
+    readTime: 10,
+    thumbnail: '🏛️',
+    excerpt: 'Faiz kararları, döviz, borsa ve altın dahil tüm piyasaları derinden etkiler. TCMB\'nin 2026 politika faizi ve güncel durum.',
+    content: `
+      <h2>Faiz Nedir?</h2>
+      <p><strong>Faiz</strong>, bir paranın belirli bir süre için ödünç verilmesinin karşılığında talep edilen bedeldir. Ekonomide en kritik faiz oranı, <strong>merkez bankasının belirlediği politika faizi</strong>dir. Bu oran, ülkedeki tüm borçlanma maliyetlerini doğrudan etkiler.</p>
+
+      <h2>TCMB Politika Faizi Nasıl Belirlenir?</h2>
+      <p><strong>Türkiye Cumhuriyet Merkez Bankası (TCMB)</strong>, Para Politikası Kurulu (PPK) toplantılarında politika faizini belirler. Kararlar her altı haftada bir açıklanır. Faiz kararları şu faktörlere göre şekillenir:</p>
+      <ul>
+        <li><strong>Enflasyon:</strong> Yüksek enflasyonu dizginlemek için faiz artırılır</li>
+        <li><strong>Büyüme:</strong> Ekonomik aktiviteyi canlandırmak için faiz indirilir</li>
+        <li><strong>Kur:</strong> TL değerini korumak için yüksek faiz gerekebilir</li>
+        <li><strong>Küresel konjonktür:</strong> Fed ve ECB kararları TCMB'yi etkiler</li>
+      </ul>
+
+      <h2>Faiz Kararlarının Piyasalara Etkisi</h2>
+      <ul>
+        <li><strong>Faiz artışı:</strong> TL güçlenir, borsa baskı altına girer, altın düşer</li>
+        <li><strong>Faiz indirimi:</strong> Büyüme artar, borsa yükselir, TL baskı altına girer</li>
+        <li><strong>Döviz mevduatı:</strong> Yüksek faizde TL mevduat cazipliği artar</li>
+      </ul>
+
+      <h2>2026 TCMB Faiz Görünümü</h2>
+      <p>2026 yılında TCMB, dezenflasyon sürecinin doğrulayıcı verilere dayalı olarak faiz indirim döngüsüne girmiştir. Piyasalar her PPK toplantısını yakından izlemektedir. Canlı Veriler'de <strong>anlık döviz verilerini</strong> takip ederek faiz kararlarının etkisini gözlemleyin.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Faiz politikası</strong>, tüm yatırım araçlarını etkileyen en önemli makroekonomik değişkendir. Bilinçli yatırımcılar, TCMB takvimini yakından takip eder.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 57. EKONOMİ — Gayrimenkul Yatırımı
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 57,
+    slug: 'gayrimenkul-yatirim-2026-ev-alma-kiralama',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Gayrimenkul Yatırımı 2026: Ev Almak mı, Kiralamak mı? Kapsamlı Analiz',
+    metaDescription: '2026\'da gayrimenkul yatırımı yapılır mı? Ev fiyatları, kira getirileri, konut kredisi faizleri ve Türkiye\'de mülk yatırımının avantaj ve dezavantajları.',
+    keywords: ['gayrimenkul yatırımı', 'ev alma 2026', 'ev mi kira mı', 'konut yatırımı', 'kira getirisi', 'konut fiyatları 2026', 'emlak yatırımı', 'konut kredisi', 'gayrimenkul analiz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-14',
+    readTime: 12,
+    thumbnail: '🏠',
+    excerpt: 'Gayrimenkul 2026\'da hâlâ iyi bir yatırım mı? Ev alma ile kiralama arasındaki fark, kira getirileri ve konut piyasası analizi.',
+    content: `
+      <h2>2026'da Türkiye Konut Piyasası</h2>
+      <p>Türkiye'de <strong>konut fiyatları</strong>, 2021-2024 döneminde dramatik artışlar yaşamıştır. 2026 itibarıyla faiz indirim döngüsüyle yeniden hareketlenme beklenen konut piyasasında, yatırımcılar "ev almak mı, kiralamak mı?" sorusunu sorgulamaktadır.</p>
+
+      <h2>Ev Almanın Avantajları</h2>
+      <ul>
+        <li>Enflasyona karşı koruma ve değer artışı</li>
+        <li>Kira geliri ile pasif kazanç</li>
+        <li>Konut kredisi faiz indirimi dönemlerinde avantajlı finansman</li>
+        <li>Miras ve servet aktarımı</li>
+        <li>Kira artış kaygısından kurtulma</li>
+      </ul>
+
+      <h2>Kira Getirisi Hesaplama</h2>
+      <p><em>Kira Getirisi = (Yıllık Kira Geliri / Satış Fiyatı) × 100</em></p>
+      <p>İstanbul'da 2026 itibarıyla brüt kira getirisi %3-5 aralığındadır. Anadolu şehirlerinde bu oran daha yüksek olabilmektedir.</p>
+
+      <h2>Dikkat Edilmesi Gereken Faktörler</h2>
+      <ul>
+        <li><strong>Lokasyon:</strong> Ulaşım, okul ve hastane yakınlığı kira değerini artırır</li>
+        <li><strong>Metrekare fiyatı:</strong> Bölgenin emsal değerleriyle karşılaştırın</li>
+        <li><strong>Konut kredisi maliyeti:</strong> Aylık taksit ile kira gelirini karşılaştırın</li>
+        <li><strong>Boşluk riski:</strong> Kiracı bulunamama sürelerini hesaba katın</li>
+        <li><strong>Bakım ve giderler:</strong> Aidat, vergi ve onarım maliyetleri</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Gayrimenkul yatırımı</strong>, uzun vadeli servet birikimi için güçlü bir araç olmaya devam etmektedir. Ancak doğru lokasyon seçimi ve finansman planlaması kritik öneme sahiptir.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 58. EKONOMİ — Ekonomik Kriz
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 58,
+    slug: 'ekonomik-kriz-nedir-nasil-korunulur-2026',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Ekonomik Kriz Nedir? 2026\'da Krizden Korunma Stratejileri',
+    metaDescription: 'Ekonomik kriz nedir, nasıl oluşur? 2026\'da küresel resesyon riski ve bireysel yatırımcılar için krizden korunma stratejileri.',
+    keywords: ['ekonomik kriz nedir', 'resesyon nedir', 'krizden korunma', 'ekonomik kriz 2026', 'deflasyon nedir', 'stagflasyon', 'kriz yatırım', 'güvenli liman yatırımı'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-13',
+    readTime: 11,
+    thumbnail: '⚠️',
+    excerpt: '2026\'da küresel ekonomide resesyon riski var mı? Ekonomik krizden nasıl korunulur, hangi varlıklar güvenli liman sunar?',
+    content: `
+      <h2>Ekonomik Kriz Nedir?</h2>
+      <p><strong>Ekonomik kriz</strong>, bir ekonomide üretim, istihdam ve ekonomik aktivitede ani ve keskin düşüş yaşanması durumudur. Genellikle iki çeyrek üst üste yaşanan negatif büyüme <strong>teknik resesyon</strong> olarak tanımlanır.</p>
+
+      <h2>Ekonomik Kriz Türleri</h2>
+      <ul>
+        <li><strong>Resesyon:</strong> Ekonomik faaliyetin yavaşlaması</li>
+        <li><strong>Deflasyon:</strong> Genel fiyat düzeyinin düşmesi</li>
+        <li><strong>Stagflasyon:</strong> Yüksek enflasyon + durgunluk kombinasyonu</li>
+        <li><strong>Likidite krizi:</strong> Finansal sistemde nakit sıkışıklığı</li>
+        <li><strong>Döviz krizi:</strong> Ülke parasının hızlı değer kaybı</li>
+      </ul>
+
+      <h2>Kriz Döneminde Güvenli Liman Varlıklar</h2>
+      <ul>
+        <li><strong>Altın:</strong> Tarihin en eski değer saklama aracı</li>
+        <li><strong>ABD Doları:</strong> Küresel rezerv para birimi</li>
+        <li><strong>İsviçre Frangı:</strong> Güvenli liman olarak bilinen para</li>
+        <li><strong>ABD hazine tahvilleri:</strong> Risk üstlenmeme için tercih</li>
+        <li><strong>Nakit:</strong> Kriz döneminde alım fırsatları için likidite</li>
+      </ul>
+
+      <h2>Krizden Korunma Stratejileri</h2>
+      <ol>
+        <li>Portföyünüzü çeşitlendirin: tek varlığa bağımlı kalmayın</li>
+        <li>Acil fon oluşturun: 3-6 aylık gideri kapsayan nakit rezervi</li>
+        <li>Borç yönetimine dikkat edin: yüksek faizli borçları kapatın</li>
+        <li>Altın ve döviz ile denge kurun</li>
+        <li>Savunmacı sektör hisselerini değerlendirin</li>
+      </ol>
+
+      <h2>Sonuç</h2>
+      <p>Krizlere hazırlıklı olmak, uzun vadeli servet koruma için şarttır. Canlı Veriler'de <strong>döviz, borsa ve altın verilerini</strong> anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 59. BORSA — Teknik Analiz
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 59,
+    slug: 'teknik-analiz-nedir-grafik-okuma-rehberi',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Teknik Analiz Nedir? Borsa Grafik Okuma ve Göstergeler Rehberi 2026',
+    metaDescription: 'Teknik analiz nedir, nasıl yapılır? RSI, MACD, Bollinger Bantları ve destek-direnç kavramları ile borsa grafik okuma rehberi.',
+    keywords: ['teknik analiz nedir', 'rsi nedir', 'macd nedir', 'bollinger bantları', 'destek direnç', 'grafik okuma', 'borsa teknik analiz', 'mum grafik', 'fibonacci'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-12',
+    readTime: 13,
+    thumbnail: '📉',
+    excerpt: 'Teknik analiz, fiyat grafikleri ve göstergelerle piyasa tahminlemenin bilimidir. RSI, MACD ve destek-direnç seviyeleri rehberi.',
+    content: `
+      <h2>Teknik Analiz Nedir?</h2>
+      <p><strong>Teknik analiz</strong>, geçmiş fiyat ve hacim verilerini inceleyerek gelecekteki fiyat hareketlerini tahmin etmeye çalışan bir yatırım analiz yöntemidir. Temel analiz şirket değerine odaklanırken, teknik analiz <strong>fiyat grafiklerine ve momentuma</strong> odaklanır.</p>
+
+      <h2>Temel Teknik Analiz Göstergeleri</h2>
+
+      <h3>RSI (Göreli Güç Endeksi)</h3>
+      <p><strong>RSI</strong>, 0-100 arası ölçekte piyasanın aşırı alım (overbought) ya da aşırı satım (oversold) bölgesinde olup olmadığını gösterir. 70 üzeri aşırı alım, 30 altı aşırı satım sinyali verir.</p>
+
+      <h3>MACD</h3>
+      <p><strong>MACD</strong> (Hareketli Ortalama Yakınsama Uzaklaşması), iki hareketli ortalamanın birbirine yaklaşıp uzaklaşmasını izler. MACD çizgisinin sinyal çizgisinin üstüne çıkması <strong>alım sinyali</strong> olarak yorumlanır.</p>
+
+      <h3>Bollinger Bantları</h3>
+      <p><strong>Bollinger Bantları</strong>, fiyatın üst bant üzerine çıkması aşırı alım, alt bandın altına inmesi aşırı satım olarak yorumlanır. Bantların daralması yaklaşan güçlü harekete işaret edebilir.</p>
+
+      <h3>Destek ve Direnç Seviyeleri</h3>
+      <p><strong>Destek seviyesi</strong>, fiyatın düşüşte zor geçtiği fiyat bölgesidir. <strong>Direnç seviyesi</strong> ise yükselişte zorlandığı bölgedir. Bu seviyelerin kırılması önemli alım-satım sinyalleri üretir.</p>
+
+      <h2>Mum Grafik Formasyonları</h2>
+      <ul>
+        <li><strong>Doji:</strong> Kararsızlık, dönüş sinyali olabilir</li>
+        <li><strong>Çekiç (Hammer):</strong> Dip oluşumu ve dönüş</li>
+        <li><strong>Engulfing:</strong> Güçlü dönüş sinyali</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Teknik analiz</strong>, borsa ve kripto piyasalarında alım-satım zamanlamasını geliştirmek için güçlü bir araçtır. Canlı Veriler'de <strong>anlık fiyat verilerini</strong> takip ederek analizinizi destekleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 60. KRİPTO — NFT Nedir?
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 60,
+    slug: 'nft-nedir-2026-nft-yatırımı-rehberi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'NFT Nedir? 2026\'da NFT Yatırımı Hâlâ Mantıklı mı? Kapsamlı Rehber',
+    metaDescription: 'NFT nedir, nasıl satın alınır? 2026\'da NFT piyasasının durumu, NFT yatırımı riskleri ve fırsatları ile NFT satın alma rehberi.',
+    keywords: ['nft nedir', 'nft yatırımı', 'nft 2026', 'nft nasıl alınır', 'nft neden değerli', 'dijital sanat', 'nft piyasası', 'en değerli nft', 'nft satın alma'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-11',
+    readTime: 10,
+    thumbnail: '🎨',
+    excerpt: 'NFT çılgınlığı geçti mi yoksa gerçek bir değer mi var? 2026\'da NFT piyasasının durumu ve yatırım fırsatları.',
+    content: `
+      <h2>NFT Nedir?</h2>
+      <p><strong>NFT (Non-Fungible Token)</strong>, blokzincir üzerinde eşsiz ve değiştirilemez dijital bir varlık belgesidir. Sanat eserleri, müzik, video, oyun içi ögeler ve koleksiyonlar gibi dijital içeriklerin mülkiyetini temsil eder.</p>
+
+      <h2>NFT'yi Değerli Yapan Nedir?</h2>
+      <ul>
+        <li><strong>Benzersizlik:</strong> Her NFT kriptografik olarak eşsizdir</li>
+        <li><strong>Sahiplik kanıtı:</strong> Blokzincirde doğrulanabilir mülkiyet</li>
+        <li><strong>Kıtlık:</strong> Sınırlı sayıda üretilen koleksiyonlar</li>
+        <li><strong>Topluluk:</strong> Güçlü topluluklar NFT değerini destekler</li>
+        <li><strong>Royalty:</strong> Yaratıcılar her satıştan otomatik komisyon alır</li>
+      </ul>
+
+      <h2>2026'da NFT Piyasası</h2>
+      <p>2021-2022 dönemindeki NFT balonunun ardından piyasa önemli ölçüde konsolide olmuştur. 2026'da öne çıkan NFT kategorileri:</p>
+      <ol>
+        <li><strong>Oyun NFT'leri:</strong> Web3 oyunlarda kullanılan karakterler ve eşyalar</li>
+        <li><strong>Sanal arazi:</strong> Metaverse platformlarında mülkiyet</li>
+        <li><strong>Marka NFT'leri:</strong> Büyük markaların müşteri sadakat programları</li>
+        <li><strong>Müzik NFT'leri:</strong> Sanatçıların doğrudan hayranlarıyla bağlantısı</li>
+      </ol>
+
+      <h2>NFT Nasıl Satın Alınır?</h2>
+      <ol>
+        <li>MetaMask veya Phantom gibi bir kripto cüzdan edinin</li>
+        <li>OpenSea, Magic Eden veya Blur gibi bir NFT pazarına gidin</li>
+        <li>İlgilendiğiniz koleksiyonu araştırın (ekip, topluluk, yol haritası)</li>
+        <li>Teklif verin veya belirlenen fiyattan satın alın</li>
+      </ol>
+
+      <h2>Sonuç</h2>
+      <p><strong>NFT yatırımı</strong>, 2026'da çok daha seçici bir alan haline gelmiştir. Araştırma yapmadan alım yapmaktan kaçının. Canlı Veriler'de <strong>kripto piyasasını</strong> anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 61. EKONOMİ — Bütçe ve Tasarruf
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 61,
+    slug: 'kisisel-butce-yonetimi-tasarruf-yontemleri-2026',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Kişisel Bütçe Yönetimi ve Tasarruf Yöntemleri 2026 | Para Biriktirme Rehberi',
+    metaDescription: 'Kişisel bütçe nasıl yapılır, tasarruf nasıl artırılır? 50/30/20 kuralı, acil fon oluşturma ve enflasyonda para biriktirme yöntemleri.',
+    keywords: ['kişisel bütçe', 'tasarruf yöntemleri', 'para biriktirme', 'bütçe yönetimi', 'tasarruf nasıl yapılır', '50 30 20 kuralı', 'acil fon', 'finansal özgürlük', 'tasarruf 2026'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-10',
+    readTime: 10,
+    thumbnail: '💰',
+    excerpt: 'Yüksek enflasyon döneminde nasıl tasarruf edilir? Kişisel bütçe yönetimi ve para biriktirme stratejileri 2026 rehberi.',
+    content: `
+      <h2>Kişisel Bütçe Neden Önemli?</h2>
+      <p>Finansal özgürlüğün ilk adımı, <strong>harcamalarınızı bilinçli yönetmektir</strong>. Kişisel bütçe, gelirinizin nereye gittiğini görmek ve tasarruf hedefinize ulaşmak için temel araçtır.</p>
+
+      <h2>50/30/20 Bütçe Kuralı</h2>
+      <p>En popüler bütçe yöntemi olan <strong>50/30/20 kuralı</strong>:</p>
+      <ul>
+        <li><strong>%50 — İhtiyaçlar:</strong> Kira, faturalar, market, ulaşım</li>
+        <li><strong>%30 — İstekler:</strong> Eğlence, restoran, alışveriş</li>
+        <li><strong>%20 — Tasarruf ve yatırım:</strong> Acil fon + uzun vadeli yatırım</li>
+      </ul>
+
+      <h2>Türkiye'de Enflasyona Karşı Tasarruf</h2>
+      <p>Yüksek enflasyon ortamında nakit birikim reel değer kaybettirir. Bunun yerine:</p>
+      <ol>
+        <li><strong>Altın hesabı:</strong> Gram altın alarak enflasyona karşı korunun</li>
+        <li><strong>Döviz birikimi:</strong> Dolar veya Euro bazlı tasarruf</li>
+        <li><strong>TEFAS fonları:</strong> Enflasyona endeksli tahvil fonları</li>
+        <li><strong>Hisse senedi:</strong> Uzun vadede enflasyonun üzerinde getiri</li>
+      </ol>
+
+      <h2>Pratik Tasarruf Yöntemleri</h2>
+      <ul>
+        <li>Maaş geldikten hemen sonra tasarrufu hesaba aktarın</li>
+        <li>Gereksiz abonelikleri iptal edin</li>
+        <li>Market alışverişlerinde liste kullanın</li>
+        <li>İkinci el alışverişi değerlendirin</li>
+        <li>Enerjide tasarruf yapın (düşük faturalar)</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Tasarruf</strong>, finansal güvenliğin temelidir. Canlı Veriler'de <strong>yatırım araçlarını</strong> kıyaslayarak birikimlerinizi en verimli şekilde değerlendirin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 62. FUTBOL — Fenerbahçe 2026
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 62,
+    slug: 'fenerbahce-2025-2026-sezonu-analizi-kadro-hedefler',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Fenerbahçe 2025-2026 Sezonu Analizi: Kadro, Transfer ve Hedefler',
+    metaDescription: 'Fenerbahçe 2025-2026 sezonu nasıl gidiyor? Kadro analizi, transfer değerlendirmesi, şampiyonluk ve Avrupa hedefleri.',
+    keywords: ['fenerbahçe', 'fenerbahçe 2026', 'fenerbahçe kadro', 'fenerbahçe transfer', 'fenerbahçe analiz', 'fenerbahçe şampiyonluk', 'fb 2026', 'fenerbahçe avrupa'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-09',
+    readTime: 9,
+    thumbnail: '💛',
+    excerpt: 'Fenerbahçe 2025-2026 sezonunda nerede? Kadro güçlü yönleri, transfer değerlendirmesi ve şampiyonluk beklentileri.',
+    content: `
+      <h2>Fenerbahçe 2025-2026 Sezon Değerlendirmesi</h2>
+      <p><strong>Fenerbahçe</strong>, 2025-2026 sezonuna güçlü bir kadro ve yüksek beklentilerle girmiştir. Teknik direktör ve yönetim kadrosunun belirlediği oyun anlayışı, sarı-lacivertlileri hem iç hem dış sahalarda baskın kılmaktadır.</p>
+
+      <h2>Kadro Güçlü Yönleri</h2>
+      <ul>
+        <li><strong>Hücum derinliği:</strong> Birden fazla pozisyonda kaliteli isimler</li>
+        <li><strong>Tecrübeli savunma:</strong> Rakip hücumları sınırlayan organize blok</li>
+        <li><strong>Orta saha kontrolü:</strong> Top sahipliği ve tempo belirleme</li>
+        <li><strong>Yerli oyuncu gücü:</strong> Milli takım kalibresinde isimler</li>
+      </ul>
+
+      <h2>Transfer Sezonu Değerlendirmesi</h2>
+      <p>Kış transfer döneminde yapılan takviyeler, Fenerbahçe'nin derinliğini artırmıştır. Yabancı kotası optimizasyonu, teknik direktörün taktik seçeneklerini çeşitlendirmiştir.</p>
+
+      <h2>Şampiyonluk ve Avrupa Hedefleri</h2>
+      <p>Fenerbahçe, hem <strong>Süper Lig şampiyonluğu</strong> hem de <strong>Avrupa Ligi</strong>'nde ileri turlar hedeflemektedir. UEFA ülke puanına katkı, Türk futbolunun geleceği açısından da kritik öneme sahiptir.</p>
+
+      <h2>Taraftar Desteği</h2>
+      <p>Kadıköy'deki atmosfer, Fenerbahçe'nin en güçlü silahlarından biridir. Şükrü Saracoğlu Stadı'nın yarattığı baskı, deplasman takımlarını kilitleyen bir faktör olarak öne çıkmaktadır.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Fenerbahçe 2025-2026 sezonu</strong>, hedefler ve beklentiler açısından sarı-lacivertli taraftarları heyecanlandırmaktadır. Canlı Veriler'de <strong>anlık puan durumunu</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 63. FUTBOL — Galatasaray 2026
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 63,
+    slug: 'galatasaray-2025-2026-sezon-degerlendirme',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Galatasaray 2025-2026 Sezonu Değerlendirmesi: Şampiyonluk Yolculuğu',
+    metaDescription: 'Galatasaray 2025-2026 sezonu nasıl ilerliyor? Şampiyonluk yarışı, Avrupa performansı, kadro analizi ve teknik ekip değerlendirmesi.',
+    keywords: ['galatasaray', 'galatasaray 2026', 'galatasaray şampiyonluk', 'galatasaray kadro', 'galatasaray avrupa', 'gs analiz', 'cim bom 2026', 'galatasaray transfer'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-08',
+    readTime: 9,
+    thumbnail: '🔴',
+    excerpt: 'Galatasaray 2025-2026 sezonunda liderlik mücadelesi veriyor. Kadro gücü, taktik anlayış ve şampiyonluk beklentileri.',
+    content: `
+      <h2>Galatasaray 2025-2026 Sezonu</h2>
+      <p><strong>Galatasaray</strong>, 2023-2024 şampiyonluğunun ardından 2025-2026 sezonuna da liderlik iddiasıyla çıkmaktadır. Sarı-kırmızılılar, teknik direktörünün uyguladığı kompakt ve topa sahip olan oyun felsefesiyle rakiplerine üstünlük kurmaktadır.</p>
+
+      <h2>Kadro Analizi</h2>
+      <ul>
+        <li><strong>Kaleci:</strong> İstikrarlı performansıyla gol yemede minimalist yaklaşım</li>
+        <li><strong>Defans:</strong> Yüksek hat ve baskıyla etkili çalışan blok</li>
+        <li><strong>Orta saha:</strong> Yaratıcılık ve savaşçılığı dengeleyen yapı</li>
+        <li><strong>Forvet:</strong> Çoklu gol tehlikesi</li>
+      </ul>
+
+      <h2>Avrupa Kupası Performansı</h2>
+      <p>Galatasaray, UEFA Şampiyonlar Ligi'nde aldığı büyük takımlarla mücadele etme deneyimi, kulübün kimliğinin ayrılmaz parçasıdır. Türkiye'nin UEFA puanına katkısı en önemli kulüpler arasında yer almaktadır.</p>
+
+      <h2>Taraftar ve Atmosfer</h2>
+      <p>RAMS Park'taki atmosfer, Galatasaray'ın rakipler üzerindeki psikolojik baskısını artıran kritik unsurdur. Ali Sami Yen'den bu yana süren zengin taraftar kültürü, Cim Bom'un en büyük güçlerinden biridir.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Galatasaray 2025-2026 sezonu</strong>, sarı-kırmızılı taraftarlar için heyecan dolu bir kampanya sunmaktadır. Canlı Veriler'de <strong>Süper Lig puan durumunu</strong> anlık izleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 64. FUTBOL — Beşiktaş 2026
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 64,
+    slug: 'besiktas-2025-2026-sezon-analizi',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Beşiktaş 2025-2026 Sezonu: Kadro Analizi ve Hedefler',
+    metaDescription: 'Beşiktaş 2025-2026 sezonu nasıl gidiyor? Kadro güçlü yönleri, genç yetenekler, şampiyonluk yarışı ve Avrupa kupası hedefleri.',
+    keywords: ['beşiktaş', 'beşiktaş 2026', 'beşiktaş kadro', 'kartal 2026', 'beşiktaş şampiyonluk', 'beşiktaş analiz', 'bjk 2026', 'beşiktaş transfer'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-07',
+    readTime: 8,
+    thumbnail: '🦅',
+    excerpt: 'Beşiktaş 2025-2026 sezonunda Vodafone Park\'tan yükselen Kartal nerede? Kadro gücü ve şampiyonluk beklentileri.',
+    content: `
+      <h2>Beşiktaş 2025-2026 Sezonu</h2>
+      <p><strong>Beşiktaş</strong>, kurucusu olduğu Türk futbol tarihinde köklü bir yere sahiptir. 2025-2026 sezonunda siyah-beyazlılar, hem Süper Lig'de güçlü bir mücadele hem de Avrupa kupalarında iz bırakma hedefiyle sahaya çıkmaktadır.</p>
+
+      <h2>Genç Yetenekler</h2>
+      <p>Beşiktaş altyapısından çıkan isimler, ilk takımda değerli katkılar sunmaktadır. Türk futbolunun geleceği açısından yerel yeteneklerin sahaya çıkması hem kulüp hem de milli takım adına olumlu sinyaller vermektedir.</p>
+
+      <h2>Vodafone Park Avantajı</h2>
+      <p>İstanbul'un kalbindeki <strong>Vodafone Park</strong>, Beşiktaş'a güçlü bir iç saha avantajı sağlamaktadır. Avrupa geceleriyle ünlenen bu stadyum, karanlık gökyüzünde parlayan Kara Kartal'ın simgesi olmuştur.</p>
+
+      <h2>Hedefler</h2>
+      <ul>
+        <li>Süper Lig'de şampiyonluk yarışına dahil olmak</li>
+        <li>Avrupa Ligi veya Konferans Ligi'nde ileri turlar</li>
+        <li>Genç yerli oyuncuları ilk takıma kazandırmak</li>
+        <li>Taraftar kaidesiyle birlikte güçlü bir finansal yapıya kavuşmak</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Beşiktaş 2025-2026 sezonu</strong>, Kara Kartal taraftarları için umut dolu bir dönem sunmaktadır. Canlı Veriler'de <strong>Süper Lig puan durumunu</strong> anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 65. FUTBOL — Trabzonspor
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 65,
+    slug: 'trabzonspor-2025-2026-karadeniz-fırtınası',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Trabzonspor 2025-2026 Sezonu: Karadeniz Fırtınası Tüm Hızıyla Esiyor',
+    metaDescription: 'Trabzonspor 2025-2026 sezonunda nerede? Şampiyonluk yarışı, transfer politikası ve Bordo-Mavililerin Anadolu futboluna katkısı.',
+    keywords: ['trabzonspor', 'trabzonspor 2026', 'bordo mavi', 'trabzonspor şampiyonluk', 'trabzonspor kadro', 'karadeniz fırtınası', 'trabzonspor avrupa', 'ts analiz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-06',
+    readTime: 8,
+    thumbnail: '🌊',
+    excerpt: 'Trabzonspor, tarihsel şampiyonluklarının verdiği özgüvenle 2025-2026 sezonunda büyüklere meydan okumaya devam ediyor.',
+    content: `
+      <h2>Trabzonspor 2025-2026 Sezonu Genel Bakış</h2>
+      <p><strong>Trabzonspor</strong>, Türk futbol tarihinin en renkli kulüplerinden biridir. Son yıllarda kazandığı şampiyonlukla güçlenen özgüveniyle bordo-mavili ekip, 2025-2026 sezonunda yeniden zirve hedeflemektedir.</p>
+
+      <h2>Güçlü Yönler</h2>
+      <ul>
+        <li><strong>Trabzon taraftarı:</strong> Papara Park'ın yaratığı canavarca atmosfer</li>
+        <li><strong>Yerel kimlik:</strong> Karadeniz ruhunu yansıtan tutkulu oyun anlayışı</li>
+        <li><strong>Transfer politikası:</strong> Hem deneyimli isimler hem genç yetenekler</li>
+        <li><strong>Mali disiplin:</strong> Sürdürülebilir büyüme hedefi</li>
+      </ul>
+
+      <h2>Anadolu Futbolunun Gururu</h2>
+      <p>Trabzonspor'un dört büyükler dışından şampiyonluk kazanma geleneği, Anadolu futbolunun mümkün olduğunu kanıtlamıştır. Bu ruh, kulübün DNA'sına işlemiş olup her sezon mücadele azmini beslemektedir.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Trabzonspor</strong>, 2025-2026 sezonunda Süper Lig'in en heyecan verici takımlarından biri olmaya devam etmektedir. Canlı Veriler'de anlık puan durumunu takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 66. HAVA — İstanbul Hava Durumu Detaylı
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 66,
+    slug: 'istanbul-hava-durumu-mevsimsel-rehber',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'İstanbul Hava Durumu: Mevsimsel Rehber, İklim ve Yağış Takvimi',
+    metaDescription: 'İstanbul hava durumu rehberi. İstanbul\'da yıl boyunca sıcaklıklar, yağış miktarları, en iyi ziyaret mevsimleri ve hava durumu takvimi.',
+    keywords: ['istanbul hava durumu', 'istanbul iklimi', 'istanbul sıcaklık', 'istanbul yağış', 'istanbul hava rehberi', 'istanbul mevsim', 'istanbul ne zaman'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-05',
+    readTime: 8,
+    thumbnail: '🌆',
+    excerpt: 'İstanbul\'un dört mevsimi ve hava durumu rehberi. İstanbul\'a ne zaman gidilmeli, hangi aylar en iyi ziyaret dönemini sunar?',
+    content: `
+      <h2>İstanbul İklimi ve Hava Durumu</h2>
+      <p><strong>İstanbul</strong>, iki kıtanın kesişiminde yer alan eşsiz konumuyla hem Karadeniz hem de Akdeniz ikliminin etkisi altında kalır. Yılın yarısı güneşli, yarısı bulutlu ve yağışlı bir İstanbul hava durumu tablosu ortaya çıkar.</p>
+
+      <h2>Aylara Göre İstanbul Hava Durumu</h2>
+      <ul>
+        <li><strong>Ocak-Şubat:</strong> 3-8°C, sık yağmur ve zaman zaman kar</li>
+        <li><strong>Mart-Mayıs:</strong> 10-20°C, değişken hava, çiçeklenme sezonu</li>
+        <li><strong>Haziran-Ağustos:</strong> 22-30°C, sıcak ve nemli, turizm zirvesi</li>
+        <li><strong>Eylül-Kasım:</strong> 12-22°C, ılıman, altın rengi yaprak dökümü</li>
+        <li><strong>Aralık:</strong> 5-10°C, yağışlı, yılbaşı atmosferi</li>
+      </ul>
+
+      <h2>İstanbul'a En İyi Ziyaret Zamanı</h2>
+      <p>İstanbul ziyareti için en ideal dönem <strong>Nisan-Mayıs ve Eylül-Ekim</strong> aylarıdır. Bu dönemlerde hava ılıman, kalabalık nispeten az ve şehir turu için koşullar mükemmeldir.</p>
+
+      <h2>İstanbul'da Kar Yağışı</h2>
+      <p>İstanbul'da kar yağışı, genellikle <strong>Ocak-Şubat</strong> aylarında görülür. Ancak şiddetli kar fırtınaları her yıl gerçekleşmez. Kar yağdığında şehir hayatı durma noktasına gelebilir.</p>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler platformunda <strong>İstanbul anlık hava durumunu</strong> gerçek zamanlı takip edin, günlük planlarınızı buna göre şekillendirin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 67. HAVA — Antalya Hava Durumu
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 67,
+    slug: 'antalya-hava-durumu-turizm-iklim-rehberi',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'Antalya Hava Durumu: Turizm Sezonu, Sıcaklıklar ve Yağış Rehberi',
+    metaDescription: 'Antalya hava durumu ve iklim rehberi. Antalya\'da tatil için en iyi mevsim, aylık sıcaklıklar, deniz suyu sıcaklığı ve turizm sezonu.',
+    keywords: ['antalya hava durumu', 'antalya iklimi', 'antalya tatil', 'antalya sıcaklık', 'antalya ne zaman', 'akdeniz iklimi', 'antalya turizm sezonu', 'antalya deniz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-04',
+    readTime: 8,
+    thumbnail: '🌞',
+    excerpt: 'Antalya yılda 300 günden fazla güneş görür! Turizm sezonu, sıcaklıklar ve Antalya\'ya en iyi tatil zamanını öğrenin.',
+    content: `
+      <h2>Antalya İklimi: Akdeniz'in Güneş Deposu</h2>
+      <p><strong>Antalya</strong>, Türkiye'nin en fazla güneş alan şehirlerinden biridir. Yıllık ortalama güneşlenme süresi 300 günü aşar ve bu, Antalya'yı dünya genelinde en güneşli şehirler arasına taşır.</p>
+
+      <h2>Aylık Sıcaklık ve Hava Durumu</h2>
+      <ul>
+        <li><strong>Ocak:</strong> Min 5°C / Maks 15°C — ılıman kış</li>
+        <li><strong>Nisan:</strong> Min 12°C / Maks 22°C — bahar güzelliği</li>
+        <li><strong>Haziran:</strong> Min 22°C / Maks 35°C — turizm başlangıcı</li>
+        <li><strong>Ağustos:</strong> Min 25°C / Maks 40°C — yaz zirvesi</li>
+        <li><strong>Ekim:</strong> Min 16°C / Maks 28°C — kadife sezon</li>
+      </ul>
+
+      <h2>Deniz Suyu Sıcaklığı</h2>
+      <p>Antalya'da deniz suyu <strong>Haziran'dan Ekim'e</strong> kadar 22-28°C aralığında seyreder. En sıcak deniz dönemi Ağustos-Eylül'dür.</p>
+
+      <h2>Antalya Tatil İçin En İyi Mevsim</h2>
+      <ul>
+        <li><strong>Yüzme ve güneşlenme:</strong> Haziran-Ekim</li>
+        <li><strong>Kültür turu ve doğa yürüyüşü:</strong> Nisan-Mayıs ve Ekim-Kasım</li>
+        <li><strong>Kış tatili (gezi):</strong> Aralık-Şubat (soğuk değil, ucuz)</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler platformunda <strong>Antalya anlık hava durumunu</strong> takip ederek tatil planlarınızı mükemmelleştirin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 68. EKONOMİ — TCMB Rezervleri ve TL
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 68,
+    slug: 'turk-lirasi-tl-deger-kaybı-nedenleri-2026',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Türk Lirasının Değer Kaybı: Nedenler, Etkiler ve 2026 Görünümü',
+    metaDescription: 'Türk Lirası neden değer kaybediyor? TL devalüasyonunun nedenleri, ekonomik etkileri ve 2026\'da Türk Lirası görünümü.',
+    keywords: ['türk lirası değer kaybı', 'tl dolar', 'lira neden düşüyor', 'tl 2026', 'döviz kuru 2026', 'tcmb rezerv', 'türkiye ekonomi 2026', 'tl değerlenmesi'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-03',
+    readTime: 11,
+    thumbnail: '₺',
+    excerpt: 'Türk Lirası\'nın uzun vadeli değer kaybının ardındaki ekonomik nedenler ve 2026\'da ne bekleniyor?',
+    content: `
+      <h2>Türk Lirası ve Değer Kaybı Süreci</h2>
+      <p><strong>Türk Lirası (TL)</strong>, son on yılda küresel para birimleri karşısında önemli değer kayıpları yaşamıştır. Bu sürecin ardında birden fazla yapısal ve konjonktürel faktör yatmaktadır.</p>
+
+      <h2>TL'nin Değer Kaybetmesinin Temel Nedenleri</h2>
+      <ul>
+        <li><strong>Yüksek cari açık:</strong> İthalatın ihracatı aşması döviz talebini artırır</li>
+        <li><strong>Yüksek enflasyon:</strong> Satın alma gücü paritesi teorisine göre TL'yi baskılar</li>
+        <li><strong>Para politikası belirsizliği:</strong> Geçmişteki heterodoks faiz politikası yatırımcı güvenini sarstı</li>
+        <li><strong>Jeopolitik riskler:</strong> Bölgesel gerilimler risk primlerini artırır</li>
+        <li><strong>Küresel dolar güçlenmesi:</strong> Fed'in sıkılaştırma dönemlerinde tüm gelişen piyasa paraları baskı altına girer</li>
+      </ul>
+
+      <h2>TL 2026 Görünümü</h2>
+      <p>TCMB'nin 2023'ten itibaren başlattığı sıkılaştırma politikası ve ortodoks para politikasına dönüş, 2025-2026 döneminde TL'nin daha istikrarlı seyretmesine zemin hazırlamaktadır.</p>
+
+      <h2>Bireysel Yatırımcı için Öneri</h2>
+      <p>TL değer kaybına karşı korunmak için:</p>
+      <ol>
+        <li>Döviz sepeti oluşturun (USD ve EUR)</li>
+        <li>Altın birikimi yapın</li>
+        <li>BIST'te enflasyona karşı korunaklı hisseleri tercih edin</li>
+        <li>Dövize endeksli mevduat veya eurobond değerlendirin</li>
+      </ol>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>anlık dolar ve euro kurlarını</strong> takip ederek döviz hareketlerine hazırlıklı olun.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 69. KRİPTO — Kripto Vergi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 69,
+    slug: 'kripto-para-vergi-turkiye-2026-rehberi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Kripto Para Vergi Rehberi Türkiye 2026: Kripto Gelirlerini Nasıl Beyan Ederim?',
+    metaDescription: 'Türkiye\'de kripto para vergilendirmesi 2026. Bitcoin ve altcoin satış kazancı nasıl vergilendirilir, kripto geliri beyannamede nasıl gösterilir?',
+    keywords: ['kripto vergi türkiye', 'bitcoin vergi', 'kripto para beyanname', 'kripto gelir vergisi', 'kripto vergilendirme 2026', 'btc satış vergisi', 'kripto vergi nasıl ödenir'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-02',
+    readTime: 10,
+    thumbnail: '🧾',
+    excerpt: 'Kripto para kazancınızı Türkiye\'de nasıl vergilendirirsiniz? 2026 kripto vergi rehberi ve beyanname adımları.',
+    content: `
+      <h2>Türkiye'de Kripto Para Vergilendirmesi</h2>
+      <p>Türkiye, kripto para düzenlemeleri açısından önemli adımlar atmaktadır. 2026 itibarıyla <strong>kripto para kazançları</strong> Türkiye'de vergilendirme kapsamına girmektedir. Gelir Vergisi Kanunu çerçevesinde değer artışı kazançları beyan zorunluluğu doğabilmektedir.</p>
+
+      <h2>Hangi Kripto İşlemler Vergilendirilir?</h2>
+      <ul>
+        <li><strong>Kripto-TL dönüşümü:</strong> Satış ve kar realization</li>
+        <li><strong>Kripto-kripto takas:</strong> Değer kazanımı söz konussa</li>
+        <li><strong>Mining geliri:</strong> Ticari faaliyet kapsamında değerlendirilebilir</li>
+        <li><strong>Staking ve airdrop gelirleri:</strong> Gelir vergisi kapsamına girebilir</li>
+      </ul>
+
+      <h2>Vergi Hesaplama Yöntemi</h2>
+      <p>Kripto satışında vergi, <strong>satış fiyatı - alış maliyeti = kazanç</strong> formülüyle hesaplanır. Borsa işlem kayıtları ve banka hesap özetleri belge olarak saklanmalıdır.</p>
+
+      <h2>Kripto Vergi İpuçları</h2>
+      <ol>
+        <li>Tüm alım-satım işlemlerinizi kayıt altına alın</li>
+        <li>Borsa API'lerinden işlem geçmişinizi düzenli indirin</li>
+        <li>Muhasebeci veya vergi danışmanından destek alın</li>
+        <li>Her yıl yıllık gelir beyannamesi verme yükümlülüğünüzü kontrol edin</li>
+      </ol>
+
+      <h2>Sonuç</h2>
+      <p><strong>Kripto vergi uyumu</strong>, uzun vadeli yatırımcılar için hayati öneme sahiptir. Canlı Veriler'de <strong>anlık kripto fiyatlarını</strong> takip ederek portföy yönetiminizi kolaylaştırın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 70. BORSA — Portföy Yönetimi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 70,
+    slug: 'portföy-yönetimi-nasıl-yapılır-2026-rehberi',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Portföy Yönetimi Nasıl Yapılır? 2026 Yatırımcı Rehberi ve Çeşitlendirme Stratejileri',
+    metaDescription: 'Portföy yönetimi nedir, nasıl yapılır? Varlık çeşitlendirmesi, risk-getiri dengesi ve 2026 için optimal portföy stratejileri rehberi.',
+    keywords: ['portföy yönetimi', 'çeşitlendirme', 'portföy oluşturma', 'yatırım portföyü', 'risk yönetimi', 'varlık dağılımı', 'portföy 2026', 'yatırım stratejisi'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-04-01',
+    readTime: 11,
+    thumbnail: '📂',
+    excerpt: 'Başarılı yatırımın temeli iyi portföy yönetimidir. 2026\'da optimal portföy nasıl kurulur, varlıklar nasıl dengelenir?',
+    content: `
+      <h2>Portföy Yönetimi Nedir?</h2>
+      <p><strong>Portföy yönetimi</strong>, birden fazla yatırım aracının risk ve getiri hedeflerine uygun biçimde bir arada tutulması ve yönetilmesi sürecidir. İyi bir portföy, hem riski dağıtır hem de potansiyel getiriyi optimize eder.</p>
+
+      <h2>Varlık Çeşitlendirmesi Neden Önemli?</h2>
+      <p>"Tüm yumurtaları aynı sepete koyma" prensibi, yatırım dünyasındaki en temel kuraldır. Farklı varlık sınıflarına dağıtılan yatırım, tek bir varlığın büyük düşüşünde portföyün tamamını korur.</p>
+
+      <h2>2026 Önerilen Portföy Dağılımı</h2>
+      <ul>
+        <li><strong>Hisse senedi (%30-40):</strong> Büyüme potansiyeli yüksek</li>
+        <li><strong>Sabit getirili araçlar (%20-30):</strong> Tahvil, bono, mevduat</li>
+        <li><strong>Altın (%10-15):</strong> Enflasyon ve kriz koruması</li>
+        <li><strong>Döviz (%10-15):</strong> Dolar/Euro kur koruması</li>
+        <li><strong>Kripto (%5-10):</strong> Yüksek riskli büyüme potansiyeli</li>
+        <li><strong>Nakit (%5-10):</strong> Likidite ve fırsat rezervi</li>
+      </ul>
+
+      <h2>Portföy Yeniden Dengeleme</h2>
+      <p>Zaman içinde varlık ağırlıkları hedeften sapabilir. Yılda en az bir kez portföyünüzü gözden geçirerek <strong>yeniden dengeleme (rebalancing)</strong> yapın.</p>
+
+      <h2>Sonuç</h2>
+      <p>İyi bir <strong>portföy yönetimi</strong>, piyasa dalgalanmalarında sizi ayakta tutar. Canlı Veriler'de tüm varlık sınıflarını anlık takip ederek portföyünüzü optimize edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 71. KRİPTO — Cardano (ADA)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 71,
+    slug: 'cardano-ada-nedir-2026-yatirim-analizi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Cardano (ADA) Nedir? 2026 Yatırım Analizi ve Ekosistemi',
+    metaDescription: 'Cardano nedir, ADA coin nasıl çalışır? 2026\'da Cardano ekosistemi, staking imkânları ve ADA fiyat analizi rehberi.',
+    keywords: ['cardano nedir', 'ada coin', 'cardano yatırımı', 'ada 2026', 'cardano staking', 'cardano ekosistemi', 'ada fiyat', 'proof of stake cardano'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-31',
+    readTime: 9,
+    thumbnail: '🔵',
+    excerpt: 'Cardano, akademik araştırma temelli blokzincir yaklaşımıyla öne çıkan bir platformdur. 2026\'da ADA nerede?',
+    content: `
+      <h2>Cardano (ADA) Nedir?</h2>
+      <p><strong>Cardano</strong>, 2017 yılında Ethereum'un kurucu ortaklarından Charles Hoskinson tarafından geliştirilen, akademik araştırma temelli bir blokzincir platformudur. Cardano'nun Ouroboros <strong>Proof of Stake</strong> mekanizması, enerji verimliliği açısından sektörde öncü kabul edilir.</p>
+
+      <h2>Cardano'nun Temel Özellikleri</h2>
+      <ul>
+        <li><strong>Katmanlı mimari:</strong> Uzlaşı ve hesap katmanları ayrı çalışır</li>
+        <li><strong>Peer-review yaklaşımı:</strong> Akademik makaleler yayımlanan tek blokzincir</li>
+        <li><strong>Plutus akıllı kontratları:</strong> Güvenli ve fonksiyonel sözleşmeler</li>
+        <li><strong>Gelişmekte olan ülke odağı:</strong> Afrika pazarında kimlik ve finans çözümleri</li>
+      </ul>
+
+      <h2>ADA Staking</h2>
+      <p>Cardano'da <strong>ADA staking</strong> yapmak için kilitleme gerekmez. Delegasyon yoluyla stake havuzlarına katılarak yıllık yaklaşık %4-5 getiri elde edebilirsiniz.</p>
+
+      <h2>2026 Cardano Görünümü</h2>
+      <p>Hydra ve Mithril protokollerinin olgunlaşmasıyla Cardano'nun ölçeklenebilirliği artmaktadır. Gelişmekte olan pazarlardaki kullanım alanları arttıkça ADA talebi de büyümektedir.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Cardano</strong>, uzun vadeli teknoloji yatırımcıları için dikkat çekici bir platformdur. Canlı Veriler'de <strong>anlık kripto fiyatlarını</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 72. KRİPTO — Polkadot (DOT)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 72,
+    slug: 'polkadot-dot-coin-nedir-2026-analizi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Polkadot (DOT) Nedir? Parachain Ekosistemi ve 2026 Analizi',
+    metaDescription: 'Polkadot nedir, DOT coin nasıl çalışır? Parachain nedir, Polkadot ekosistemi ve 2026 DOT coin yatırım analizi rehberi.',
+    keywords: ['polkadot nedir', 'dot coin', 'parachain nedir', 'polkadot ekosistemi', 'dot yatırımı', 'dot 2026', 'cross-chain', 'polkadot staking'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-30',
+    readTime: 9,
+    thumbnail: '⚫',
+    excerpt: 'Polkadot, farklı blokzincirler arasında köprü kuran yenilikçi bir protokoldür. 2026\'da DOT nerede duruyor?',
+    content: `
+      <h2>Polkadot Nedir?</h2>
+      <p><strong>Polkadot</strong>, Ethereum'un kurucu geliştiricilerinden Gavin Wood tarafından tasarlanan, farklı blokzincirler arasında veri ve değer aktarımını mümkün kılan bir multi-chain protokolüdür. Polkadot'un vizyonu, <strong>blokzincirler arası birlikte çalışabilirlik (interoperability)</strong> sağlamaktır.</p>
+
+      <h2>Parachain Nedir?</h2>
+      <p><strong>Parachainler</strong>, Polkadot'un ana zincirine (Relay Chain) bağlanan bağımsız blokzincirlerdir. Her parachain kendi özel kullanım alanı için optimize edilebilir. Slot müzayedeleri aracılığıyla parachainler DOT kilitler.</p>
+
+      <h2>DOT Token'ının İşlevleri</h2>
+      <ul>
+        <li><strong>Yönetişim:</strong> Ağ kararlarında oy hakkı</li>
+        <li><strong>Staking:</strong> Ağ güvenliğine katkı ve ödül</li>
+        <li><strong>Bonding:</strong> Parachain slotlarına bağlanma</li>
+      </ul>
+
+      <h2>2026 Polkadot Görünümü</h2>
+      <p>Polkadot 2.0 güncellemeleriyle ağın çekiciliği artmaktadır. Agile Coretime sistemi, parachain kullanımını daha esnek ve uygun maliyetli hale getirmektedir.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Polkadot</strong>, çok zincirli geleceğin altyapısını inşa etme iddiasıyla önemli bir yerde durmaktadır. Canlı Veriler'de kripto piyasasını anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 73. BORSA — Temel Analiz Rehberi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 73,
+    slug: 'temel-analiz-nedir-fk-pddd-oranları-rehberi',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Temel Analiz Nedir? F/K, PD/DD Oranları ve Hisse Değerleme Rehberi',
+    metaDescription: 'Temel analiz nedir, nasıl yapılır? F/K oranı, PD/DD, özsermaye kârlılığı ve temettü verimi hesaplama ile hisse senedi değerleme rehberi.',
+    keywords: ['temel analiz nedir', 'fk oranı', 'pd dd oranı', 'hisse değerleme', 'bilanço analizi', 'finansal analiz', 'hisse senedi analiz', 'özsermaye karlılığı', 'değer yatırımı'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-29',
+    readTime: 12,
+    thumbnail: '🔍',
+    excerpt: 'Temel analiz, şirketin gerçek değerini bulmak için finansal tablolar ve oranların incelenmesidir. F/K ve PD/DD rehberi.',
+    content: `
+      <h2>Temel Analiz Nedir?</h2>
+      <p><strong>Temel analiz</strong>, bir şirketin içsel değerini belirlemek için finansal tablolar, sektör verileri ve makroekonomik göstergelerin incelenmesidir. Amaç, hisse senedinin gerçek değerini bulmak ve piyasa fiyatıyla kıyaslamaktır.</p>
+
+      <h2>Temel Analiz Oranları</h2>
+
+      <h3>F/K Oranı (Fiyat/Kazanç)</h3>
+      <p>Hisse fiyatının hisse başına kâra bölünmesiyle hesaplanır. Düşük F/K genellikle ucuz veya büyüme potansiyeli düşük, yüksek F/K ise pahalı veya büyüme beklentisi olan şirkete işaret edebilir.</p>
+
+      <h3>PD/DD Oranı (Piyasa Değeri/Defter Değeri)</h3>
+      <p>Şirketin piyasa değerinin özsermayesine oranıdır. 1'in altındaki PD/DD, hissenin defter değerinin altında işlem gördüğünü gösterir ve değer yatırımcıları için çekici olabilir.</p>
+
+      <h3>Özsermaye Kârlılığı (ROE)</h3>
+      <p>Net kârın özsermayeye bölünmesidir. Yüksek ve sürdürülebilir ROE, etkin yönetim ve güçlü iş modeline işaret eder.</p>
+
+      <h3>Borç/Özsermaye Oranı</h3>
+      <p>Şirketin ne kadar kaldıraç kullandığını gösterir. Yüksek oran, finansal risk anlamına gelir.</p>
+
+      <h2>Değer Yatırımı Felsefesi</h2>
+      <p>Warren Buffett'ın benimsediği <strong>değer yatırımı</strong> yaklaşımı, piyasanın geçici olarak gözden kaçırdığı kaliteli şirketleri adil fiyatın altında almaya dayanır.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Temel analiz</strong>, uzun vadeli başarılı yatırımın temel taşıdır. Canlı Veriler'de BIST verilerini anlık takip ederek analizinizi güçlendirin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 74. HAVA — Kapadokya ve Doğa Rehberi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 74,
+    slug: 'kapadokya-hava-durumu-balon-turu-rehberi',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'Kapadokya Hava Durumu ve Balon Turu Rehberi: En İyi Mevsim Ne Zaman?',
+    metaDescription: 'Kapadokya hava durumu ve sıcaklıklar. Balon turu için en iyi mevsim hangisi? Nevsehir iklimi, Kapadokya seyahat önerileri.',
+    keywords: ['kapadokya hava durumu', 'kapadokya balon turu', 'kapadokya ne zaman', 'nevsehir hava', 'kapadokya iklimi', 'kapadokya seyahat', 'balon turu hava durumu'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-28',
+    readTime: 8,
+    thumbnail: '🎈',
+    excerpt: 'Kapadokya\'nın büyülü manzarası ve sıcak hava balonları için en iyi mevsim ve hava durumu rehberi.',
+    content: `
+      <h2>Kapadokya İklimi</h2>
+      <p><strong>Kapadokya</strong>, İç Anadolu'nun karasal ikliminde yer alır. Yazlar sıcak ve kuru, kışlar soğuk ve karlıdır. Bu iklim, dünya çapında ün kazanmış <strong>peri bacası</strong> oluşumlarında rol oynayan erozyon süreçlerini beslemektedir.</p>
+
+      <h2>Aylara Göre Kapadokya Hava Durumu</h2>
+      <ul>
+        <li><strong>Ocak-Şubat:</strong> -5 / 8°C — karlı, romantik kış manzarası</li>
+        <li><strong>Nisan-Mayıs:</strong> 10 / 22°C — ideal seyahat dönemi</li>
+        <li><strong>Haziran-Ağustos:</strong> 18 / 33°C — sıcak, kalabalık turizm sezonu</li>
+        <li><strong>Eylül-Ekim:</strong> 12 / 24°C — harika renkler, az kalabalık</li>
+        <li><strong>Kasım-Aralık:</strong> 2 / 12°C — sakin ve uygun fiyatlı</li>
+      </ul>
+
+      <h2>Balon Turu İçin En İyi Mevsim</h2>
+      <p><strong>Sıcak hava balonu</strong> turları için en uygun dönem <strong>Nisan-Mayıs ve Eylül-Ekim</strong> aylarıdır. Bu dönemlerde rüzgar hızı genellikle düşük, görüş mesafesi yüksek ve hava istikrarlıdır. Kış aylarında balon turları hava koşullarına bağlı olarak iptal edilebilir.</p>
+
+      <h2>Seyahat Önerileri</h2>
+      <ul>
+        <li>Sabah erkenden kalkın: Balonlar gün doğumunda uçar</li>
+        <li>Katman katman giyinin: Sabah soğuk, gün ısınır</li>
+        <li>Konaklamayı önceden rezerve edin: Özellikle bahar ve sonbaharda dolu olur</li>
+        <li>Alternatif aktivite planı yapın: Balon iptali durumunda trekking veya ATV turu</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Kapadokya ziyaretinizi planlarken Canlı Veriler'de <strong>Nevşehir anlık hava durumunu</strong> takip edin ve sürprizlere hazırlıklı olun.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 75. EKONOMİ — Türkiye Ekonomi Büyüme
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 75,
+    slug: 'turkiye-ekonomi-buyume-2026-gdp-analizi',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Türkiye Ekonomisi 2026: Büyüme, Enflasyon ve GSYİH Analizi',
+    metaDescription: 'Türkiye ekonomisinin 2026 büyüme analizi. GSYİH büyüme oranı, enflasyon, işsizlik ve Türkiye\'nin küresel ekonomideki yeri.',
+    keywords: ['türkiye ekonomisi 2026', 'gsyih büyüme', 'türkiye büyüme hızı', 'türkiye gdp', 'türkiye enflasyon 2026', 'türkiye ekonomi analizi', 'türkiye işsizlik'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-27',
+    readTime: 11,
+    thumbnail: '🇹🇷',
+    excerpt: 'Türkiye ekonomisi 2026\'da nasıl bir seyir izliyor? Büyüme, enflasyon, işsizlik ve GSYİH analiziyle kapsamlı değerlendirme.',
+    content: `
+      <h2>Türkiye Ekonomisi 2026: Genel Görünüm</h2>
+      <p><strong>Türkiye ekonomisi</strong>, güçlü iç talep, turizm gelirleri ve ihracat dinamikleriyle 2026'ya orta vadeli büyüme hikayesini sürdürmektedir. IMF ve Dünya Bankası tahminlerine göre Türkiye, büyüme hızı açısından G20 ekonomileri arasında üst sıralarda yer almaktadır.</p>
+
+      <h2>GSYİH Büyüme Analizi</h2>
+      <p>Türkiye'nin <strong>GSYİH büyümesi</strong>, 2023'teki deprem felaketinin ardından güçlü bir toparlanma sergilemiştir. 2026'da büyüme ivmesi, iç talepteki normalleşme ve yatırım ortamındaki iyileşmeyle şekillenmektedir.</p>
+
+      <h2>Enflasyon ve Dezenflasyon Süreci</h2>
+      <p>TCMB'nin sıkı para politikası, 2026 enflasyonunu önemli ölçüde gerileten en kritik faktördür. Enflasyon beklentilerinin çıpalanması, iş dünyasının yatırım kararları üzerinde olumlu etkiler yaratmaktadır.</p>
+
+      <h2>İhracat ve Turizm</h2>
+      <ul>
+        <li><strong>İhracat:</strong> Otomotiv, hazırgiyim ve savunma sanayii öne çıkıyor</li>
+        <li><strong>Turizm:</strong> 50 milyonu aşan turist hedefi ve döviz girdisi</li>
+        <li><strong>Yabancı yatırım:</strong> Artan ODI rakamları ekonomiye güven işareti</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Türkiye ekonomisi, 2026'da yapısal reformların meyvelerini vermeye başladığı kritik bir dönüşüm sürecindedir. Canlı Veriler'de <strong>döviz ve borsa verilerini</strong> anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 76. KRİPTO — Dogecoin ve Meme Coinler
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 76,
+    slug: 'dogecoin-meme-coin-nedir-risk-rehberi-2026',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Dogecoin ve Meme Coinler: Risk Rehberi ve 2026 Durum Analizi',
+    metaDescription: 'Dogecoin nedir, meme coin yatırımı mantıklı mı? DOGE, SHIB ve diğer meme coinlerin riskleri ve 2026 fiyat görünümü.',
+    keywords: ['dogecoin nedir', 'doge coin', 'meme coin', 'dogecoin 2026', 'shiba inu', 'meme coin riski', 'doge yatırımı', 'meme coin satın alma', 'pepe coin'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-26',
+    readTime: 9,
+    thumbnail: '🐕',
+    excerpt: 'Dogecoin ve meme coinler: Gerçek yatırım mı, kumarhane mi? 2026\'da meme coin piyasasının durumu ve kaçınılması gereken tuzaklar.',
+    content: `
+      <h2>Meme Coin Nedir?</h2>
+      <p><strong>Meme coinler</strong>, internet kültüründen veya sosyal medya trendlerinden ilham alan, genellikle spekülatif amaçlı kripto para birimleridir. Dogecoin (DOGE), Shiba Inu (SHIB) ve PEPE bu kategorinin en tanınan örnekleridir.</p>
+
+      <h2>Dogecoin'in Hikayesi</h2>
+      <p><strong>Dogecoin (DOGE)</strong>, 2013 yılında bir şaka olarak başlatılmış ancak Elon Musk'ın sosyal medya paylaşımlarıyla ana akım yatırım kitlelerine ulaşmıştır. DOGE'un teknik olarak sınırsız arzı, Bitcoin'den farklı enflasyonist bir yapıya sahiptir.</p>
+
+      <h2>Meme Coin Riskleri</h2>
+      <ul>
+        <li><strong>Sonsuz volatilite:</strong> Günde %50-80 değişim mümkün</li>
+        <li><strong>Rug pull riski:</strong> Geliştiricilerin fonları alıp kaybolması</li>
+        <li><strong>Temel eksikliği:</strong> Çoğunun gerçek kullanım senaryosu yok</li>
+        <li><strong>Manipülasyon:</strong> "Pump and dump" şemaları yaygın</li>
+        <li><strong>FOMO:</strong> Korku ve açgözlülük kararları bozabilir</li>
+      </ul>
+
+      <h2>2026'da Meme Coin Piyasası</h2>
+      <p>Meme coinler 2026'da da piyasanın en volatil segmenti olmaya devam etmektedir. Boğa piyasalarında olağanüstü getiri sunarken ayı dönemlerinde %90 üzeri kayıplar görülebilir.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Meme coin yatırımı</strong>, kaybı göze alınan küçük miktarlarla yapılabilir. Portföyünüzün ana parçasını asla meme coinlere ayırmayın. Canlı Veriler'de <strong>anlık fiyatları</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 77. BORSA — Bant Genişlemesi ve Devre Kesici
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 77,
+    slug: 'bist-devre-kesici-bant-nedir-fiyat-sınırları',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'BIST\'te Bant Nedir? Devre Kesici ve Fiyat Sınırı Mekanizmaları',
+    metaDescription: 'Borsa İstanbul\'da bant nedir? Alt bant / üst bant, devre kesici ve fiyat sınırı uygulamaları hakkında kapsamlı rehber.',
+    keywords: ['bant nedir borsa', 'bist bant', 'devre kesici', 'fiyat sınırı', 'borsa bant genişlemesi', 'bist kuralları', 'borsa işlem kuralları', 'hisse sınırı'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-25',
+    readTime: 8,
+    thumbnail: '⛔',
+    excerpt: 'Borsa İstanbul\'da bant ve devre kesici nedir? Hisselerin günlük hareket limitleri nasıl belirlenir?',
+    content: `
+      <h2>BIST'te Bant Uygulaması Nedir?</h2>
+      <p>Borsa İstanbul'da her hisse senedi için bir <strong>günlük hareket limiti (bant)</strong> belirlenmiştir. Bu limit, hisse fiyatının gün içinde ne kadar artıp azalabileceğini kısıtlayan bir koruma mekanizmasıdır.</p>
+
+      <h2>Alt Bant ve Üst Bant</h2>
+      <ul>
+        <li><strong>Üst bant:</strong> Hissenin bir günde çıkabileceği maksimum fiyat</li>
+        <li><strong>Alt bant:</strong> Hissenin bir günde inebileceği minimum fiyat</li>
+        <li>Bu sınırlar, genellikle önceki kapanış fiyatı üzerinden hesaplanır</li>
+      </ul>
+
+      <h2>Bant Genişlemesi</h2>
+      <p>Önemli haberlerin açıklandığı durumlarda Borsa İstanbul, <strong>bant genişletme</strong> kararı alabilir. Bu sayede bilginin fiyata tam olarak yansıması sağlanır.</p>
+
+      <h2>Devre Kesici (Circuit Breaker)</h2>
+      <p><strong>Devre kesici</strong>, endeksin veya hisse senedinin belirli bir yüzde değişime ulaşması durumunda işlemlerin geçici olarak durdurulmasına yönelik otomatik sistemdir. Bu mekanizma, panik satışlarını engellemek ve piyasayı sakinleştirmek amacıyla uygulanır.</p>
+
+      <h2>Yatırımcı İçin Önemi</h2>
+      <p>Bant ve devre kesici mekanizmaları, küçük yatırımcıları manipülasyon ve ani çöküşlerden koruma amacı taşır. Yoğun alım-satım dönemlerinde bu kurallara dikkat etmek kritiktir.</p>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>anlık BIST verilerini</strong> takip ederek bant hareketlerini yakından izleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 78. HAVA — Erzurum ve Doğu Anadolu Kışı
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 78,
+    slug: 'erzurum-hava-durumu-kis-kayak-rehberi',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'Erzurum Hava Durumu ve Kış Rehberi: Palandöken Kayak Sezonu',
+    metaDescription: 'Erzurum hava durumu ve kış iklim rehberi. Palandöken kayak sezonu, Erzurum soğukları ve kış tatili için seyahat önerileri.',
+    keywords: ['erzurum hava durumu', 'erzurum kış', 'palandöken kayak', 'erzurum kar', 'doğu anadolu kış', 'erzurum sıcaklık', 'palandöken sezonu'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-24',
+    readTime: 8,
+    thumbnail: '❄️',
+    excerpt: 'Erzurum, Türkiye\'nin en soğuk ve en karlı şehridir. Palandöken kayak sezonu ve kış tatili için bilmeniz gerekenler.',
+    content: `
+      <h2>Erzurum İklimi: Türkiye'nin En Soğuk Şehri</h2>
+      <p><strong>Erzurum</strong>, Türkiye'nin en yüksek rakımlı büyük şehirlerinden biridir. 1869 metre rakımıyla Doğu Anadolu'nun merkezinde konumlanan Erzurum, kışın şiddetli soğuklar yaşar. Ocak ayı ortalama sıcaklığı -15°C civarındadır ve -35°C'ye kadar düşen değerler kaydedilmiştir.</p>
+
+      <h2>Aylık Sıcaklıklar</h2>
+      <ul>
+        <li><strong>Ocak:</strong> Min -15°C / Maks -4°C</li>
+        <li><strong>Nisan:</strong> Min 2°C / Maks 13°C</li>
+        <li><strong>Temmuz:</strong> Min 12°C / Maks 26°C</li>
+        <li><strong>Ekim:</strong> Min 3°C / Maks 15°C</li>
+      </ul>
+
+      <h2>Palandöken Kayak Sezonu</h2>
+      <p><strong>Palandöken</strong>, Türkiye'nin en iyi kayak merkezlerinden biridir. Aralık-Mart arası pist kayağı için ideal koşullar sunar:</p>
+      <ul>
+        <li>Ortalama kar yüksekliği: 1-2 metre</li>
+        <li>Pist uzunluğu: 27 km</li>
+        <li>Zirve yüksekliği: 3176 metre</li>
+        <li>Kar kalitesi: Kuru ve toz kar</li>
+      </ul>
+
+      <h2>Kış Tatili Önerileri</h2>
+      <p>Erzurum kış tatilinde yanınızda mutlaka şunlar olsun: kalın mont, termal iç çamaşır, su geçirmez bot, bere ve eldiven. Araçla gidiyorsanız kış lastiği zorunludur.</p>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>Erzurum anlık hava durumunu</strong> kontrol ederek kış tatili hazırlığı yapın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 79. EKONOMİ — Petrol Fiyatları
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 79,
+    slug: 'petrol-fiyatlari-2026-brent-ham-petrol-analizi',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Petrol Fiyatları 2026: Brent Ham Petrol Analizi ve Enerji Piyasası',
+    metaDescription: 'Petrol fiyatları 2026\'da nerede? Brent ham petrol analizi, OPEC kararları, enerji geçişinin petrol talebine etkisi ve yatırımcılar için değerlendirme.',
+    keywords: ['petrol fiyatları', 'brent petrol', 'ham petrol fiyatı', 'opec kararı', 'petrol 2026', 'enerji piyasası', 'petrol analiz', 'wti petrol'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-23',
+    readTime: 10,
+    thumbnail: '🛢️',
+    excerpt: 'Petrol fiyatları 2026\'da nasıl seyrediyor? OPEC+ kararları, arz-talep dengesi ve enerji geçişinin ham petrol üzerindeki etkileri.',
+    content: `
+      <h2>Petrol Piyasası 2026</h2>
+      <p><strong>Brent ham petrol</strong>, küresel enerji piyasasının referans fiyat göstergesidir. 2026'da petrol fiyatları, OPEC+ üretim politikaları, jeopolitik riskler ve yenilenebilir enerji geçişinin talep dinamikleri tarafından şekillenmektedir.</p>
+
+      <h2>Petrol Fiyatlarını Etkileyen Faktörler</h2>
+      <ul>
+        <li><strong>OPEC+ kararları:</strong> Üretim kesintileri veya artışları arz dengesini etkiler</li>
+        <li><strong>Küresel talep:</strong> Çin ekonomisinin büyüme hızı belirleyici</li>
+        <li><strong>ABD shale üretimi:</strong> Yüksek fiyatlarda üretim artar</li>
+        <li><strong>Jeopolitik riskler:</strong> Orta Doğu gerilimi stok primini artırır</li>
+        <li><strong>Dolar endeksi:</strong> Güçlü dolar genellikle petrolü baskılar</li>
+      </ul>
+
+      <h2>Enerji Geçişinin Etkisi</h2>
+      <p>Elektrikli araçların yaygınlaşması ve yenilenebilir enerji kapasitesinin artmasıyla petrol talebine ilişkin uzun vadeli görünüm tartışmalı olmaya devam etmektedir. Ancak petrole geçiş 2026'da henüz net bir talep düşüşüne yol açmamaktadır.</p>
+
+      <h2>Türkiye'ye Etkisi</h2>
+      <p>Türkiye, petrolünün tamamına yakınını ithal eden bir ülkedir. Petrol fiyatlarındaki artış, hem enerji faturasını hem de enflasyonu olumsuz etkiler.</p>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>döviz ve emtia verilerini</strong> anlık takip ederek enerji piyasası dinamiklerini izleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 80. FUTBOL — Avrupa Ligi 2026
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 80,
+    slug: 'avrupa-ligi-konferans-ligi-2025-2026-turk-takimlar',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Avrupa Ligi ve Konferans Ligi 2025-2026: Türk Takımlarının Durumu',
+    metaDescription: 'UEFA Avrupa Ligi ve Konferans Ligi 2025-2026 sezonunda Türk takımlarının performansı, grup aşaması ve eleme turları.',
+    keywords: ['avrupa ligi 2026', 'konferans ligi', 'türk takımlar avrupa', 'uefa 2026', 'avrupa ligi türkiye', 'konferans ligi grup', 'türk futbolu avrupa 2026'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-22',
+    readTime: 9,
+    thumbnail: '🏅',
+    excerpt: 'Türk takımları 2025-2026 Avrupa kupalarında nerede? Avrupa Ligi ve Konferans Ligi\'ndeki performanslar.',
+    content: `
+      <h2>Türk Takımları 2025-2026 Avrupa Sezonunda</h2>
+      <p>2025-2026 sezonunda Türkiye'yi temsil eden kulüpler, <strong>UEFA Avrupa Ligi</strong> ve <strong>Konferans Ligi</strong>'nde gurur verici performanslar sergilemiştir. Türk futbolunun UEFA ülke sıralamasındaki yükselişi, daha fazla Avrupa kupası kotası anlamına gelmektedir.</p>
+
+      <h2>Avrupa Ligi Format Değişiklikleri</h2>
+      <p>UEFA'nın 2024-25 sezonuyla başlattığı yeni lig formatı, Avrupa Ligi'ni de kapsamaktadır. Eski grup aşaması yerine gelen<strong>lig aşaması sistemi</strong>, her takımın farklı rakiplerle 8 maç oynamasını gerektirmektedir.</p>
+
+      <h2>Türk Takımlarının Güçlü Yönleri</h2>
+      <ul>
+        <li><strong>Ev sahibi avantajı:</strong> Kalabalık ve coşkulu taraftar desteği</li>
+        <li><strong>Deneyimli yabancı oyuncular:</strong> Hem Avrupa bilgisi hem yerel uyum</li>
+        <li><strong>Reşit olmayan yetenekler:</strong> Milli takım potansiyeli</li>
+      </ul>
+
+      <h2>UEFA Ülke Sıralaması</h2>
+      <p>Türkiye'nin UEFA ülke puanındaki artış, 2026-27 sezonundan itibaren daha fazla Şampiyonlar Ligi garantili katılım kotası anlamına gelebilir.</p>
+
+      <h2>Sonuç</h2>
+      <p>Türk futbolu, Avrupa sahnesinde giderek daha güçlü bir kimlik oluşturmaktadır. Canlı Veriler'de <strong>Süper Lig puan durumunu</strong> anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 81. KRİPTO — Web3 ve Metaverse
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 81,
+    slug: 'web3-metaverse-nedir-2026-geleceği',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Web3 ve Metaverse Nedir? 2026\'da Dijital Dünyanın Geleceği',
+    metaDescription: 'Web3 nedir, Metaverse nedir? 2026\'da Web3 ekosistemi, Metaverse projeleri ve bu teknolojilere nasıl yatırım yapılır?',
+    keywords: ['web3 nedir', 'metaverse nedir', 'web3 yatırımı', 'metaverse 2026', 'dijital dünya', 'web3 ekosistemi', 'sanal gerçeklik yatırımı', 'decentraland', 'sandbox'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-21',
+    readTime: 10,
+    thumbnail: '🌐',
+    excerpt: 'Web3 ve Metaverse, internetin gelecek sürümünü şekillendiriyor. 2026\'da bu teknolojilerin durumu ve yatırım fırsatları.',
+    content: `
+      <h2>Web3 Nedir?</h2>
+      <p><strong>Web3</strong>, internet evriminin üçüncü aşamasıdır. Web1 statik sayfaları, Web2 sosyal medya ve kullanıcı içeriği platformlarını temsil ederken <strong>Web3</strong>, blokzincir tabanlı, merkezi olmayan ve kullanıcıların varlıklarını gerçekten sahip olduğu internet vizyonunu ifade eder.</p>
+
+      <h2>Metaverse Nedir?</h2>
+      <p><strong>Metaverse</strong>, kullanıcıların avatar olarak var olduğu, sanal gerçeklik ve artırılmış gerçekliği birleştiren kalıcı dijital evrenlerdir. Decentraland, The Sandbox ve Meta'nın Horizon Worlds örnekleri bu alanda öne çıkmaktadır.</p>
+
+      <h2>Web3 ve Metaverse'ün Kesişimi</h2>
+      <ul>
+        <li><strong>Dijital mülkiyet:</strong> NFT'ler sayesinde sanal arazi ve eşyalar gerçekten size ait</li>
+        <li><strong>Play-to-earn:</strong> Oyun oynayarak kripto para kazanma</li>
+        <li><strong>Sanal ekonomi:</strong> Metaverse içinde mal ve hizmet ticareti</li>
+        <li><strong>Kripto ödeme:</strong> Sanal dünya işlemlerinde kripto kullanımı</li>
+      </ul>
+
+      <h2>2026 Gerçekçi Değerlendirme</h2>
+      <p>Metaverse 2021-2022 beklentilerine kıyasla daha yavaş büyümektedir. Ancak Apple Vision Pro gibi donanımsal gelişmeler, Web3 içerik tüketimini yeniden canlandırabilir.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Web3 ve Metaverse</strong>, potansiyeli olan ancak sabır isteyen uzun vadeli bir yatırım alanıdır. Canlı Veriler'de kripto piyasasını anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 82. EKONOMİ — Altın Hesabı
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 82,
+    slug: 'altin-hesabi-nasil-acilir-bириктirme-rehberi',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Altın Hesabı Nasıl Açılır? Birikim ve Yatırım Rehberi 2026',
+    metaDescription: 'Altın hesabı nedir, nasıl açılır? Gram altın birikim hesabı avantajları, bankalar ve dijital altın yatırımı rehberi 2026.',
+    keywords: ['altın hesabı', 'gram altın birikim', 'altın hesabı nasıl açılır', 'dijital altın', 'altın yatırımı banka', 'güvenli altın yatırımı', 'bankada altın'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-20',
+    readTime: 9,
+    thumbnail: '💛',
+    excerpt: 'Bankada altın hesabı açarak fiziki altın taşımadan gram altın biriktirebilirsiniz. 2026 altın hesabı rehberi.',
+    content: `
+      <h2>Altın Hesabı Nedir?</h2>
+      <p><strong>Altın hesabı</strong>, bankaların sunduğu ve fiziki altın tutmaksızın gram altın cinsinden birikim yapmanıza olanak tanıyan bir yatırım hesabıdır. Hesabınıza yatırdığınız tutarla anlık altın fiyatından gram altın satın alınır ve hesabınızda dijital olarak saklanır.</p>
+
+      <h2>Altın Hesabının Avantajları</h2>
+      <ul>
+        <li><strong>Güvenlik:</strong> Fiziki altın taşıma ve saklama riski yok</li>
+        <li><strong>Küçük miktarla başlama:</strong> 0,01 gram ile birikim mümkün</li>
+        <li><strong>Anlık alım-satım:</strong> İnternet bankacılığıyla 7/24 işlem</li>
+        <li><strong>BDDK güvencesi:</strong> Bankalardaki altın hesapları mevduat güvencesine tabidir</li>
+        <li><strong>Fizikileştirme:</strong> İstediğinizde fiziki altına çevirme imkânı</li>
+      </ul>
+
+      <h2>Altın Hesabı Nasıl Açılır?</h2>
+      <ol>
+        <li>İnternet bankacılığı veya banka şubesine gidin</li>
+        <li>"Altın Hesabı" veya "Birikimli Altın Hesabı" açın</li>
+        <li>TL veya küsurat altın yatırarak başlayın</li>
+        <li>Düzenli otomatik ödeme talimatı verin</li>
+      </ol>
+
+      <h2>Dikkat Edilmesi Gerekenler</h2>
+      <ul>
+        <li>Alış-satış fiyatı arasındaki makas (spread) karlılığı etkiler</li>
+        <li>Fizikileştirme sırasında işçilik bedeli uygulanabilir</li>
+        <li>Hesap bakiyesi TMSF güvencesiyle koruma altındadır</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Altın hesabı</strong>, düzenli ve güvenli birikim arayanlar için ideal bir seçenektir. Canlı Veriler'de <strong>anlık gram altın fiyatını</strong> takip ederek alım kararlarınızı optimize edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 83. BORSA — Halka Arz (IPO)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 83,
+    slug: 'halka-arz-ipo-nedir-nasil-katilim-saglanir-2026',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Halka Arz (IPO) Nedir? 2026\'da Halka Arza Nasıl Katılınır?',
+    metaDescription: 'Halka arz (IPO) nedir, nasıl katılınır? BIST\'te 2026 halka arzları, başvuru süreci, değerleme ve yatırımcı rehberi.',
+    keywords: ['halka arz nedir', 'ipo nedir', 'halka arz başvuru', 'ilk halka arz', 'bist halka arz 2026', 'halka arz nasıl katılınır', 'ipo yatırımı', 'halka arz stratejisi'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-19',
+    readTime: 10,
+    thumbnail: '🚀',
+    excerpt: 'Halka arz treni nasıl binilir? IPO sürecini, başvuru yöntemini ve 2026\'nin öne çıkan halka arzlarını öğrenin.',
+    content: `
+      <h2>Halka Arz (IPO) Nedir?</h2>
+      <p><strong>Halka arz</strong>, bir şirketin hisselerini ilk kez borsada satışa çıkararak kamuya açık hale gelmesidir. İngilizce'de <strong>IPO (Initial Public Offering)</strong> olarak bilinir. Şirketler büyüme finansmanı, kuruluş ortaklarının çıkışı veya marka bilinirliği için halka arz yolunu tercih eder.</p>
+
+      <h2>Halka Arza Nasıl Katılınır?</h2>
+      <ol>
+        <li>SPK lisanslı bir aracı kurumda yatırım hesabı açın</li>
+        <li>Halka arz başvuru döneminde (talep toplama süresi) başvurun</li>
+        <li>Belirtilen fiyat aralığında kaç lot almak istediğinizi bildirin</li>
+        <li>Dağıtım katsayısına göre hisse tahsis edilir</li>
+        <li>Halka arz gününde hisseler hesabınıza aktarılır</li>
+      </ol>
+
+      <h2>Halka Arzda Başarı Kriterleri</h2>
+      <ul>
+        <li><strong>Şirket değerleme:</strong> F/K ve sektör emsal karşılaştırması</li>
+        <li><strong>Büyüme hikayesi:</strong> Güçlü geliştirme planı ve pazar potansiyeli</li>
+        <li><strong>Yönetim kalitesi:</strong> Deneyimli kadro ve şeffaflık</li>
+        <li><strong>Halka arz fiyatı:</strong> Piyasa koşullarına uygunluk</li>
+        <li><strong>Lock-up süresi:</strong> İçeriden sahiplerin satış kısıtlama süresi</li>
+      </ul>
+
+      <h2>Riskler</h2>
+      <p>Halka arz, ilk günde büyük kazanç fırsatı sunabilir; ancak yüksek talep nedeniyle az lot alınabilir ve fiyat düşüşleri de yaşanabilir.</p>
+
+      <h2>Sonuç</h2>
+      <p>Halka arzları yakın takip edin ve temel analiz yaparak karar verin. Canlı Veriler'de <strong>BIST anlık verilerini</strong> izleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 84. EKONOMİ — Dolar Endeksi (DXY)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 84,
+    slug: 'dolar-endeksi-dxy-nedir-turkiye-etkisi',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Dolar Endeksi (DXY) Nedir? Türkiye\'ye Etkileri ve Yatırımcı Rehberi',
+    metaDescription: 'Dolar Endeksi (DXY) nedir, nasıl yorumlanır? DXY\'nin Türk Lirası, altın, kripto ve BIST üzerindeki etkileri rehberi.',
+    keywords: ['dxy nedir', 'dolar endeksi', 'dxy türkiye', 'dolar güçlenmesi', 'dxy ve altın', 'dxy kripto', 'dolar değeri', 'dxy yorum', 'dolar endeksi 2026'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-18',
+    readTime: 9,
+    thumbnail: '💱',
+    excerpt: 'Dolar Endeksi (DXY) tüm piyasaları etkileyen küresel bir göstergedir. DXY\'yi anlamak yatırım kararlarını önemli ölçüde destekler.',
+    content: `
+      <h2>Dolar Endeksi (DXY) Nedir?</h2>
+      <p><strong>ABD Dolar Endeksi (DXY)</strong>, ABD Doları'nın Euro, Japon Yeni, İngiliz Sterlini, Kanada Doları, İsveç Kronu ve İsviçre Frangı'ndan oluşan bir sepet karşısındaki değerini ölçen endekstir. 1973 yılında oluşturulan bu endekste <strong>Euro en büyük (%57.6) paya sahiptir.</strong></p>
+
+      <h2>DXY'nin Piyasalara Etkisi</h2>
+      <ul>
+        <li><strong>Altın:</strong> DXY yükseldiğinde altın genellikle düşer (ters korelasyon)</li>
+        <li><strong>Petrol:</strong> Dolar güçlenince dolar bazlı petrol genellikle baskılanır</li>
+        <li><strong>Kripto:</strong> Yüksek DXY dönemlerinde Bitcoin baskılanabilir</li>
+        <li><strong>Gelişen piyasalar:</strong> Güçlü dolar, TL dahil gelişen piyasa paralarına baskı yapar</li>
+        <li><strong>BIST:</strong> Yüksek DXY, yabancı sermaye çıkışına ve borsa baskısına yol açar</li>
+      </ul>
+
+      <h2>Fed Politikası ve DXY</h2>
+      <p>Fed'in faiz artırımları doları güçlendirir; faiz indirimleri ise DXY'yi zayıflatır. Bu nedenle Fed toplantıları, DXY hareketleri için kritik takip noktalarıdır.</p>
+
+      <h2>Türkiye Etkisi</h2>
+      <p>Güçlü dolar, TL'yi baskılar ve enflasyonist baskı yaratır. DXY yükseldikçe cari açığı olan Türkiye'nin döviz borç yükü de görece artar.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>DXY takibi</strong>, küresel piyasa okumada temel göstergelerden biridir. Canlı Veriler'de <strong>döviz verilerini</strong> anlık izleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 85. HAVA — Göç Sezonu ve Kaya Martısı (Çevre)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 85,
+    slug: 'turkiye-iklim-degisikligi-sicaklik-artisi-2026',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'Türkiye\'de İklim Değişikliği: 2026\'da Sıcaklık Artışı ve Etkiler',
+    metaDescription: 'Türkiye\'de iklim değişikliğinin etkileri. 2026\'da artan sıcaklıklar, kuraklık, sel felaketleri ve iklim değişikliğiyle mücadele stratejileri.',
+    keywords: ['iklim değişikliği türkiye', 'türkiye sıcaklık artışı', 'küresel ısınma türkiye', 'kuraklık türkiye', 'turkyie iklim 2026', 'hava değişimi', 'iklim felaketi'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-17',
+    readTime: 10,
+    thumbnail: '🌍',
+    excerpt: 'Türkiye, iklim değişikliğinden en çok etkilenen ülkeler arasında yer alıyor. 2026\'da sıcaklık artışı ve buna bağlı riskler.',
+    content: `
+      <h2>Türkiye ve İklim Değişikliği</h2>
+      <p>Türkiye, Akdeniz havzasında yer alması nedeniyle <strong>iklim değişikliğinden en çok etkilenen bölgelerden</strong> birindedir. IPCC raporlarına göre Akdeniz ülkeleri küresel ortalamadan daha hızlı ısınmaktadır.</p>
+
+      <h2>Gözlemlenen Değişimler</h2>
+      <ul>
+        <li><strong>Sıcaklık artışı:</strong> Son 30 yılda yıllık ortalama sıcaklık 1-1.5°C yükseldi</li>
+        <li><strong>Kuraklık:</strong> İç Anadolu ve Güneydoğu'da yağış azalması</li>
+        <li><strong>Aşırı hava olayları:</strong> Sel, fırtına ve dolu olaylarında artış</li>
+        <li><strong>Kar sınırının yükselmesi:</strong> Dağlık alanlarda kar örtüsünün azalması</li>
+        <li><strong>Deniz seviyesi yükselmesi:</strong> Kıyı bölgeleri için uzun vadeli risk</li>
+      </ul>
+
+      <h2>Tarım ve Su Kaynakları Üzerindeki Etkiler</h2>
+      <p>Kuraklığın artması, Türkiye'nin tarımsal üretimini tehdit etmektedir. Özellikle buğday, arpa ve mısır üretimindeki verim kayıpları gıda güvenliği açısından risk oluşturmaktadır.</p>
+
+      <h2>Türkiye'nin İklim Politikaları</h2>
+      <p>Türkiye, Paris Anlaşması'nı onaylamış ve 2053 karbon nötralliği hedefi koymuştur. Yenilenebilir enerji kapasitesini genişletme çalışmaları sürmektedir.</p>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>anlık hava verilerini</strong> takip ederek iklim değişikliğinin günlük etkilerini izleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 86. KRİPTO — Stablecoin Nedir?
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 86,
+    slug: 'stablecoin-nedir-usdt-usdc-karsilastirma',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Stablecoin Nedir? USDT vs USDC Karşılaştırması ve Güvenilirlik Analizi',
+    metaDescription: 'Stablecoin nedir, USDT ve USDC farkı nedir? Stablecoin güvenilirliği, algoritmik stablecoinler ve 2026 stablecoin rehberi.',
+    keywords: ['stablecoin nedir', 'usdt nedir', 'usdc nedir', 'stablecoin güvenilir mi', 'usdt usdc fark', 'tether nedir', 'stablecoin yatırımı', 'sabit kripto'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-16',
+    readTime: 9,
+    thumbnail: '💵',
+    excerpt: 'Stablecoinler, kripto dünyasının dolar sabitli güvenli limanlarıdır. USDT ve USDC arasındaki fark nedir?',
+    content: `
+      <h2>Stablecoin Nedir?</h2>
+      <p><strong>Stablecoin</strong>, değeri başka bir varlığa (genellikle ABD Doları) sabitlenmiş kripto para birimidir. Kripto piyasasının yüksek volatilitesinden korunmak isteyen yatırımcılar, portföylerini stablecoine çevirerek değer kaybını önleyebilir.</p>
+
+      <h2>Stablecoin Türleri</h2>
+      <ul>
+        <li><strong>Fiat destekli:</strong> USDT, USDC — her token için bankada 1 dolar tutulur</li>
+        <li><strong>Kripto destekli:</strong> DAI — kripto teminatıyla dolar değeri hedeflenir</li>
+        <li><strong>Algoritmik:</strong> Algoritmayla arz ayarlanır (yüksek riskli, UST çöküşü örneği)</li>
+      </ul>
+
+      <h2>USDT (Tether) vs USDC Karşılaştırması</h2>
+      <ul>
+        <li><strong>USDT (Tether):</strong> En yüksek işlem hacmine sahip, sorgulamalı rezerv şeffaflığı</li>
+        <li><strong>USDC (Circle):</strong> Daha şeffaf rezerv yapısı, düzenleyici uyum odaklı</li>
+        <li><strong>BUSD:</strong> Binance tarafından çıkarılan, düzenleyici baskıyla durdurulan stablecoin</li>
+      </ul>
+
+      <h2>Stablecoin Riskleri</h2>
+      <ul>
+        <li>Rezerv yönetiminde şeffaflık eksikliği</li>
+        <li>Düzenleyici baskı ve yasaklanma riski</li>
+        <li>Peg kırılması (1 dolar değerinin kaybedilmesi)</li>
+        <li>İhraçcı kuruluşun iflası</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Stablecoinler</strong>, kripto portföyünde liman işlevi görür. Canlı Veriler'de kripto piyasasını anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 87. EKONOMİ — Mevduat Faizi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 87,
+    slug: 'mevduat-faizi-2026-en-yüksek-faiz-hesabı',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Mevduat Faizi 2026: En Yüksek Faizli Hesap Seçimi ve Stratejisi',
+    metaDescription: 'Mevduat faizi 2026\'da en yüksek hangi bankada? Vadeli mevduat, vadesiz mevduat ve alternatif araçlarla karşılaştırma rehberi.',
+    keywords: ['mevduat faizi 2026', 'en yüksek mevduat faizi', 'vadeli mevduat', 'banka faizi', 'mevduat hesabı', 'faiz getirisi', 'birikim faizi', 'en iyi faiz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-15',
+    readTime: 9,
+    thumbnail: '🏦',
+    excerpt: 'Mevduat faizleri 2026\'da ne durumda? En yüksek TL faiz veren hesaplar ve vadeli mevduat stratejisi rehberi.',
+    content: `
+      <h2>Mevduat Faizi Nedir?</h2>
+      <p><strong>Mevduat faizi</strong>, bankaya yatırdığınız paranın belirli bir süre tutulması karşılığında bankanın size ödediği getiridir. Vadeli mevduatlarda, para belirlenen vade boyunca tutulur ve vade sonunda anapara + faiz birlikte ödenir.</p>
+
+      <h2>Vadeli Mevduat Türleri</h2>
+      <ul>
+        <li><strong>1 ay vadeli:</strong> Kısa vadeli esneklik, düşük faiz</li>
+        <li><strong>3 ay vadeli:</strong> Orta vadeli, makul getiri</li>
+        <li><strong>6 ay vadeli:</strong> Daha yüksek bileşik getiri</li>
+        <li><strong>1 yıl vadeli:</strong> En yüksek faiz teklifi genellikle bu vadede</li>
+      </ul>
+
+      <h2>2026'da Mevduat Faizi Durumu</h2>
+      <p>TCMB'nin faiz indirim sürecinde mevduat faizleri de kademeli olarak gerilemiştir. Bununla birlikte enflasyonun üzerinde reel getiri sağlayan vadeli mevduat seçenekleri hâlâ mevcuttur.</p>
+
+      <h2>Mevduat Alternatifleri Karşılaştırması</h2>
+      <ul>
+        <li><strong>Vadeli mevduat:</strong> Düşük risk, bilinen getiri</li>
+        <li><strong>Devlet tahvili:</strong> Mevduata yakın risk, biraz daha yüksek getiri</li>
+        <li><strong>Para piyasası fonu:</strong> Günlük faiz, yüksek likidite</li>
+        <li><strong>Döviz mevduatı:</strong> Kur koruması + faiz getirisi</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Mevduatı tercih ederken enflasyon oranıyla karşılaştırın. Reel getiri pozitif olmalıdır. Canlı Veriler'de <strong>anlık döviz ve piyasa verilerini</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 88. FUTBOL — Milli Takım 2026
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 88,
+    slug: 'turkiye-milli-takim-2026-dunya-kupasi',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Türkiye Milli Takımı ve 2026 Dünya Kupası: Kadro ve Beklentiler',
+    metaDescription: 'Türkiye A Milli Futbol Takımı\'nın 2026 Dünya Kupası hazırlıkları. Kadro analizi, eleme grubu ve Dünya Kupası hedefleri.',
+    keywords: ['türkiye milli takım', 'türkiye dünya kupası 2026', 'türkiye futbol milli', '2026 dünya kupası', 'türkiye eleme grubu', 'milli takım kadro', 'türkiye fiilfia'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-14',
+    readTime: 9,
+    thumbnail: '🇹🇷',
+    excerpt: 'Türkiye Milli Takımı 2026 Dünya Kupası hazırlıklarında nerede? Kadro güçlü yönleri ve şampiyona hedefleri.',
+    content: `
+      <h2>Türkiye A Milli Futbol Takımı 2026</h2>
+      <p><strong>Türkiye A Milli Futbol Takımı</strong>, 2026 FIFA Dünya Kupası eleme sürecinde ve hazırlık maçlarında umut vaat eden performanslar ortaya koymaktadır. Genç ve dinamik kadrosuyla ay-yıldızlılar, global futbol sahnesinde saygın bir yer edinme hedefiyle çalışmalarını sürdürmektedir.</p>
+
+      <h2>Kadronun Güçlü Yönleri</h2>
+      <ul>
+        <li><strong>Genç yetenek havuzu:</strong> Avrupa kulüplerinde oynayan ve performans gösteren milli oyuncular</li>
+        <li><strong>Teknik direktör uyumu:</strong> Uzun soluklu proje ve oyun disiplini</li>
+        <li><strong>Orta saha kalitesi:</strong> Rekabetçi Avrupa liglerinde parça eden isimler</li>
+        <li><strong>Taraftar desteği:</strong> Türkiye'nin futbol tutku kültürü</li>
+      </ul>
+
+      <h2>2024 EURO Deneyimi</h2>
+      <p>Türkiye, EURO 2024'te çeyrek finale çıkarak büyük başarı göstermiştir. Bu performans, milli takımın 2026 Dünya Kupası için güçlü bir psikolojik zemin oluşturmasını sağlamıştır.</p>
+
+      <h2>2026 Hedefleri</h2>
+      <ul>
+        <li>Dünya Kupası'na katılım sağlamak</li>
+        <li>Grup aşamasını geçerek son 16'ya ulaşmak</li>
+        <li>Genç oyuncuları uluslararası sahneye taşımak</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Türkiye milli takımı, 2026 Dünya Kupası'na coşkulu bir hazırlık sürecindedir. Canlı Veriler'de <strong>Süper Lig puan durumunu</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 89. KRİPTO — Kripto Borsa Seçimi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 89,
+    slug: 'en-guvenilir-kripto-borsa-turkiye-2026',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'En Güvenilir Kripto Para Borsaları Türkiye 2026: Karşılaştırma Rehberi',
+    metaDescription: 'Türkiye\'de en güvenilir kripto para borsaları. Binance, Coinbase, Paribu ve BtcTurk karşılaştırması ve güvenli borsa seçim kriterleri.',
+    keywords: ['güvenilir kripto borsa', 'en iyi kripto borsa türkiye', 'binance türkiye', 'btcturk', 'paribu', 'kripto borsa 2026', 'kripto borsası karşılaştırma', 'lisanslı kripto borsa'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-13',
+    readTime: 10,
+    thumbnail: '🏪',
+    excerpt: 'Türkiye\'de kripto para alım-satımı için hangi borsalar güvenilir? 2026 kripto borsa karşılaştırma rehberi.',
+    content: `
+      <h2>Kripto Para Borsası Nedir?</h2>
+      <p><strong>Kripto para borsası</strong>, dijital varlıkların alınıp satıldığı platformlardır. Merkezi borsalar (CEX) ve merkeziyetsiz borsalar (DEX) olarak ikiye ayrılır. Türkiye'de MASAK denetimli ve BDDK/SPK lisanslı borsalar tercih edilmelidir.</p>
+
+      <h2>Türkiye'de Popüler Kripto Borsaları</h2>
+      <ul>
+        <li><strong>BtcTurk:</strong> Türkiye'nin en köklü kripto borsası, TL yatırımı kolaylığı</li>
+        <li><strong>Paribu:</strong> Güçlü TL altyapısı, Türk kullanıcı dostu arayüz</li>
+        <li><strong>Binance:</strong> Dünya lideri, geniş coin çeşitliği, Türkçe destek</li>
+        <li><strong>Coinbase:</strong> ABD kaynaklı, güvenilir ve düzenleyici uyumlu</li>
+        <li><strong>Bybit:</strong> Vadeli işlemler ve türev araçlarda güçlü</li>
+      </ul>
+
+      <h2>Borsa Seçim Kriterleri</h2>
+      <ul>
+        <li><strong>Lisans ve düzenleyici uyum:</strong> MASAK/BDDK onaylı mı?</li>
+        <li><strong>Güvenlik:</strong> 2FA, soğuk cüzdan oranı, sigorta fonu</li>
+        <li><strong>İşlem ücretleri:</strong> Maker/taker fee oranları</li>
+        <li><strong>TL yatırım kolaylığı:</strong> Banka havalesi veya hızlı transfer</li>
+        <li><strong>Coin çeşitliliği:</strong> İşlem gören kripto sayısı</li>
+        <li><strong>Müşteri desteği:</strong> Türkçe destek ve yanıt süresi</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Güvenilir bir borsa seçmek, kripto yatırımında ilk ve en önemli adımdır. Canlı Veriler'de <strong>anlık kripto fiyatlarını</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 90. BORSA — Göstergeler ve Sinyaller
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 90,
+    slug: 'borsa-korku-açgözlülük-endeksi-vix-nedir',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Korku ve Açgözlülük Endeksi Nedir? VIX ve Piyasa Duyarlılığı Rehberi',
+    metaDescription: 'Korku ve açgözlülük endeksi (Fear & Greed Index) ve VIX nedir? Piyasa duyarlılığı göstergeleri ve bunların yatırım kararlarına etkisi.',
+    keywords: ['korku açgözlülük endeksi', 'fear greed index', 'vix nedir', 'piyasa duyarlılığı', 'borsa korku', 'kripto korku endeksi', 'volatilite endeksi', 'vix 2026'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-12',
+    readTime: 9,
+    thumbnail: '😨',
+    excerpt: 'Korku ve Açgözlülük Endeksi ve VIX, piyasanın psikolojik durumunu yansıtır. Dikkatli yatırımcılar bu sinyalleri nasıl kullanır?',
+    content: `
+      <h2>Korku ve Açgözlülük Endeksi Nedir?</h2>
+      <p><strong>Fear & Greed Index (Korku ve Açgözlülük Endeksi)</strong>, piyasa katılımcılarının genel duygusal durumunu ölçen özel bir göstergedir. Kripto piyasası için Alternative.me, hisse piyasası için CNN Business bu endeksi yayımlamaktadır.</p>
+
+      <h2>Endeks Seviyeleri</h2>
+      <ul>
+        <li><strong>0-25: Aşırı Korku</strong> — Panik satışları, potansiyel alım fırsatı</li>
+        <li><strong>25-45: Korku</strong> — Belirsizlik hâkim</li>
+        <li><strong>45-55: Nötr</strong> — Denge bölgesi</li>
+        <li><strong>55-75: Açgözlülük</strong> — İyimserlik arttı</li>
+        <li><strong>75-100: Aşırı Açgözlülük</strong> — Fiyat köpüğü riski yüksek</li>
+      </ul>
+
+      <h2>VIX Nedir?</h2>
+      <p><strong>VIX (CBOE Volatility Index)</strong>, S&P 500 opsiyon fiyatlarından hesaplanan ve piyasanın önümüzdeki 30 gündeki beklenen volatilitesini gösteren bir endekstir. 20'nin üzeri korkuya, 30+ ise paniğe işaret eder.</p>
+
+      <h2>Yatırımcı İçin Kullanım</h2>
+      <p>Warren Buffett'ın ünlü sözü: <em>"Başkaları açgözlü olduğunda korkun, başkaları korktuğunda açgözlü olun."</em> Bu endeksler, bu felsefeyi sayısallaştırmaya yardımcı olur.</p>
+
+      <h2>Sonuç</h2>
+      <p>Piyasa duyarlılığı göstergelerini diğer analiz araçlarıyla birlikte kullanın. Canlı Veriler'de <strong>anlık borsa verilerini</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 91. HAVA — Bodrum Tatil Rehberi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 91,
+    slug: 'bodrum-hava-durumu-tatil-rehberi-2026',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'Bodrum Hava Durumu ve Tatil Rehberi 2026: En İyi Ziyaret Zamanı',
+    metaDescription: 'Bodrum hava durumu ve iklim rehberi. Bodrum\'da tatil için en iyi mevsim, eylül-ekim sezonu ve deniz suyu sıcaklıkları 2026.',
+    keywords: ['bodrum hava durumu', 'bodrum tatil', 'bodrum ne zaman', 'bodrum iklimi', 'bodrum eylül', 'bodrum sezon', 'muğla hava durumu', 'bodrum deniz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-11',
+    readTime: 8,
+    thumbnail: '🏖️',
+    excerpt: 'Bodrum, her yıl milyonlarca turisti ağırlayan Ege\'nin incisidir. En iyi tatil zamanı ve hava durumu rehberi.',
+    content: `
+      <h2>Bodrum İklimi</h2>
+      <p><strong>Bodrum</strong>, Türkiye Ege kıyısının en gözde tatil beldelerinden biridir. Akdeniz iklimiyle uzun ve sıcak yazlar, ılıman kışlar yaşayan Bodrum'da yıllık güneşlenme süresi 300 günü geçmektedir.</p>
+
+      <h2>Aylık Hava Durumu</h2>
+      <ul>
+        <li><strong>Mayıs:</strong> 20-26°C, sezon başlangıcı</li>
+        <li><strong>Haziran:</strong> 24-32°C, güneşli ve kalabalık</li>
+        <li><strong>Ağustos:</strong> 26-38°C, yaz zirvesi, rüzgarlı günler</li>
+        <li><strong>Eylül:</strong> 22-32°C, ideal kadife sezon</li>
+        <li><strong>Ekim:</strong> 18-26°C, sakin ve uygun fiyatlı</li>
+        <li><strong>Kasım-Mart:</strong> 8-16°C, ılıman kış, turistsiz</li>
+      </ul>
+
+      <h2>Eylül-Ekim: Bodrum'un Altın Çağı</h2>
+      <p>Bodrum'a gidecekler için <strong>en ideal dönem</strong>, yaz kalabalığının azaldığı Eylül-Ekim aylarıdır. Deniz suyu hâlâ 24-26°C'de seyredерken otel fiyatları yaz sezonuna göre %30-50 daha ucuzdur.</p>
+
+      <h2>Meltemi Rüzgarı</h2>
+      <p>Ege'ye özgü <strong>meltemi rüzgarı</strong>, Temmuz-Ağustos arasında Bodrum'da hissedilir. Sıcaklığı serinletirken yelkenciler için mükemmel koşullar yaratır.</p>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>Muğla ve Bodrum anlık hava durumunu</strong> takip ederek tatil planlarınızı yapın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 92. KRİPTO — Avalanche (AVAX)
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 92,
+    slug: 'avalanche-avax-nedir-2026-analizi',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Avalanche (AVAX) Nedir? 2026 Analizi ve DeFi Ekosistemi',
+    metaDescription: 'Avalanche nedir, AVAX coin nasıl çalışır? Avalanche alt ağları, DeFi ekosistemi ve 2026 AVAX fiyat analizi rehberi.',
+    keywords: ['avalanche nedir', 'avax coin', 'avax yatırımı', 'avalanche 2026', 'avalanche defi', 'avax subnet', 'avalanche hızlı', 'avax analiz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-10',
+    readTime: 9,
+    thumbnail: '🔺',
+    excerpt: 'Avalanche, alt ağ (subnet) mimarisiyle öne çıkan hızlı ve çeşitlendirilebilir blokzincir platformudur. 2026\'da AVAX nerede?',
+    content: `
+      <h2>Avalanche (AVAX) Nedir?</h2>
+      <p><strong>Avalanche</strong>, Ava Labs tarafından geliştirilen ve Snowball konsensüs mekanizmasını kullanan, yüksek hızlı blokzincir platformudur. Saniyeden kısa sürede kesinleşen işlemleri ve alt ağ (subnet) mimarisiyle öne çıkar.</p>
+
+      <h2>Avalanche'ın Teknik Özellikleri</h2>
+      <ul>
+        <li><strong>Hız:</strong> 4500+ TPS kapasitesi</li>
+        <li><strong>Kesinleşme süresi:</strong> 1 saniyenin altı</li>
+        <li><strong>Üç zincir mimarisi:</strong> X-Chain, C-Chain, P-Chain</li>
+        <li><strong>Subnet'ler:</strong> Özel kurumsal veya oyun odaklı alt ağlar</li>
+        <li><strong>EVM uyumlu:</strong> Ethereum uygulamaları kolayca taşınabilir</li>
+      </ul>
+
+      <h2>Avalanche DeFi Ekosistemi</h2>
+      <p>Trader Joe ve BENQI gibi yerel DeFi projeleri, Avalanche ekosisteminde güçlü TVL değerleri oluşturmaktadır. Ethereum'dan taşınan protokoller ekosistemi genişletmektedir.</p>
+
+      <h2>2026 Avalanche Görünümü</h2>
+      <p>Kurumsal blokzincir çözümleri için artan subnet talebi, AVAX'ın 2026 görünümünü desteklemektedir. Amazon Web Services ile ortaklık önemli bir kurumsal benimseme sinyali olmuştur.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>AVAX</strong>, hızı ve esnekliğiyle Layer-1 rekabetinde önemli bir yer tutmaktadır. Canlı Veriler'de kripto piyasasını anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 93. EKONOMİ — Borç Yönetimi
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 93,
+    slug: 'borc-yonetimi-kredi-karti-bireysel-kredi-2026',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Borç Yönetimi 2026: Kredi Kartı ve Bireysel Kredi Tuzaklarından Kaçınma',
+    metaDescription: 'Bireysel borç yönetimi nasıl yapılır? Kredi kartı borcu, tüketici kredisi ve yüksek faizli borç tuzaklarından kurtulma stratejileri.',
+    keywords: ['borç yönetimi', 'kredi kartı borcu', 'borç nasıl ödenir', 'bireysel kredi', 'finansal özgürlük', 'borç kıskacı', 'yüksek faizli borç', 'borç çözümü'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-09',
+    readTime: 10,
+    thumbnail: '💳',
+    excerpt: 'Kredi kartı ve tüketici kredisi tuzaklarından nasıl çıkılır? 2026\'da borç yönetimi stratejileri ve finansal özgürlük yolu.',
+    content: `
+      <h2>Borç Neden Tehlikelidir?</h2>
+      <p>Yüksek faizli borçlar, bileşik faiz etkisiyle zaman içinde <strong>anapara artışına</strong> dönüşebilir. Özellikle kredi kartı borçları, aylık %5'e varan faizlerle ciddi bir mali yük oluşturmaktadır.</p>
+
+      <h2>Borç Kapatma Stratejileri</h2>
+
+      <h3>Çığ Yöntemi (Avalanche Method)</h3>
+      <p>En yüksek faizli borçtan başlayarak ödeme yapılır. Toplam faiz maliyetini minimize eder.</p>
+
+      <h3>Kartopu Yöntemi (Snowball Method)</h3>
+      <p>En küçük borçtan başlanır. Psikolojik motivasyon sağlamak için etkilidir.</p>
+
+      <h2>Kredi Kartı Tuzakları</h2>
+      <ul>
+        <li>Asgari ödeme tuzağı: Asgari ödemeyse borç büyümeye devam eder</li>
+        <li>Taksitli alışveriş yanılgısı: Taksit faizleri görünmez maliyettir</li>
+        <li>Nakit avans: En yüksek faizli işlem türü</li>
+        <li>Limitin tamamını kullanmak: Kredi notunu olumsuz etkiler</li>
+      </ul>
+
+      <h2>Borçsuz Yaşam İçin Kurallar</h2>
+      <ol>
+        <li>Aylık harcamaları net gelirin %80'iyle sınırlayın</li>
+        <li>Her ay kredi kartı borcunu tam ödeyin</li>
+        <li>Acil fon oluşturun (en az 3 aylık gider)</li>
+        <li>Tüketici kredisiyle yatırım araçları almayın</li>
+        <li>Finansal hedeflerinizi yazılı belirleyin</li>
+      </ol>
+
+      <h2>Sonuç</h2>
+      <p>Borçsuz bir finansal yaşam, yatırım yapabilmenin ön koşuludur. Canlı Veriler'de <strong>piyasa verilerini</strong> takip ederek doğru yatırım zamanlaması yapın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 94. BORSA — Küçük Ölçekli Yatırım
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 94,
+    slug: 'az-parayla-yatirim-nasil-yapilir-1000-tl-ile-baslangic',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'Az Parayla Yatırım Nasıl Yapılır? 1000 TL ile Başlangıç Rehberi',
+    metaDescription: '1000 TL ile yatırıma nasıl başlanır? Az para ile hisse senedi, kripto, altın ve fon yatırımı rehberi. Küçük sermaye yatırım stratejileri.',
+    keywords: ['az parayla yatırım', '1000 tl yatırım', 'küçük sermaye yatırım', 'borsa başlangıç', 'yatırıma nasıl başlanır', 'düşük sermaye', 'az bütçeyle yatırım'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-08',
+    readTime: 11,
+    thumbnail: '🌱',
+    excerpt: 'Az parayla yatırıma başlamak mümkündür. 1000 TL ile başlayan yatırımcılar için adım adım strateji rehberi.',
+    content: `
+      <h2>Az Parayla Yatırım Mümkün mü?</h2>
+      <p>Kesinlikle evet! Yatırım, büyük sermetlere sahip olanların ayrıcalığı değildir. <strong>Birkaç yüz TL</strong> ile başlayarak disiplinli birikimle ciddi bir portföy oluşturulabilir.</p>
+
+      <h2>1000 TL ile Yatırım Seçenekleri</h2>
+
+      <h3>Hisse Senedi (BIST)</h3>
+      <p>Borsa İstanbul'da tek lot dahi alım yapılabilir. 1000 TL ile 2-3 farklı hisseden oluşan mini portföy kurulabilir.</p>
+
+      <h3>Kripto Para</h3>
+      <p>Kripto borsaları çok küçük miktarlarla (1 TL bile) alım yapmaya izin verir. 1000 TL ile Bitcoin veya Ethereum'un küçük bir fraksiyonuna sahip olunabilir.</p>
+
+      <h3>Altın Hesabı</h3>
+      <p>Bankada altın hesabı açarak 0,01 gram ile başlanabilir. 1000 TL düzenli birikim disiplini oluşturmak için ideal başlangıçtır.</p>
+
+      <h3>Yatırım Fonu</h3>
+      <p>TEFAS üzerinden 1 pay ile fona girebilirsiniz. Çeşitlendirilmiş portföy küçük katkıyla mümkündür.</p>
+
+      <h2>DCA (Düzenli Alım) Stratejisi</h2>
+      <p>Her ay belirli bir miktarla aynı varlığa düzenli yatırım yapmak, volatiliteyi zaman içinde ortalamalar ve maliyet disiplini yaratır.</p>
+
+      <h2>Öğrenme Yatırımı</h2>
+      <p>En önemli yatırım, kendinize yaptığınız yatırımdır. Finans, yatırım ve ekonomi alanında okuyarak bilginizi artırın.</p>
+
+      <h2>Sonuç</h2>
+      <p>Küçük başlamak, hiç başlamamaktan çok daha iyidir. Canlı Veriler'de <strong>tüm yatırım araçlarını anlık</strong> takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 95. HAVA — Trabzon ve Karadeniz
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 95,
+    slug: 'trabzon-karadeniz-hava-durumu-yağış-rehberi',
+    category: 'hava',
+    categoryLabel: 'Hava Durumu',
+    categoryIcon: '🌡️',
+    title: 'Trabzon ve Karadeniz Hava Durumu: Yağış Rehberi ve Yeşil Doğa Turu',
+    metaDescription: 'Trabzon hava durumu ve Karadeniz iklim rehberi. Yıl boyunca yağış, sıcaklıklar ve doğa turu için en iyi dönem.',
+    keywords: ['trabzon hava durumu', 'karadeniz iklimi', 'trabzon yağış', 'rize hava durumu', 'karadeniz doğa turu', 'trabzon seyahat', 'uzungöl hava'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-07',
+    readTime: 8,
+    thumbnail: '🌿',
+    excerpt: 'Türkiye\'nin en yağışlı bölgesi Karadeniz\'in yeşil cenneti. Trabzon ve çevresinin hava durumu ve doğa turu rehberi.',
+    content: `
+      <h2>Karadeniz İklimi</h2>
+      <p><strong>Karadeniz Bölgesi</strong>, Türkiye'nin en yüksek yıllık yağış miktarına sahip bölgesidir. Rize'de ölçülen <strong>2300 mm üzeri yıllık yağış</strong>, Türkiye ortalamasının yaklaşık 10 katıdır. Bu nedenle bölge, yıl boyu yeşilliğini korumaktadır.</p>
+
+      <h2>Trabzon Aylık Hava Durumu</h2>
+      <ul>
+        <li><strong>Ocak:</strong> 5-9°C, sık yağışlı</li>
+        <li><strong>Nisan:</strong> 11-17°C, ilkbahar yağmurları</li>
+        <li><strong>Temmuz:</strong> 20-28°C, en az yağışlı dönem</li>
+        <li><strong>Ekim:</strong> 14-20°C, renkli yapraklar</li>
+      </ul>
+
+      <h2>Doğa Turu İçin En İyi Dönem</h2>
+      <p><strong>Haziran-Eylül</strong> arası, Karadeniz yayla turları için idealdir. Subaşı, Ayder ve Pokut gibi yaylalarda serin hava ve muhteşem manzaralar sunar.</p>
+
+      <h2>Mutlaka Görülmesi Gerekenler</h2>
+      <ul>
+        <li><strong>Uzungöl:</strong> Doğanın içinde huzurlu göl</li>
+        <li><strong>Ayder Yaylası:</strong> Termal turizm ve doğa</li>
+        <li><strong>Sümela Manastırı:</strong> Tarihi taş yapı</li>
+        <li><strong>Pokut Yaylası:</strong> Instagram'ın favorisi</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>Trabzon ve Rize anlık hava durumunu</strong> takip ederek Karadeniz keşif planlarınızı yapın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 96. FUTBOL — Futbol Bahis ve Oran Okuma
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 96,
+    slug: 'futbol-istatistik-analiz-mac-tahmin-rehberi',
+    category: 'futbol',
+    categoryLabel: 'Futbol',
+    categoryIcon: '⚽',
+    title: 'Futbol İstatistik Analizi: Maç Tahmin ve Performans Değerlendirme Rehberi',
+    metaDescription: 'Futbol maçlarında istatistik nasıl okunur? Şut, pas başarısı, xG, possession ve diğer futbol analiz metrikleri rehberi.',
+    keywords: ['futbol istatistik', 'futbol analiz', 'maç istatistikleri', 'xg nedir', 'futbol performans', 'süper lig istatistik', 'maç analizi', 'futbol veri analiz'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-06',
+    readTime: 9,
+    thumbnail: '📊',
+    excerpt: 'Futbol verileri maçların görünmez gerçeğini ortaya çıkarır. xG, pas başarısı ve diğer metrikleri anlamak için kapsamlı rehber.',
+    content: `
+      <h2>Futbolda İstatistik Devrimi</h2>
+      <p>Modern futbol, artık sadece skor tablolarıyla analiz edilmemektedir. <strong>Veri analitiği</strong>, takım performansından bireysel oyuncu değerlendirmesine kadar geniş bir alanda kullanılan kritik bir araç haline gelmiştir.</p>
+
+      <h2>Temel Futbol İstatistikleri</h2>
+      <ul>
+        <li><strong>xG (Expected Goals):</strong> Beklenen gol metriği, atılan şutların niteliğini ölçer</li>
+        <li><strong>Possession (Top Sahipliği):</strong> Takımın topu ne kadar elinde tuttuğu</li>
+        <li><strong>PPDA (Passes Allowed Per Defensive Action):</strong> Savunma baskısını ölçer</li>
+        <li><strong>xA (Expected Assists):</strong> Pasın yaratacağı gol olasılığı</li>
+        <li><strong>Progressive Passes:</strong> Topu rakip alanına yaklaştıran paslar</li>
+      </ul>
+
+      <h2>xG Metrişini Baz Alma</h2>
+      <p><strong>xG skoru</strong>, gerçek skoru değil "hak edilen skoru" gösterir. Bir takım 0.3 xG'ye karşı 3 gol kaybettiyse şanssız, 3 xG üretip 0 gol attıysa verimsizdir.</p>
+
+      <h2>Takım Analizi İçin Önerilen Platformlar</h2>
+      <ul>
+        <li>Sofascore: Detaylı maç istatistikleri</li>
+        <li>FBref: Derinlemesine futbol veritabanı</li>
+        <li>Wyscout: Profesyonel izci platformu</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Futbol verilerini okumak, maçları çok daha derin analiz etmenizi sağlar. Canlı Veriler'de <strong>Süper Lig puan durumunu</strong> anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 97. KRİPTO — Layer 2 Çözümleri
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 97,
+    slug: 'layer-2-nedir-ethereum-ölçeklendirme-arbitrum-optimism',
+    category: 'kripto',
+    categoryLabel: 'Kripto Para',
+    categoryIcon: '💹',
+    title: 'Layer 2 Nedir? Ethereum Ölçeklendirme Çözümleri: Arbitrum, Optimism ve Base',
+    metaDescription: 'Layer 2 nedir, nasıl çalışır? Arbitrum, Optimism ve Base karşılaştırması, Ethereum ölçeklendirme sorunu ve L2 yatırım fırsatları.',
+    keywords: ['layer 2 nedir', 'arbitrum', 'optimism', 'base layer 2', 'ethereum ölçeklendirme', 'l2 coin', 'polygon', 'rollup nedir', 'l2 yatırımı'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-05',
+    readTime: 10,
+    thumbnail: '⚡',
+    excerpt: 'Ethereum\'un ölçeklendirme sorunu Layer 2 çözümleriyle nasıl aşılıyor? Arbitrum, Optimism ve Base 2026\'da nerede?',
+    content: `
+      <h2>Layer 2 (L2) Nedir?</h2>
+      <p><strong>Layer 2</strong>, ana blokzincir (Layer 1) üzerinde çalışan ancak işlemleri daha hızlı ve ucuz gerçekleştiren ikinci katman protokolleridir. Ethereum'un yüksek gas ücreti sorununa çözüm olarak geliştirilmiştir.</p>
+
+      <h2>Rollup Teknolojisi</h2>
+      <p>L2'lerin çoğu <strong>Rollup</strong> teknolojisini kullanır: işlemler L2'de gerçekleşir ve toplu olarak L1'e yazılır:</p>
+      <ul>
+        <li><strong>Optimistic Rollup:</strong> İşlemlerin doğru olduğunu varsayar, itiraz süresi tanır (Arbitrum, Optimism)</li>
+        <li><strong>ZK-Rollup:</strong> Sıfır bilgi kanıtıyla işlem doğruluğunu anında ispatar (zkSync, Polygon zkEVM)</li>
+      </ul>
+
+      <h2>Öne Çıkan L2 Ağları</h2>
+      <ul>
+        <li><strong>Arbitrum:</strong> En yüksek TVL'ye sahip optimistic rollup</li>
+        <li><strong>Optimism:</strong> Base ve diğer ağların altyapısı olan OP Stack</li>
+        <li><strong>Base:</strong> Coinbase destekli, hızla büyüyen L2</li>
+        <li><strong>zkSync Era:</strong> ZK-Rollup öncüsü</li>
+        <li><strong>Polygon:</strong> Çok zincirli ölçeklendirme ekosistemi</li>
+      </ul>
+
+      <h2>2026 L2 Görünümü</h2>
+      <p>Ethereum'un EIP-4844 (Proto-Danksharding) yükseltmesiyle L2 maliyetleri dramatik şekilde düşmüştür. Bu gelişme, L2 ekosisteminin büyümesini hızlandırmaktadır.</p>
+
+      <h2>Sonuç</h2>
+      <p><strong>Layer 2 ekosistemi</strong>, Ethereum'un ölçeklenmesinde kilit rol oynamaktadır. Canlı Veriler'de kripto piyasasını anlık takip edin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 98. EKONOMİ — Finansal Özgürlük FIRE
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 98,
+    slug: 'finansal-ozgurluk-fire-hareketi-erken-emeklilik',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Finansal Özgürlük ve FIRE Hareketi: Türkiye\'de Erken Emeklilik Rehberi',
+    metaDescription: 'FIRE hareketi nedir, finansal özgürlüğe nasıl ulaşılır? Türkiye\'de erken emeklilik, %25 tasarruf oranı ve pasif gelir oluşturma stratejileri.',
+    keywords: ['finansal özgürlük', 'fire hareketi', 'erken emeklilik', 'pasif gelir', 'finansal bağımsızlık', 'fire türkiye', 'erken emekli olma', 'pasif gelir yolları'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-04',
+    readTime: 12,
+    thumbnail: '🔥',
+    excerpt: 'FIRE hareketi, disiplinli tasarruf ve pasif gelirle erken emeklilik hayal etmeyi mümkün kılıyor. Türkiye\'de finansal özgürlük rehberi.',
+    content: `
+      <h2>FIRE Hareketi Nedir?</h2>
+      <p><strong>FIRE (Financial Independence, Retire Early)</strong>, yüksek tasarruf oranı ve yatırımla finansal bağımsızlığa erişerek erken yaşta emekli olma felsefesini benimseyen bir yaşam hareketidir.</p>
+
+      <h2>FIRE'ın Temel İlkeleri</h2>
+      <ul>
+        <li><strong>Yüksek tasarruf oranı:</strong> Gelirin %25-70'ini biriktirme</li>
+        <li><strong>Düşük tüketim:</strong> Minimalist yaşam tarzı</li>
+        <li><strong>Pasif gelir:</strong> Hisse kira, temettü ve faiz gelirleri</li>
+        <li><strong>%4 Kuralı:</strong> Portföy değerinin %4'ünü yılda harcayarak süresiz yaşam</li>
+      </ul>
+
+      <h2>FIRE Türleri</h2>
+      <ul>
+        <li><strong>Fat FIRE:</strong> Lüks yaşam için büyük portföy hedefi</li>
+        <li><strong>Lean FIRE:</strong> Minimal yaşam, daha küçük portföy</li>
+        <li><strong>Barista FIRE:</strong> Kısmi emeklilik, part-time iş</li>
+        <li><strong>Coast FIRE:</strong> Yeterli birikim sonrası doğal büyümeye bırakma</li>
+      </ul>
+
+      <h2>Türkiye'de FIRE Hesabı</h2>
+      <p>Aylık 10.000 TL harcama yapıyorsanız, yıllık 120.000 TL × 25 = <strong>3.000.000 TL</strong> portföy hedefi oluşur. Bu hedefe disiplinli yatırımla ulaşılabilir.</p>
+
+      <h2>Türkiye Koşullarında Pasif Gelir Seçenekleri</h2>
+      <ul>
+        <li>BIST temettü hisseleri portföyü</li>
+        <li>Kira getirisi sağlayan gayrimenkul</li>
+        <li>Sabit faizli devlet tahvilleri</li>
+        <li>Döviz bazlı eurobond yatırımı</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Finansal özgürlük</strong>, hayal değil disiplin meselesidir. Canlı Veriler'de <strong>piyasa verilerini</strong> anlık takip ederek yatırım yolculuğunuzu hızlandırın.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 99. BORSA — Küresel Endeksler
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 99,
+    slug: 'sp500-nasdaq-dow-jones-küresel-borsa-endeksleri',
+    category: 'borsa',
+    categoryLabel: 'Borsa',
+    categoryIcon: '📈',
+    title: 'S&P 500, Nasdaq ve Dow Jones: Küresel Borsa Endeksleri Rehberi 2026',
+    metaDescription: 'S&P 500 nedir, Nasdaq ve Dow Jones nasıl farklılaşır? Küresel borsa endekslerini anlama ve Türk yatırımcılar için global piyasa rehberi.',
+    keywords: ['sp500 nedir', 'nasdaq nedir', 'dow jones nedir', 'küresel borsa', 'us500', 'amerikan borsası', 's&p500 2026', 'global endeks', 'nasdaq 2026'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-03',
+    readTime: 10,
+    thumbnail: '🌎',
+    excerpt: 'S&P 500, Nasdaq ve Dow Jones\'u anlamak, küresel yatırım okuryazarlığının temelidir. Türk yatırımcı için global endeks rehberi.',
+    content: `
+      <h2>Küresel Borsa Endeksleri Neden Önemli?</h2>
+      <p>ABD borsaları, küresel piyasaların lideridir ve tüm dünyayı etkiler. Türkiye piyasaları da Wall Street hareketlerinden doğrudan etkilenmektedir. Bu nedenle küresel endeksleri takip etmek, BIST yatırımcıları için de kritiktir.</p>
+
+      <h2>S&P 500 Nedir?</h2>
+      <p><strong>S&P 500</strong>, ABD'nin en büyük 500 halka açık şirketinin ağırlıklı ortalamasını yansıtan endekstir. Küresel çapta en geniş kabul gören borsa göstergesidir. Apple, Microsoft, Amazon, Google ve berkshire hathaway bu endekste yer alır.</p>
+
+      <h2>Nasdaq Composite ve Nasdaq 100</h2>
+      <p><strong>Nasdaq</strong>, teknoloji ağırlıklı bir borsadır. Nasdaq 100, en büyük 100 teknoloji ve büyüme şirketini kapsar. Yüksek beta ve yüksek büyüme hisseleri burada kümeleşir.</p>
+
+      <h2>Dow Jones Industrial Average</h2>
+      <p><strong>Dow Jones</strong>, ABD'nin en eski borsası ve 30 büyük sanayi şirketinden oluşur. Tarihi önemi büyük olmakla birlikte S&P 500 daha temsil edicidir.</p>
+
+      <h2>Global Endekslere Türkiye'den Nasıl Yatırım Yapılır?</h2>
+      <ul>
+        <li><strong>Global ETF'ler:</strong> TEFAS'taki yabancı endeks fonları</li>
+        <li><strong>SPK lisanslı aracı kurumlar:</strong> BIST'ten yabancı hisse alımı</li>
+        <li><strong>Yabancı broker:</strong> Interactive Brokers gibi uluslararası platformlar</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p>Canlı Veriler'de <strong>küresel piyasa verilerini</strong> anlık takip ederek yatırım kararlarınızı bilgiyle destekleyin.</p>
+    `
+  },
+
+  // ══════════════════════════════════════════════════════════════
+  // 100. GENEL — Finansal Okuryazarlık
+  // ══════════════════════════════════════════════════════════════
+  {
+    id: 100,
+    slug: 'finansal-okuryazarlik-para-yonetimi-temel-rehber',
+    category: 'ekonomi',
+    categoryLabel: 'Ekonomi',
+    categoryIcon: '💵',
+    title: 'Finansal Okuryazarlık: Para Yönetiminin Temel Taşları | Kapsamlı Rehber 2026',
+    metaDescription: 'Finansal okuryazarlık nedir? Bütçe, tasarruf, yatırım ve borç yönetimini öğrenmek için temel rehber. Türkiye\'de finansal bilinç artırma.',
+    keywords: ['finansal okuryazarlık', 'para yönetimi', 'finansal eğitim', 'yatırım temelleri', 'finansal planlama', 'para bilinci', 'finansal farkındalık', 'parayı yönetme'],
+    author: 'Canlı Veriler Editör',
+    date: '2026-03-02',
+    readTime: 13,
+    thumbnail: '📚',
+    excerpt: 'Finansal okuryazarlık, modern yaşamın en önemli becerisiyken okullarda hâlâ yeterince öğretilmiyor. Temel para yönetimi rehberi.',
+    content: `
+      <h2>Finansal Okuryazarlık Nedir?</h2>
+      <p><strong>Finansal okuryazarlık</strong>, bütçe oluşturma, tasarruf yapma, yatırım anlama ve borç yönetimi gibi temel para becerilerine sahip olma durumudur. Dünya Ekonomik Forumu'na göre Türkiye, finansal okuryazarlık oranında geliştirilmesi gereken ülkeler arasında yer almaktadır.</p>
+
+      <h2>Finansal Okuryazarlığın 5 Temel Direği</h2>
+
+      <h3>1. Bütçe Yönetimi</h3>
+      <p>Gelirinizi ve giderlerinizi takip etmek, finansal kontrolün başlangıcıdır. Aylık bütçe tablosu oluşturun ve düzenli günceleyin.</p>
+
+      <h3>2. Tasarruf Alışkanlığı</h3>
+      <p>Gelirin en az %10-20'sini otomatik olarak birikime ayırmayı alışkanlık haline getirin. "Önce kendine öde" prensibi.</p>
+
+      <h3>3. Bileşik Faiz Anlayışı</h3>
+      <p>Einstein'ın "dünyanın 8. harikası" dediği bileşik faiz, uzun vadede küçük yatırımları büyük servete dönüştürür. Erken başlamak kritiktir.</p>
+
+      <h3>4. Sigorta ve Risk Yönetimi</h3>
+      <p>Sağlık, hayat ve mal sigortaları, beklenmedik olayların finansal yıkıma dönüşmesini engeller.</p>
+
+      <h3>5. Vergi Okuryazarlığı</h3>
+      <p>Gelir vergisi, KDV, ÖTV ve yatırım araçlarının vergilendirilmesini anlamak, net getiriyi optimize eder.</p>
+
+      <h2>Türkiye'de Finansal Okuryazarlık Kaynakları</h2>
+      <ul>
+        <li>TCMB ve SPK'nın eğitim platformları</li>
+        <li>Finansal okuryazarlık kitapları (Zengin Baba Yoksul Baba, Küçük Büyük Şeyler)</li>
+        <li>Canlı Veriler gibi gerçek zamanlı veri platformları</li>
+        <li>Yatırım simülatörleri ve kağıt portföyü</li>
+      </ul>
+
+      <h2>Sonuç</h2>
+      <p><strong>Finansal okuryazarlık</strong>, servet değil özgürlük inşa etmenin anahtarıdır. Canlı Veriler'de <strong>tüm piyasaları anlık</strong> takip ederek bilginizi pratiğe dönüştürün.</p>
+    `
   }
+
 ];
 
 export default blogPosts;
+
