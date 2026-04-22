@@ -4,7 +4,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- ═══════════════════════════════════════════ -->
-  <!-- ANA SAYFALAR -->
+  <!-- ANA VE KATEGORİ SAYFALARI -->
   <!-- ═══════════════════════════════════════════ -->
   <url>
     <loc>https://canliveriler.com/</loc>
@@ -42,10 +42,6 @@
     <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BLOG ANA SAYFA -->
-  <!-- ═══════════════════════════════════════════ -->
   <url>
     <loc>https://canliveriler.com/blog</loc>
     <lastmod>2026-04-19</lastmod>
@@ -54,7 +50,7 @@
   </url>
 
   <!-- ═══════════════════════════════════════════ -->
-  <!-- KRİPTO PARA BLOG YAZILARI -->
+  <!-- BLOG YAZILARI -->
   <!-- ═══════════════════════════════════════════ -->
   <url>
     <loc>https://canliveriler.com/blog/bitcoin-nedir-btc-rehberi-2026</loc>
@@ -69,58 +65,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canliveriler.com/blog/altcoin-nedir-en-iyi-altcoinler-2026</loc>
-    <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/blockchain-teknolojisi-nedir-nasil-calisir</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/defi-nedir-merkeziyetsiz-finans-rehberi</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/kripto-para-cuzdani-rehberi-sicak-soguk-cuzdan</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/bitcoin-madenciligi-nedir-nasil-yapilir-2026</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/kripto-para-vergisi-turkiye-2026</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/solana-nedir-sol-coin-yatirim-rehberi</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/nft-nedir-dijital-sanat-yatirim-rehberi</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- BORSA BLOG YAZILARI -->
-  <!-- ═══════════════════════════════════════════ -->
-  <url>
     <loc>https://canliveriler.com/blog/borsa-istanbul-bist-100-yatirim-rehberi</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -133,61 +77,9 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canliveriler.com/blog/temettu-hissesi-yatirim-rehberi-2026</loc>
-    <lastmod>2026-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/yatirim-fonu-nedir-en-iyi-fonlar-2026</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/viop-nedir-vadeli-islem-opsiyon-rehberi</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/borsa-nasil-ogrenilir-baslangic-rehberi</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/gumus-yatirimi-gumus-fiyatlari-2026</loc>
-    <lastmod>2026-03-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/borsa-psikolojisi-duygusal-yatirim-hatalari</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/teknik-analiz-nedir-gostergeler-rehberi</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/portfoy-cesitlendirmesi-risk-yonetimi</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- FUTBOL BLOG YAZILARI -->
-  <!-- ═══════════════════════════════════════════ -->
-  <url>
     <loc>https://canliveriler.com/blog/super-lig-puan-durumu-2025-2026-sezonu</loc>
     <lastmod>2026-04-11</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -197,61 +89,9 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canliveriler.com/blog/galatasaray-tarihcesi-basarilari-kadrosu</loc>
-    <lastmod>2026-03-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/fenerbahce-tarihcesi-basarilari-efsaneleri</loc>
-    <lastmod>2026-03-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/besiktas-tarihcesi-kara-kartal-basarilari</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/super-lig-transfer-donemi-2026</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/futbolda-var-sistemi-nedir-nasil-calisir</loc>
-    <lastmod>2026-03-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/super-lig-gol-krallari-tarihi-rekortmenler</loc>
-    <lastmod>2026-03-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/turkiye-milli-takim-2026-dunya-kupasi</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/trabzonspor-anadolu-takimlari-super-lig</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- EKONOMİ BLOG YAZILARI -->
-  <!-- ═══════════════════════════════════════════ -->
-  <url>
     <loc>https://canliveriler.com/blog/dolar-kuru-euro-kuru-doviz-takibi-2026</loc>
     <lastmod>2026-04-09</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
@@ -261,116 +101,555 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canliveriler.com/blog/faiz-oranlari-yatirim-iliskisi-tcmb-2026</loc>
-    <lastmod>2026-03-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/konut-fiyatlari-gayrimenkul-yatirim-2026</loc>
-    <lastmod>2026-03-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/cari-acik-nedir-turkiye-ekonomisi-etkisi</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/turkiye-ihracat-rakamlari-dis-ticaret-2026</loc>
-    <lastmod>2026-03-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/kisisel-butce-yonetimi-tasarruf-rehberi</loc>
-    <lastmod>2026-03-11</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/dijital-turk-lirasi-cbdc-nedir-2026</loc>
-    <lastmod>2026-03-08</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/issizlik-orani-istihdam-turkiye-2026</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://canliveriler.com/blog/finansal-okuryazarlik-para-yonetimi-rehberi</loc>
-    <lastmod>2026-03-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- ═══════════════════════════════════════════ -->
-  <!-- HAVA DURUMU BLOG YAZILARI -->
-  <!-- ═══════════════════════════════════════════ -->
-  <url>
     <loc>https://canliveriler.com/blog/turkiye-hava-durumu-bolgesel-tahmin-rehberi</loc>
     <lastmod>2026-04-07</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/turkiyede-dort-mevsim-iklim-rehberi</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/altcoin-nedir-en-iyi-altcoinler-2026</loc>
     <lastmod>2026-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/blockchain-teknolojisi-nedir-nasil-calisir</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/defi-nedir-merkeziyetsiz-finans-rehberi</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/kripto-para-cuzdani-rehberi-sicak-soguk-cuzdan</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/bitcoin-madenciligi-nedir-nasil-yapilir-2026</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/kripto-para-vergisi-turkiye-2026</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/solana-nedir-sol-coin-yatirim-rehberi</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/nft-nedir-dijital-sanat-yatirim-rehberi</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/temettu-hissesi-yatirim-rehberi-2026</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/yatirim-fonu-nedir-en-iyi-fonlar-2026</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/viop-nedir-vadeli-islem-opsiyon-rehberi</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/borsa-nasil-ogrenilir-baslangic-rehberi</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/gumus-yatirimi-gumus-fiyatlari-2026</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/borsa-psikolojisi-duygusal-yatirim-hatalari</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/teknik-analiz-nedir-gostergeler-rehberi</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/portfoy-cesitlendirmesi-risk-yonetimi</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/galatasaray-tarihcesi-basarilari-kadrosu</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/fenerbahce-tarihcesi-basarilari-efsaneleri</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/besiktas-tarihcesi-kara-kartal-basarilari</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/super-lig-transfer-donemi-2026</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/futbolda-var-sistemi-nedir-nasil-calisir</loc>
+    <lastmod>2026-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/super-lig-gol-krallari-tarihi-rekortmenler</loc>
+    <lastmod>2026-02-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/turkiye-milli-takim-2026-dunya-kupasi</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/trabzonspor-anadolu-takimlari-super-lig</loc>
+    <lastmod>2026-02-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/faiz-oranlari-yatirim-iliskisi-tcmb-2026</loc>
+    <lastmod>2026-02-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/konut-fiyatlari-gayrimenkul-yatirim-2026</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/cari-acik-nedir-turkiye-ekonomisi-etkisi</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/turkiye-ihracat-rakamlari-dis-ticaret-2026</loc>
+    <lastmod>2026-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/kisisel-butce-yonetimi-tasarruf-rehberi</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/dijital-turk-lirasi-cbdc-nedir-2026</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/issizlik-orani-istihdam-turkiye-2026</loc>
+    <lastmod>2026-02-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/finansal-okuryazarlik-para-yonetimi-rehberi</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/istanbul-hava-durumu-detayli-rehber</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/ankara-hava-durumu-karasal-iklim-rehberi</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/antalya-hava-durumu-turizm-rehberi</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-02-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/meteoroloji-terimleri-sozlugu-hava-rehberi</loc>
-    <lastmod>2026-03-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/yaz-sicaklarindan-korunma-saglik-rehberi</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-01-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/kis-hazirligi-kar-yagisi-soguk-hava-rehberi</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/iklim-degisikligi-turkiye-etkileri-2026</loc>
-    <lastmod>2026-03-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://canliveriler.com/blog/dogal-afet-hazirligi-sel-firtina-deprem</loc>
-    <lastmod>2026-03-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2026-01-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
-
+  <url>
+    <loc>https://canliveriler.com/blog/solana-nedir-sol-coin-yatirim-rehberi-2026</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/xrp-ripple-nedir-2026-yatirim-analizi</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/bnb-binance-coin-nedir-2026-analizi</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/temettü-nedir-en-yüksek-temettü-veren-hisseler-2026</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/yatirim-fonu-etf-nedir-nasil-yatirim-yapilir</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/faiz-nedir-tcmb-faiz-karari-2026-etkisi</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/gayrimenkul-yatirim-2026-ev-alma-kiralama</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/ekonomik-kriz-nedir-nasil-korunulur-2026</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/teknik-analiz-nedir-grafik-okuma-rehberi</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/nft-nedir-2026-nft-yatırımı-rehberi</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/kisisel-butce-yonetimi-tasarruf-yontemleri-2026</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/fenerbahce-2025-2026-sezonu-analizi-kadro-hedefler</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/galatasaray-2025-2026-sezon-degerlendirme</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/besiktas-2025-2026-sezon-analizi</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/trabzonspor-2025-2026-karadeniz-fırtınası</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/istanbul-hava-durumu-mevsimsel-rehber</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/antalya-hava-durumu-turizm-iklim-rehberi</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/turk-lirasi-tl-deger-kaybı-nedenleri-2026</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/kripto-para-vergi-turkiye-2026-rehberi</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/portföy-yönetimi-nasıl-yapılır-2026-rehberi</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/cardano-ada-nedir-2026-yatirim-analizi</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/polkadot-dot-coin-nedir-2026-analizi</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/temel-analiz-nedir-fk-pddd-oranları-rehberi</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/kapadokya-hava-durumu-balon-turu-rehberi</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/turkiye-ekonomi-buyume-2026-gdp-analizi</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/dogecoin-meme-coin-nedir-risk-rehberi-2026</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/bist-devre-kesici-bant-nedir-fiyat-sınırları</loc>
+    <lastmod>2026-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/erzurum-hava-durumu-kis-kayak-rehberi</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/petrol-fiyatlari-2026-brent-ham-petrol-analizi</loc>
+    <lastmod>2026-03-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/avrupa-ligi-konferans-ligi-2025-2026-turk-takimlar</loc>
+    <lastmod>2026-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/web3-metaverse-nedir-2026-geleceği</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/altin-hesabi-nasil-acilir-bириктirme-rehberi</loc>
+    <lastmod>2026-03-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/halka-arz-ipo-nedir-nasil-katilim-saglanir-2026</loc>
+    <lastmod>2026-03-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/dolar-endeksi-dxy-nedir-turkiye-etkisi</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/turkiye-iklim-degisikligi-sicaklik-artisi-2026</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/stablecoin-nedir-usdt-usdc-karsilastirma</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/mevduat-faizi-2026-en-yüksek-faiz-hesabı</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/turkiye-milli-takim-2026-dunya-kupasi</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/en-guvenilir-kripto-borsa-turkiye-2026</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/borsa-korku-açgözlülük-endeksi-vix-nedir</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/bodrum-hava-durumu-tatil-rehberi-2026</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/avalanche-avax-nedir-2026-analizi</loc>
+    <lastmod>2026-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/borc-yonetimi-kredi-karti-bireysel-kredi-2026</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/az-parayla-yatirim-nasil-yapilir-1000-tl-ile-baslangic</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/trabzon-karadeniz-hava-durumu-yağış-rehberi</loc>
+    <lastmod>2026-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/futbol-istatistik-analiz-mac-tahmin-rehberi</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/layer-2-nedir-ethereum-ölçeklendirme-arbitrum-optimism</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/finansal-ozgurluk-fire-hareketi-erken-emeklilik</loc>
+    <lastmod>2026-03-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/sp500-nasdaq-dow-jones-küresel-borsa-endeksleri</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://canliveriler.com/blog/finansal-okuryazarlik-para-yonetimi-temel-rehber</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
