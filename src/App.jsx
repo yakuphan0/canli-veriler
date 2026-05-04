@@ -91,7 +91,7 @@ const Sidebar = () => {
   return (
     <>
       <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
-        <div className="sidebar-logo" onClick={() => navigate('/')} style={{cursor:'pointer'}}>
+        <div className="sidebar-logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
           <div className="logo-icon">📊</div>
           <div>
             <div className="logo-title">{t('appName')}</div>
@@ -149,14 +149,14 @@ const Dashboard = () => {
   return (
     <div className="content-area">
       <div className="grid-3">
-        <div className="stat-card" onClick={() => window.__navigate('/crypto')} style={{cursor:'pointer'}}>
+        <div className="stat-card" onClick={() => window.__navigate('/crypto')} style={{ cursor: 'pointer' }}>
           <div className="stat-label">BITCOIN / USD</div>
           <div className="stat-value">${formatNum(data.crypto[0]?.lastPrice, 0)}</div>
           <div className={`stat-change ${changeClass(data.crypto[0]?.priceChangePercent)}`}>
             {changeStr(data.crypto[0]?.priceChangePercent)}
           </div>
         </div>
-        <div className="stat-card" onClick={() => window.__navigate('/forex')} style={{cursor:'pointer'}}>
+        <div className="stat-card" onClick={() => window.__navigate('/forex')} style={{ cursor: 'pointer' }}>
           <div className="stat-label">BIST 100 (Borsa İstanbul)</div>
           <div className="stat-value">
             {data.bist ? formatNum(data.bist.close, 2) : '—'}
@@ -176,9 +176,9 @@ const Dashboard = () => {
         <h2 style={{ fontSize: '20px', color: 'var(--cyan)', marginBottom: '14px', fontFamily: 'Space Grotesk, sans-serif' }}>
           {t('homeTitle')}
         </h2>
-        <div 
+        <div
           style={{ color: 'var(--text-secondary)', fontSize: '13px', lineHeight: '1.9' }}
-          dangerouslySetInnerHTML={{ __html: t('homeDesc') }} 
+          dangerouslySetInnerHTML={{ __html: t('homeDesc') }}
         />
       </div>
     </div>
@@ -253,33 +253,33 @@ const FootballPage = () => {
   if (!standings) return <div className="content-area error-state">
     <div className="error-icon">⚽</div>
     <div className="error-text">Veriler Yüklenemedi</div>
-    <p style={{fontSize:11, color:'var(--text-muted)'}}>Şu an veriler çekilemiyor, lütfen sayfayı yenileyin.</p>
+    <p style={{ fontSize: 11, color: 'var(--text-muted)' }}>Şu an veriler çekilemiyor, lütfen sayfayı yenileyin.</p>
     <button onClick={() => window.location.reload()} className="retry-btn mt-10">{t('retry')}</button>
   </div>;
 
   return (
     <div className="content-area">
-        <div className="card">
-          <div className="card-header"><div className="card-title">{t('standings')}</div></div>
-          <div className="table-wrap">
-            <table className="data-table football-table">
-              <thead>
-                <tr>
-                  <th style={{textAlign:'center', width:'60px'}}>{t('rank')}</th>
-                  <th style={{textAlign:'left'}}>{t('team')}</th>
-                  <th style={{textAlign:'center', width:'80px'}}>{t('played')}</th>
-                  <th style={{textAlign:'center', width:'80px'}}>{t('points')}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {standings.map((s, idx) => {
-                  const safeName = s.team.name.replace(/\([^)]*\)/g, '').trim();
-                  return (
+      <div className="card">
+        <div className="card-header"><div className="card-title">{t('standings')}</div></div>
+        <div className="table-wrap">
+          <table className="data-table football-table">
+            <thead>
+              <tr>
+                <th style={{ textAlign: 'center', width: '60px' }}>{t('rank')}</th>
+                <th style={{ textAlign: 'left' }}>{t('team')}</th>
+                <th style={{ textAlign: 'center', width: '80px' }}>{t('played')}</th>
+                <th style={{ textAlign: 'center', width: '80px' }}>{t('points')}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {standings.map((s, idx) => {
+                const safeName = s.team.name.replace(/\([^)]*\)/g, '').trim();
+                return (
                   <tr key={s.team.id || idx} className="football-row">
-                    <td style={{textAlign:'center'}}>
+                    <td style={{ textAlign: 'center' }}>
                       <span className="rank-badge">{s.position}</span>
                     </td>
-                    <td style={{textAlign:'left'}}>
+                    <td style={{ textAlign: 'left' }}>
                       <div className="asset-info">
                         <div className="asset-icon">
                           <img src={s.team.crest} alt={safeName} onError={(e) => { e.target.onerror = null; e.target.src = 'https://upload.wikimedia.org/wikipedia/tr/b/b4/T%C3%BCrkiye_Futbol_Federasyonu_logo.png' }} />
@@ -287,14 +287,15 @@ const FootballPage = () => {
                         <span className="asset-name">{safeName}</span>
                       </div>
                     </td>
-                    <td style={{textAlign:'center', color:'var(--text-secondary)'}}>{s.playedGames}</td>
-                    <td style={{textAlign:'center', fontWeight:800, color:'var(--cyan)', fontSize:'16px'}}>{s.points}</td>
+                    <td style={{ textAlign: 'center', color: 'var(--text-secondary)' }}>{s.playedGames}</td>
+                    <td style={{ textAlign: 'center', fontWeight: 800, color: 'var(--cyan)', fontSize: '16px' }}>{s.points}</td>
                   </tr>
-                )})}
-              </tbody>
-            </table>
-          </div>
+                )
+              })}
+            </tbody>
+          </table>
         </div>
+      </div>
     </div>
   );
 };
@@ -341,13 +342,13 @@ const WeatherPage = () => {
   const [loading, setLoading] = useState(false);
 
   const REGIONS = {
-    'Marmara': [{n:'İstanbul',lat:41.01,lon:28.95}, {n:'Bursa',lat:40.19,lon:29.06}, {n:'Edirne',lat:41.67,lon:26.56}],
-    'İç Anadolu': [{n:'Ankara',lat:39.93,lon:32.86}, {n:'Konya',lat:37.87,lon:32.48}, {n:'Eskişehir',lat:39.77,lon:30.52}],
-    'Ege':  [{n:'İzmir',lat:38.42,lon:27.14}, {n:'Aydın',lat:37.84,lon:27.84}, {n:'Muğla',lat:37.21,lon:28.36}],
-    'Akdeniz': [{n:'Antalya',lat:36.90,lon:30.70}, {n:'Adana',lat:36.99,lon:35.32}, {n:'Mersin',lat:36.81,lon:34.63}],
-    'Karadeniz': [{n:'Trabzon',lat:41.00,lon:39.73}, {n:'Samsun',lat:41.29,lon:36.33}, {n:'Rize',lat:41.02,lon:40.52}],
-    'Doğu Anadolu': [{n:'Erzurum',lat:39.90,lon:41.27}, {n:'Van',lat:38.49,lon:43.38}, {n:'Elazığ',lat:38.68,lon:39.22}],
-    'Güneydoğu': [{n:'Gaziantep',lat:37.06,lon:37.38}, {n:'Diyarbakır',lat:37.91,lon:40.23}, {n:'Şanlıurfa',lat:37.16,lon:38.79}]
+    'Marmara': [{ n: 'İstanbul', lat: 41.01, lon: 28.95 }, { n: 'Bursa', lat: 40.19, lon: 29.06 }, { n: 'Edirne', lat: 41.67, lon: 26.56 }],
+    'İç Anadolu': [{ n: 'Ankara', lat: 39.93, lon: 32.86 }, { n: 'Konya', lat: 37.87, lon: 32.48 }, { n: 'Eskişehir', lat: 39.77, lon: 30.52 }],
+    'Ege': [{ n: 'İzmir', lat: 38.42, lon: 27.14 }, { n: 'Aydın', lat: 37.84, lon: 27.84 }, { n: 'Muğla', lat: 37.21, lon: 28.36 }],
+    'Akdeniz': [{ n: 'Antalya', lat: 36.90, lon: 30.70 }, { n: 'Adana', lat: 36.99, lon: 35.32 }, { n: 'Mersin', lat: 36.81, lon: 34.63 }],
+    'Karadeniz': [{ n: 'Trabzon', lat: 41.00, lon: 39.73 }, { n: 'Samsun', lat: 41.29, lon: 36.33 }, { n: 'Rize', lat: 41.02, lon: 40.52 }],
+    'Doğu Anadolu': [{ n: 'Erzurum', lat: 39.90, lon: 41.27 }, { n: 'Van', lat: 38.49, lon: 43.38 }, { n: 'Elazığ', lat: 38.68, lon: 39.22 }],
+    'Güneydoğu': [{ n: 'Gaziantep', lat: 37.06, lon: 37.38 }, { n: 'Diyarbakır', lat: 37.91, lon: 40.23 }, { n: 'Şanlıurfa', lat: 37.16, lon: 38.79 }]
   };
 
   useEffect(() => {
@@ -434,7 +435,7 @@ const BlogPostPage = () => {
       <div className="blog-hero">
         <h2>Yazı Bulunamadı</h2>
         <p>Aradığınız blog yazısı mevcut değil.</p>
-        <button className="blog-filter-btn active" onClick={() => navigate('/blog')} style={{marginTop:'20px'}}>← Blog'a Dön</button>
+        <button className="blog-filter-btn active" onClick={() => navigate('/blog')} style={{ marginTop: '20px' }}>← Blog'a Dön</button>
       </div>
     </div>
   );
@@ -489,7 +490,7 @@ const BlogPostPage = () => {
               {relatedPosts.map(rp => {
                 const rpStyle = CATEGORY_COLORS[rp.category] || {};
                 return (
-                  <Link key={rp.id} to={`/blog/${rp.slug}`} className="blog-card blog-card-sm" style={{textDecoration:'none',color:'inherit'}}>
+                  <Link key={rp.id} to={`/blog/${rp.slug}`} className="blog-card blog-card-sm" style={{ textDecoration: 'none', color: 'inherit' }}>
                     <div className="blog-card-thumb">{rp.thumbnail}</div>
                     <div className="blog-card-body">
                       <span className="blog-category-badge sm" style={{ background: rpStyle.bg, color: rpStyle.color, border: `1px solid ${rpStyle.border}` }}>
@@ -600,7 +601,7 @@ const BlogPage = () => {
         {paginated.map(post => {
           const catStyle = CATEGORY_COLORS[post.category] || {};
           return (
-            <Link key={post.id} to={`/blog/${post.slug}`} className="blog-card" style={{textDecoration:'none',color:'inherit'}}>
+            <Link key={post.id} to={`/blog/${post.slug}`} className="blog-card" style={{ textDecoration: 'none', color: 'inherit' }}>
               <div className="blog-card-thumb">{post.thumbnail}</div>
               <div className="blog-card-body">
                 <div className="blog-card-meta">
@@ -638,12 +639,12 @@ const BlogPage = () => {
             p === '...'
               ? <span key={`ellipsis-${i}`} className="blog-page-ellipsis">…</span>
               : <button
-                  key={p}
-                  className={`blog-page-btn ${currentPage === p ? 'active' : ''}`}
-                  onClick={() => handlePageChange(p)}
-                >
-                  {p}
-                </button>
+                key={p}
+                className={`blog-page-btn ${currentPage === p ? 'active' : ''}`}
+                onClick={() => handlePageChange(p)}
+              >
+                {p}
+              </button>
           ))}
           <button
             className="blog-page-btn"
@@ -665,71 +666,71 @@ const BlogPage = () => {
 };
 
 const ForexPage = () => {
-    const { t } = useLanguage();
-    const [data, setData] = useState(null);
-  
-    useEffect(() => {
-      const load = async () => {
-        try {
-          const [fx, met, bist] = await Promise.all([
-            ApiService.fetchForex('TRY'),
-            ApiService.fetchMetals(),
-            ApiService.fetchBIST()
-          ]);
-          setData({ fx, met, bist });
-        } catch (e) { console.error(e); }
-      };
-      load();
-    }, []);
-  
-    if (!data) return <div className="content-area">{t('loading')}</div>;
-  
-    return (
-      <div className="content-area">
-        <div className="grid-2">
-           <div className="card shadow-lg">
-              <div className="card-header"><div className="card-title">DÖVİZ KURLARI</div></div>
-              <div className="table-wrap">
-                <table className="data-table">
-                  <tbody>
-                    <tr><td>USD / TRY</td><td style={{fontWeight:700}}>₺{formatNum(1/data.fx.USD, 2)}</td></tr>
-                    <tr><td>EUR / TRY</td><td style={{fontWeight:700}}>₺{formatNum(1/data.fx.EUR, 2)}</td></tr>
-                    <tr><td>GBP / TRY</td><td style={{fontWeight:700}}>₺{formatNum(1/data.fx.GBP, 2)}</td></tr>
-                  </tbody>
-                </table>
-              </div>
-           </div>
-           <div className="card">
-              <div className="card-header"><div className="card-title">BORSA İSTANBUL</div></div>
-              <div className="stat-value" style={{padding:'20px 10px'}}>{data.bist ? formatNum(data.bist.close, 2) : '—'}</div>
-              {data.bist && (
-                <div className={`stat-change ${changeClass(data.bist.change)}`} style={{marginLeft:10}}>
-                  {changeStr(data.bist.change)}
-                </div>
-              )}
-              <p style={{fontSize:10, color:'var(--text-muted)', marginTop:8}}>Kaynak: Yahoo Finance (15 dk gecikmeli)</p>
-           </div>
-           <div className="card col-span-2">
-              <div className="card-header"><div className="card-title">DEĞERLİ METALLER</div></div>
-              <div className="grid-3">
-                 <div className="stat-card">
-                    <div className="stat-label">Gram Altın</div>
-                    <div className="stat-value" style={{color:'var(--yellow)'}}>₺{formatNum((data.met.gold / 31.1035) * (1/data.fx.USD), 2)}</div>
-                 </div>
-                 <div className="stat-card">
-                    <div className="stat-label">Ons Altın</div>
-                    <div className="stat-value">${formatNum(data.met.gold, 2)}</div>
-                 </div>
-                 <div className="stat-card">
-                    <div className="stat-label">Ons Gümüş</div>
-                    <div className="stat-value">${formatNum(data.met.silver, 2)}</div>
-                 </div>
-              </div>
-           </div>
+  const { t } = useLanguage();
+  const [data, setData] = useState(null);
+
+  useEffect(() => {
+    const load = async () => {
+      try {
+        const [fx, met, bist] = await Promise.all([
+          ApiService.fetchForex('TRY'),
+          ApiService.fetchMetals(),
+          ApiService.fetchBIST()
+        ]);
+        setData({ fx, met, bist });
+      } catch (e) { console.error(e); }
+    };
+    load();
+  }, []);
+
+  if (!data) return <div className="content-area">{t('loading')}</div>;
+
+  return (
+    <div className="content-area">
+      <div className="grid-2">
+        <div className="card shadow-lg">
+          <div className="card-header"><div className="card-title">DÖVİZ KURLARI</div></div>
+          <div className="table-wrap">
+            <table className="data-table">
+              <tbody>
+                <tr><td>USD / TRY</td><td style={{ fontWeight: 700 }}>₺{formatNum(1 / data.fx.USD, 2)}</td></tr>
+                <tr><td>EUR / TRY</td><td style={{ fontWeight: 700 }}>₺{formatNum(1 / data.fx.EUR, 2)}</td></tr>
+                <tr><td>GBP / TRY</td><td style={{ fontWeight: 700 }}>₺{formatNum(1 / data.fx.GBP, 2)}</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-header"><div className="card-title">BORSA İSTANBUL</div></div>
+          <div className="stat-value" style={{ padding: '20px 10px' }}>{data.bist ? formatNum(data.bist.close, 2) : '—'}</div>
+          {data.bist && (
+            <div className={`stat-change ${changeClass(data.bist.change)}`} style={{ marginLeft: 10 }}>
+              {changeStr(data.bist.change)}
+            </div>
+          )}
+          <p style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 8 }}>Kaynak: Yahoo Finance (15 dk gecikmeli)</p>
+        </div>
+        <div className="card col-span-2">
+          <div className="card-header"><div className="card-title">DEĞERLİ METALLER</div></div>
+          <div className="grid-3">
+            <div className="stat-card">
+              <div className="stat-label">Gram Altın</div>
+              <div className="stat-value" style={{ color: 'var(--yellow)' }}>₺{formatNum((data.met.gold / 31.1035) * (1 / data.fx.USD), 2)}</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-label">Ons Altın</div>
+              <div className="stat-value">${formatNum(data.met.gold, 2)}</div>
+            </div>
+            <div className="stat-card">
+              <div className="stat-label">Ons Gümüş</div>
+              <div className="stat-value">${formatNum(data.met.silver, 2)}</div>
+            </div>
+          </div>
         </div>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
 // ── MAIN APP CONTENT ──
 
